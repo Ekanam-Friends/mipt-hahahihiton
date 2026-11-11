@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-11-11T14:46:17.902519+00:00",
+  "source": "https://drive.google.com/drive/folders/1aiZJAAns_mM5amYpxwfflWu64ZE7KIcy",
+  "expected": 20,
+  "found": 20,
+  "downloaded": 20,
+  "formats": {
+    "pdf": 9,
+    "docx": 8,
+    "xlsx": 3
+  },
+  "bytes": 28469871
+}
