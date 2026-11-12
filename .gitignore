@@ -11,3 +11,7 @@ data/index/
 models/
 data/official/raw/
 data/official/evidence/
+data/official/extracted/
+data/official/text/
+data/official/chunks.jsonl
+data/official/view/

@@ -1,0 +1,17 @@
+{
+  "15T-XGSL37xMaW9dlYTkN4Tmjs9kRmPzn": [
+    {"type": "form_of", "target": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii", "label": "Приложение 1а", "basis": "Приказ 794-1, пункт 3; заголовок бланка Приложение № 1а. Не устанавливает актуальность редакции."}
+  ],
+  "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y": [
+    {"type": "form_of", "target": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii", "label": "Приложение 1б", "basis": "Приказ 794-1, пункт 3; ячейка E1 бланка Приложение № 1б. Не устанавливает актуальность редакции."}
+  ],
+  "1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN": [
+    {"type": "appendix_of", "target": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O", "basis": "Название XLSX и приказ 3614-1, пункт 1; в DOCX также включено приложение с финансовой структурой 2026 года."}
+  ],
+  "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t": [
+    {"type": "appendix_of", "target": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr", "basis": "Название файла, План поступлений на 2026 г. и приказ 3699-1 о бюджетировании 2026–2028, пункт 1 и ссылки на приложения. Не устанавливает действующую редакцию."}
+  ],
+  "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv": [
+    {"type": "unresolved_parent", "target": null, "basis": "В имени 2019, на листах приложения 1а/1б. Приказ 794-1 отменяет приказ 1469-1 от 19.09.2019. Сам XLSX не содержит однозначного номера родительского приказа; нельзя автоматически считать действующим бланком 794-1. Проверка применимости — E2."}
+  ]
+}
