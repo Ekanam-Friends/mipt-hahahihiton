@@ -1,0 +1,200 @@
+{
+  "verified_at": "2026-11-12T10:41:07.339090+00:00",
+  "snapshot": "downloaded 2026-11-11; local SHA-256 verified",
+  "files": [
+    {
+      "id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
+      "format": ".pdf",
+      "chunks": 67,
+      "pages": 19,
+      "ocr_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
+      "format": ".xlsx",
+      "chunks": 41,
+      "nonempty_cells": 110,
+      "formulas": 6,
+      "missing_formula_values": 6
+    },
+    {
+      "id": "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j",
+      "format": ".pdf",
+      "chunks": 35,
+      "pages": 6,
+      "ocr_pages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
+      "format": ".pdf",
+      "chunks": 33,
+      "pages": 4,
+      "ocr_pages": []
+    },
+    {
+      "id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
+      "format": ".docx",
+      "chunks": 30,
+      "body_paragraphs_including_tables": 114
+    },
+    {
+      "id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
+      "format": ".docx",
+      "chunks": 5,
+      "body_paragraphs_including_tables": 47
+    },
+    {
+      "id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
+      "format": ".docx",
+      "chunks": 73,
+      "body_paragraphs_including_tables": 357
+    },
+    {
+      "id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
+      "format": ".docx",
+      "chunks": 22,
+      "body_paragraphs_including_tables": 686
+    },
+    {
+      "id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
+      "format": ".docx",
+      "chunks": 111,
+      "body_paragraphs_including_tables": 661
+    },
+    {
+      "id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
+      "format": ".pdf",
+      "chunks": 29,
+      "pages": 7,
+      "ocr_pages": []
+    },
+    {
+      "id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
+      "format": ".xlsx",
+      "chunks": 408,
+      "nonempty_cells": 1782,
+      "formulas": 848,
+      "missing_formula_values": 848
+    },
+    {
+      "id": "15T-XGSL37xMaW9dlYTkN4Tmjs9kRmPzn",
+      "format": ".docx",
+      "chunks": 4,
+      "body_paragraphs_including_tables": 81
+    },
+    {
+      "id": "1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN",
+      "format": ".xlsx",
+      "chunks": 526,
+      "nonempty_cells": 893,
+      "formulas": 0,
+      "missing_formula_values": 0
+    },
+    {
+      "id": "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t",
+      "format": ".docx",
+      "chunks": 72,
+      "body_paragraphs_including_tables": 549
+    },
+    {
+      "id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
+      "format": ".docx",
+      "chunks": 24,
+      "body_paragraphs_including_tables": 278
+    },
+    {
+      "id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
+      "format": ".pdf",
+      "chunks": 58,
+      "pages": 14,
+      "ocr_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
+      "format": ".pdf",
+      "chunks": 80,
+      "pages": 16,
+      "ocr_pages": []
+    },
+    {
+      "id": "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0",
+      "format": ".pdf",
+      "chunks": 43,
+      "pages": 5,
+      "ocr_pages": []
+    },
+    {
+      "id": "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd",
+      "format": ".pdf",
+      "chunks": 15,
+      "pages": 3,
+      "ocr_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l",
+      "format": ".pdf",
+      "chunks": 26,
+      "pages": 5,
+      "ocr_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "summary": {
+    "files": 20,
+    "ok": 18,
+    "warning": 2,
+    "error": 0,
+    "chunks": 1702
+  },
+  "stable_ids_on_cached_reimport": true,
+  "all_fragment_view_anchors_exist": true,
+  "all_nonempty_office_cells_and_paragraphs_preserved": true
+}
