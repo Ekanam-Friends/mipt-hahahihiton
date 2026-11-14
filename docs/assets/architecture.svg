@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+<title id="title">Архитектура навигатора регламентов МФТИ</title><desc id="desc">Документы проходят извлечение, OCR и разбор. Веб и CLI вызывают общее ядро: поиск, генерация локальной моделью, проверка доказательств и ответ со ссылками.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#64748b"/></marker></defs>
+<rect width="1200" height="740" rx="20" fill="#f8fafc"/>
+<style>text{font-family:Arial,sans-serif;fill:#0f172a}.title{font-size:27px;font-weight:700}.label{font-size:19px;font-weight:700}.body{font-size:16px;fill:#475569}.small{font-size:14px;fill:#64748b}.arrow{fill:none;stroke:#64748b;stroke-width:2;marker-end:url(#arrow)}</style>
+<text x="40" y="48" class="title">От документа — к проверяемому ответу</text>
+<text x="40" y="78" class="body">Общее RAG-ядро для веб-кабинета и командной строки</text>
+<text x="40" y="122" class="small">ПОДГОТОВКА КОРПУСА</text>
+<rect x="40" y="140" width="245" height="112" rx="14" fill="#fff" stroke="#cbd5e1"/>
+<text x="60" y="173" class="label">Оригиналы и реестр</text>
+<text x="60" y="202" class="body">PDF · DOCX · XLSX</text>
+<text x="60" y="226" class="body">manifest.jsonl + raw/</text>
+<rect x="330" y="140" width="260" height="112" rx="14" fill="#fff" stroke="#cbd5e1"/>
+<text x="350" y="173" class="label">Извлечение и разбор</text>
+<text x="350" y="202" class="body">Текст, таблицы, OCR</text>
+<text x="350" y="226" class="body">extract → ingest → parse</text>
+<rect x="635" y="140" width="260" height="112" rx="14" fill="#fff" stroke="#cbd5e1"/>
+<text x="655" y="173" class="label">Подготовленный корпус</text>
+<text x="655" y="202" class="body">chunks.jsonl · HTML-якоря</text>
+<text x="655" y="226" class="body">Редакции и связи источников</text>
+<rect x="940" y="140" width="220" height="112" rx="14" fill="#fff" stroke="#cbd5e1"/>
+<text x="960" y="173" class="label">Оригинал / фрагмент</text>
+<text x="960" y="202" class="body">Просмотр из ответа</text>
+<text x="960" y="226" class="body">Скачивание файла</text>
+<path d="M285 196 H330" class="arrow"/>
+<path d="M590 196 H635" class="arrow"/>
+<path d="M895 196 H940" class="arrow"/>
+<text x="40" y="306" class="small">ОБРАБОТКА ВОПРОСА</text>
+<rect x="40" y="325" width="245" height="120" rx="14" fill="#eff6ff" stroke="#93c5fd"/>
+<text x="60" y="358" class="label">Веб-кабинет / CLI</text>
+<text x="60" y="387" class="body">Вопрос + история + дата</text>
+<text x="60" y="411" class="body">FastAPI → Navigator</text>
+<rect x="330" y="325" width="260" height="120" rx="14" fill="#eff6ff" stroke="#93c5fd"/>
+<text x="350" y="358" class="label">Поиск и применимость</text>
+<text x="350" y="387" class="body">BM25 + n-граммы → RRF</text>
+<text x="350" y="411" class="body">Подзадачи, редакции</text>
+<rect x="635" y="325" width="260" height="120" rx="14" fill="#eff6ff" stroke="#93c5fd"/>
+<text x="655" y="358" class="label">Ответ по источникам</text>
+<text x="655" y="387" class="body">Локальная Qwen3-4B</text>
+<text x="655" y="411" class="body">Шаги + цитаты + ссылки</text>
+<rect x="940" y="325" width="220" height="120" rx="14" fill="#eff6ff" stroke="#93c5fd"/>
+<text x="960" y="358" class="label">Проверка</text>
+<text x="960" y="387" class="body">Цитаты и привязки</text>
+<text x="960" y="411" class="body">Обоснованность</text>
+<path d="M285 385 H330" class="arrow"/>
+<path d="M590 385 H635" class="arrow"/>
+<path d="M895 385 H940" class="arrow"/>
+<path d="M765 252 V282 H460 V325" class="arrow"/>
+<rect x="40" y="520" width="245" height="110" rx="14" fill="#fff" stroke="#cbd5e1"/>
+<text x="60" y="553" class="label">SQLite</text>
+<text x="60" y="582" class="body">Демо-профили</text>
+<text x="60" y="606" class="body">Хеши токенов сессий</text>
+<rect x="330" y="520" width="565" height="110" rx="14" fill="#ecfdf5" stroke="#6ee7b7"/>
+<text x="350" y="553" class="label">Результат в интерфейсе</text>
+<text x="350" y="582" class="body">Краткий ответ, порядок действий и доказательства</text>
+<text x="350" y="606" class="body">Уточнение / частичный ответ / отказ / ошибка</text>
+<rect x="940" y="520" width="220" height="110" rx="14" fill="#fff" stroke="#cbd5e1"/>
+<text x="960" y="553" class="label">Контроль качества</text>
+<text x="960" y="582" class="body">eval/ + tests/</text>
+<text x="960" y="606" class="body">Отчёты этапов</text>
+<path d="M162 445 V520" class="arrow"/>
+<path d="M1050 445 V482 H612 V520" class="arrow"/>
+<text x="40" y="690" class="small">Веса модели и корпус — локально. Внешние провайдеры включаются отдельно.</text>
+</svg>
