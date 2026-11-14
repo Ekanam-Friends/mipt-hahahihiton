@@ -7,13 +7,14 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import date
 from dataclasses import asdict, dataclass, field
 from typing import Literal, Protocol
 
 from .llm import LLMClient
 from .search import Hit, HybridSearcher, split_query
 from .revisions import RevisionRegistry
-from .text import tokenize
+from .text import tokenize, normalize
 from .grounding import (Claim, Evidence, GenerationError, SYSTEM, FORMAT, AUDIT_SYSTEM,
                         DRAFT_SCHEMA, audit_schema, normalize_audit, object_schema, TEXT_SCHEMA,
                         source_units, selected_draft, UNIT_SELECTION_TASK, PROCEDURE_CLAUSE_TASK, RANGE_ORDER_TASK, SELECTION_AUDIT,
@@ -61,6 +62,7 @@ class Answer:
     verification: dict = field(default_factory=dict)
     error_code: str | None = None
     corpus_snapshot: list[str] = field(default_factory=list)
+    as_of: str | None = None
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -433,6 +435,14 @@ class Navigator:
         self.min_top_coverage = min_top_coverage
         self.max_context = max_context
         self.registry = registry or RevisionRegistry()
+        known = {c.chunk_id: c for c in searcher.chunks}
+        proofs = [(did, e) for did, entry in self.registry.documents.items() for e in entry.get('evidence', [])]
+        proofs += [(e.get('doc_id'), e) for entry in self.registry.data.get('conflicts', []) for e in entry.get('evidence', [])]
+        for did, proof in proofs:
+            cid = proof.get('chunk_id')
+            if (cid not in known or (did and did != known[cid].doc_id)
+                    or (proof.get('quote') and normalize(proof['quote']) not in normalize(known[cid].text))):
+                raise ValueError(f"Доказательство реестра отсутствует в снимке: {cid}")
         self.snapshot_dates = sorted({c.meta['downloaded_at'] for c in searcher.chunks if c.meta.get('downloaded_at')})
         self.source_quality = {}
         for chunk in searcher.chunks:
@@ -581,6 +591,7 @@ class Navigator:
         except Exception:
             return Answer("error", question, message="Не удалось подготовить запрос или прочитать индекс. Повторите запрос.", error_code="retrieval_failed")
         try:
+            as_of = date.fromisoformat(as_of).isoformat() if as_of else date.today().isoformat()
             issues = self.registry.assess({h.chunk.doc_id for h in relevant}, as_of)
         except ValueError:
             return Answer("error", question, message="Некорректная дата применимости: ожидается YYYY-MM-DD.", error_code="invalid_date")
@@ -590,7 +601,7 @@ class Navigator:
             if quality:
                 title = next(h.chunk.doc_title for h in relevant if h.chunk.doc_id == did)
                 cautions.append(f"Источник «{title}»: {quality['missing_formula_values']} формул без сохранённых результатов; значения не вычислялись.")
-        common = dict(warnings=cautions, retrieval=trace, applicability=issues, corpus_snapshot=self.snapshot_dates)
+        common = dict(warnings=cautions, retrieval=trace, applicability=issues, corpus_snapshot=self.snapshot_dates, as_of=as_of)
         if not relevant:
             return Answer("not_found", question, message=NOT_FOUND_MSG, **common)
         if any(i["type"] in {"not_yet_effective", "expired", "conflict"} for i in issues):

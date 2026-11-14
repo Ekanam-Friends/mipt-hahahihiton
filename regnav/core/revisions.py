@@ -16,8 +16,7 @@ class RevisionRegistry:
         return cls(json.loads(path.read_text(encoding="utf-8"))) if path.exists() else cls()
 
     def assess(self, doc_ids, as_of: str | None = None) -> list[dict]:
-        if as_of:
-            as_of = date.fromisoformat(as_of).isoformat()
+        as_of = date.fromisoformat(as_of).isoformat() if as_of else date.today().isoformat()
         out = []
         ids = set(doc_ids)
         for did in sorted(ids):

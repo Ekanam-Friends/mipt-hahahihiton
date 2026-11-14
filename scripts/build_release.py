@@ -21,7 +21,7 @@ def main():
         files.update(p for p in (ROOT / folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
     for name in ['README.md', 'ROADMAP.md', 'requirements.txt', 'requirements-web.txt', 'constraints-web.txt',
                  'Dockerfile', '.dockerignore', '.env.example', 'compose.yaml', 'compose.local-model.yaml',
-                 'compose.production.yaml', 'pytest.ini']:
+                 'compose.production.yaml', 'compose.full.yaml', 'pytest.ini']:
         files.add(ROOT / name)
     for folder in ['raw', 'view']:
         files.update(p for p in (ROOT / 'data/official' / folder).rglob('*') if p.is_file())

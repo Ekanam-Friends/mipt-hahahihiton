@@ -84,3 +84,23 @@ def test_cell_address_boost_retrieves_exact_row():
     a = chunk("a", "a", "Финансовая структура")
     b = replace(a, chunk_id="b", text="Финансовая структура на 01.08.2025", meta={"cells": [{"address": "A2"}]})
     assert HybridSearcher([a, b]).search("Дата структуры в A2", 1)[0].chunk.chunk_id == "b"
+
+
+def test_unknown_topic_reduces_coverage_without_breaking_short_paraphrase():
+    searcher = HybridSearcher([chunk('a', 'a', 'Сотрудник подает заявление.')])
+    base = searcher.search('Куда сотрудник подает заявление?')[0].coverage
+    extra = searcher.search('Куда сотрудник подает заявление о строительстве космодрома на Луне?')[0].coverage
+    assert base >= .75 and 0 < extra < .6 and extra < base
+
+
+def test_default_date_rejects_future_and_expired_documents():
+    r = RevisionRegistry({'documents': {'future': {'effective_from': '9999-01-01'},
+                                      'expired': {'effective_from': '2000-01-01', 'effective_to': '2001-01-01'}}})
+    assert {i['type'] for i in r.assess(['future', 'expired'])} == {'not_yet_effective', 'expired'}
+
+
+def test_ocr_drift_in_registry_proof_fails_on_startup():
+    a = chunk('new-ocr-id', 'a', 'Срок действия')
+    r = RevisionRegistry({'documents': {'a': {'evidence': [{'chunk_id': 'old-ocr-id'}]}}})
+    with pytest.raises(ValueError, match='Доказательство реестра'):
+        Navigator(HybridSearcher([a]), ExtractiveReasoner(), registry=r)

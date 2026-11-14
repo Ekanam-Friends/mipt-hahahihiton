@@ -2,11 +2,13 @@
 from __future__ import annotations
 
 import asyncio
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import Future, ThreadPoolExecutor
 from contextlib import asynccontextmanager
 from datetime import date
 import logging
 import os
+import time
+import uuid
 from pathlib import Path
 from urllib.parse import quote
 
@@ -18,6 +20,7 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 from regnav.__main__ import make_navigator
 from regnav.core.ingest import load_manifest, source_path
+from regnav.core.budget import question_budget
 from .accounts import Accounts
 
 log = logging.getLogger(__name__)
@@ -42,6 +45,10 @@ class DemoLogin(BaseModel):
     user_id: str = Field(max_length=100)
 
 
+class JobRequest(AskRequest):
+    request_id: uuid.UUID
+
+
 def failure(code, message, status=503):
     return JSONResponse({"status": "error", "error_code": code, "message": message}, status_code=status)
 
@@ -58,6 +65,8 @@ def create_app(data_dir: Path | None = None, navigator_factory=make_navigator, t
         app.state.accounts = Accounts(db_path or Path(os.environ.get("REGNAV_WEB_DB", str(data / "web" / "accounts.sqlite3"))))
         app.state.pool = ThreadPoolExecutor(max_workers=1, thread_name_prefix="regnav-web")
         app.state.pending = None
+        app.state.jobs = {}
+        app.state.answer_cache = {}
         app.state.navigator = None
         app.state.records = {}
         try:
@@ -158,18 +167,98 @@ def create_app(data_dir: Path | None = None, navigator_factory=make_navigator, t
             result["verification"] = {}
         return result
 
+    def cache_key(payload):
+        return (payload.question, tuple(payload.history), payload.as_of.isoformat() if payload.as_of else date.today().isoformat())
+
+    def cached(payload):
+        entry = app.state.answer_cache.get(cache_key(payload))
+        if entry and time.monotonic() - entry[0] < 3600:
+            return {**entry[1], 'cache_hit': True}
+        return None
+
+    def compute(payload):
+        hit = cached(payload)
+        if hit is not None:
+            return hit
+        key = cache_key(payload)
+        started = time.monotonic()
+        with question_budget(deadline):
+            result = adapt(app.state.navigator.ask(payload.question, history=payload.history,
+                           as_of=key[2]))
+        if time.monotonic() - started >= deadline:
+            return {'status': 'error', 'error_code': 'timeout',
+                    'message': 'Истёк общий лимит обработки. Сократите вопрос и повторите.'}
+        if result.get('status') in {'answer', 'partial', 'clarify', 'not_found'}:
+            if len(app.state.answer_cache) >= 32 and key not in app.state.answer_cache:
+                del app.state.answer_cache[next(iter(app.state.answer_cache))]
+            app.state.answer_cache[key] = (time.monotonic(), result)
+        return result
+
+    @app.post('/api/jobs')
+    async def submit_job(payload: JobRequest, request: Request):
+        if app.state.navigator is None:
+            return failure('index_unavailable', 'База недоступна. Проверьте импорт.')
+        jobs = app.state.jobs
+        now = time.monotonic()
+        for key, job in list(jobs.items()):
+            if job['future'].done() and now - job['created'] > 3600:
+                del jobs[key]
+        owner = Accounts.digest(request.cookies['regnav_session'])
+        for key, job in jobs.items():
+            if job['owner'] == owner and job['request_id'] == payload.request_id:
+                if job['payload'] != payload:
+                    return failure('request_id_conflict', 'Идентификатор уже занят другим вопросом.', 409)
+                return JSONResponse({'job_id': key}, status_code=202)
+        active = [j for j in jobs.values() if not j['future'].done()]
+        legacy_busy = (app.state.pending is not None and not app.state.pending.done()
+                       and all(j['future'] is not app.state.pending for j in active))
+        hit = cached(payload)
+        if hit is None and (legacy_busy or len(active) >= 4 or any(j['owner'] == owner for j in active)):
+            return failure('busy', 'Очередь занята или ваш вопрос уже обрабатывается. Повторите позже.', 429)
+        if len(jobs) >= 32:
+            completed = [key for key, job in jobs.items() if job['future'].done()]
+            if completed:
+                del jobs[completed[0]]
+        key = uuid.uuid4().hex
+        job = {'owner': owner, 'request_id': payload.request_id, 'payload': payload,
+               'created': now, 'started': None}
+        def run():
+            job['started'] = time.monotonic()
+            try:
+                return compute(payload)
+            except Exception:
+                log.exception('Background question failed: %s', key)
+                return {'status': 'error', 'error_code': 'request_failed', 'message': 'Не удалось обработать вопрос.'}
+        if hit is not None:
+            job['future'] = Future()
+            job['future'].set_result(hit)
+        else:
+            job['future'] = app.state.pool.submit(run)
+            app.state.pending = job['future']
+        jobs[key] = job
+        log.info('Question accepted: %s', key)
+        return JSONResponse({'job_id': key}, status_code=202)
+
+    @app.get('/api/jobs/{job_id}')
+    async def read_job(job_id: str, request: Request):
+        job = app.state.jobs.get(job_id)
+        if job is None or job['owner'] != Accounts.digest(request.cookies['regnav_session']):
+            return failure('job_missing', 'Задание недоступно: сессия сменилась, сервер перезапущен или прошёл час.', 404)
+        if job['future'].done():
+            return {'state': 'done', 'result': job['future'].result()}
+        return {'state': 'running' if job['started'] is not None else 'queued',
+                'elapsed_seconds': int(time.monotonic() - (job['started'] or job['created']))}
+
     @app.post("/api/ask")
     async def ask(payload: AskRequest):
         if app.state.navigator is None:
             return failure("index_unavailable", "База недоступна. Проверьте импорт и перезапустите сервис.")
         if app.state.pending is not None and not app.state.pending.done():
             return failure("busy", "Предыдущий запрос ещё обрабатывается. Повторите позже.", 429)
-        future = app.state.pool.submit(app.state.navigator.ask, payload.question, history=payload.history,
-                                       as_of=payload.as_of.isoformat() if payload.as_of else None)
+        future = app.state.pool.submit(compute, payload)
         app.state.pending = future
         try:
-            answer = await asyncio.wait_for(asyncio.shield(asyncio.wrap_future(future)), deadline)
-            result = adapt(answer)
+            result = await asyncio.wait_for(asyncio.shield(asyncio.wrap_future(future)), deadline)
             return JSONResponse(result, status_code=503 if result.get('status') == 'error' else 200)
         except asyncio.TimeoutError:
             # A Python thread cannot be killed safely. Retain the busy slot until it finishes.

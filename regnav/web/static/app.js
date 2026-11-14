@@ -6,6 +6,17 @@ const conversation = document.querySelector('#conversation');
 let history = [];
 let pending = false;
 let profile = null;
+const savedJobKey = 'regnav-pending-question';
+const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
+function today() {const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
+document.querySelector('#as-of').value=today();
+async function shortRequest(url, options={}) {
+  const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),15000);
+  try {return await fetch(url,{...options,signal:controller.signal});}
+  finally {clearTimeout(timer);}
+}
+function saveJob(job) {try {sessionStorage.setItem(savedJobKey,JSON.stringify(job));} catch {}}
+function clearJob() {try {sessionStorage.removeItem(savedJobKey);} catch {}}
 const labels = {answer:'Ответ подтверждён',partial:'Частичный ответ',clarify:'Нужно уточнение',not_found:'Ответ не найден в снимке',error:'Техническая ошибка'};
 function el(tag, text, cls) {
   const node = document.createElement(tag);
@@ -28,6 +39,8 @@ function evidence(parent, items) {
 function render(q, data) {
   const card = el('article'); card.append(el('p',q,'question'),el('span',labels[data.status] || 'Неизвестный статус','badge'));
   if (data.message) card.append(el('p',data.message,'text'));
+  if (data.as_of) card.append(el('p','Применимость на дату: '+data.as_of,'meta'));
+  if (data.cache_hit) card.append(el('p','Повторный ответ из кэша текущего снимка документов (до 1 часа).','meta'));
   if (data.corpus_snapshot?.length) {
     const dates=[...new Set(data.corpus_snapshot.map(value=>value.slice(0,10)))];
     card.append(el('p','Дата загрузки снимка: '+dates.join(', '),'meta'));
@@ -56,26 +69,48 @@ function render(q, data) {
   }
   conversation.prepend(card);
 }
-form.addEventListener('submit', async event => {
-  event.preventDefault(); if(pending || !question.value.trim()) return;
-  const q=question.value.trim(); pending=true;
+async function runQuestion(job) {
+  if(pending) return;
+  const q=job.question;pending=true;saveJob(job);
   document.querySelector('#submit').disabled=true; document.querySelector('#reset').disabled=true;
-  progress.textContent='Ищем источники и проверяем ответ. Локальная модель может работать долго.';
+  progress.textContent='Отправляем вопрос. На CPU обработка может занять несколько минут.';
   try {
-    const response=await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q,history,as_of:document.querySelector('#as-of').value || null})});
-    const data=await response.json(); render(q,data);
-    if(response.ok && data.status !== 'error') {
-      // Only user input and the explicit clarification enter the next rewrite.
+    let data;
+    while(!data) {
+      try {
+        if(!job.job_id) {
+          const {job_id,...payload}=job;
+          const response=await shortRequest('/api/jobs',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+          const body=await response.json();
+          if(!response.ok) {data=body;break;}
+          job.job_id=body.job_id;saveJob(job);
+        }
+        const response=await shortRequest('/api/jobs/'+encodeURIComponent(job.job_id));
+        const body=await response.json();
+        if(!response.ok) {data=body;break;}
+        if(body.state==='done') {data=body.result;break;}
+        progress.textContent=(body.state==='queued'?'Вопрос в очереди.':'Ищем источники и проверяем ответ.')+' Прошло '+body.elapsed_seconds+' с. Можно вернуться к этой вкладке позже.';
+      } catch {
+        progress.textContent='Связь прервалась. Восстанавливаем получение результата; вопрос повторно не запускается.';
+      }
+      await pause(2500);
+    }
+    clearJob();render(q,data);
+    if(data.status !== 'error') {
+      history=job.history.slice();
       history.push(q); if(data.clarifying_question) history.push(data.clarifying_question);
       history=history.slice(-6); question.value='';
     }
     progress.textContent=data.status==='error'?'Повторите запрос кнопкой «Найти ответ».':'Можно задать уточнение или начать новый диалог.';
   } catch {
-    render(q,{status:'error',message:'Не удалось связаться с сервисом. Проверьте соединение и повторите запрос.'});
-    progress.textContent='Вопрос сохранён в поле ввода для повтора.';
+    progress.textContent='Вопрос сохранён. Обновите страницу для восстановления результата.';
   } finally {pending=false;document.querySelector('#submit').disabled=false;document.querySelector('#reset').disabled=false;}
+}
+form.addEventListener('submit', event => {
+  event.preventDefault();if(pending || !question.value.trim()) return;
+  runQuestion({request_id:crypto.randomUUID(),question:question.value.trim(),history:history.slice(),as_of:document.querySelector('#as-of').value || today()});
 });
-document.querySelector('#reset').addEventListener('click',()=>{history=[];conversation.replaceChildren();question.value='';document.querySelector('#as-of').value='';progress.textContent='Начат новый диалог.';question.focus();});
+document.querySelector('#reset').addEventListener('click',()=>{history=[];conversation.replaceChildren();question.value='';document.querySelector('#as-of').value=today();progress.textContent='Начат новый диалог.';question.focus();});
 
 // Keep the MGIMO-LMS employee shell; services outside the hackathon remain visible.
 const titles = {home:'Главная', services:'Сервисы', profile:'Профиль', assistant:'ИИ-ассистент',
@@ -235,7 +270,9 @@ async function enter() {
   const tab=document.querySelector('#tabbar');tab.replaceChildren();
   for(const [id,symbol] of [['home','home'],['services','grid'],[profile.role==='teacher'?'schedule':'announcements',profile.role==='teacher'?'calendar':'chat'],['profile','user']])tab.append(navButton(id,'tabbar__link',symbol));
   const host=document.querySelector('#assistant-page');if(!document.querySelector('#assistant-placeholder')){const note=el('div',null,'panel');note.id='assistant-placeholder';note.append(el('p','Диалог открыт в чате справа.'));const b=el('button','Вернуть на страницу','btn btn--ghost');b.onclick=()=>setWidget(false,false);note.append(b);host.append(note);}
-  page(location.hash.slice(1) || 'home');return true;
+  page(location.hash.slice(1) || 'home');
+  try {const job=JSON.parse(sessionStorage.getItem(savedJobKey));if(job && !pending) {question.value=job.question;go('assistant');runQuestion(job);}} catch {clearJob();}
+  return true;
 }
 window.addEventListener('hashchange',()=>page(location.hash.slice(1) || 'home'));
 document.querySelector('#menu-open').onclick=()=>{document.querySelector('#menu-toggle').checked=true;document.querySelector('#menu-close').focus();};
@@ -265,6 +302,6 @@ async function init() {
 }
 document.querySelector('#logout').onclick=async()=>{
   const r=await fetch('/api/logout',{method:'POST'});
-  if(r.ok) {history=[];conversation.replaceChildren();location.reload();}
+  if(r.ok) {clearJob();history=[];conversation.replaceChildren();location.reload();}
 };
 init();

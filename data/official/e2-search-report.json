@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-11-13T08:03:01.672039+00:00",
+  "created_at": "2026-11-14T20:34:20.735642+00:00",
   "corpus_downloaded_at": [
     "2026-11-11T14:45:30.764730+00:00",
     "2026-11-11T14:45:41.353601+00:00",
@@ -47,7 +47,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 99.28,
+          "elapsed_ms": 234.47,
           "applicability_passed": true,
           "trace": [
             {
@@ -98,7 +98,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 46",
               "score": 0.03278688524590164,
-              "coverage": 1.0,
+              "coverage": 0.8378291579178018,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=12",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#42405863522bbd5529cd"
             },
@@ -107,7 +107,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 55",
               "score": 0.03225806451612903,
-              "coverage": 1.0,
+              "coverage": 0.8378291579178018,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=13",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#7982dbdeb0003b7afa1b"
             },
@@ -116,7 +116,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 6",
               "score": 0.03149801587301587,
-              "coverage": 0.8064392477277467,
+              "coverage": 0.6756583158356035,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=3",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#d215d14ec6b948c9adbe"
             },
@@ -125,7 +125,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 52",
               "score": 0.03125763125763126,
-              "coverage": 0.7114403040503712,
+              "coverage": 0.5960654308513075,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=13",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#2042e179514d907871b1"
             },
@@ -134,7 +134,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 54",
               "score": 0.030776515151515152,
-              "coverage": 0.6479790795583446,
+              "coverage": 0.54289576657472,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=13",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#3e320785ef7cefbd7e75"
             },
@@ -143,7 +143,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 13",
               "score": 0.029631255487269532,
-              "coverage": 0.6796928576875303,
+              "coverage": 0.5694664945990877,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=4",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#2729f77363a258777c8c"
             },
@@ -152,7 +152,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 16",
               "score": 0.029437229437229435,
-              "coverage": 0.5024676759708386,
+              "coverage": 0.42098206983956266,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=4",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#cd396f1a21f9cd47adb7"
             },
@@ -161,7 +161,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 44",
               "score": 0.0288981288981289,
-              "coverage": 0.6796928576875303,
+              "coverage": 0.5694664945990877,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=12",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#0bca8902b1b1037e6914"
             },
@@ -170,7 +170,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 9",
               "score": 0.028577260665441927,
-              "coverage": 0.5212326895181281,
+              "coverage": 0.43670394533820417,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=3",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#e34f9781011160b4f23d"
             },
@@ -179,7 +179,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 7",
               "score": 0.02782608695652174,
-              "coverage": 0.6796928576875303,
+              "coverage": 0.5694664945990877,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=3",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#6fe30a4fbf1b8a5ccfb2"
             }
@@ -199,7 +199,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 71.97,
+          "elapsed_ms": 185.44,
           "applicability_passed": true,
           "trace": [
             {
@@ -375,7 +375,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 74.88,
+          "elapsed_ms": 150.83,
           "applicability_passed": true,
           "trace": [
             {
@@ -484,7 +484,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 2.2",
               "score": 0.03252247488101534,
-              "coverage": 0.33516625175692616,
+              "coverage": 0.3351662517569262,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=3",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#5d8bbb2d48f5c2b73118"
             },
@@ -493,7 +493,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., п. 2.1",
               "score": 0.03200204813108039,
-              "coverage": 0.37867756787634477,
+              "coverage": 0.3786775678763448,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#504dd2a30933834b6375"
             },
@@ -502,7 +502,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 2.1",
               "score": 0.031544957774465976,
-              "coverage": 0.33516625175692616,
+              "coverage": 0.3351662517569262,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=3",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#cceec1dc5e741fda9daf"
             },
@@ -511,7 +511,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "прил. 1, текст",
               "score": 0.03149801587301587,
-              "coverage": 0.33516625175692616,
+              "coverage": 0.3351662517569262,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=7",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#399e3d8e02150408642d"
             },
@@ -520,7 +520,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 4 (ч. 2)",
               "score": 0.029910714285714284,
-              "coverage": 0.33516625175692616,
+              "coverage": 0.3351662517569262,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=4",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#99ea23fec2f547c73204"
             },
@@ -529,7 +529,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., п. 2.2",
               "score": 0.029236022193768675,
-              "coverage": 0.33516625175692616,
+              "coverage": 0.3351662517569262,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#b9943a3c61c719564d6b"
             },
@@ -538,7 +538,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., п. 3.2.4",
               "score": 0.028985507246376812,
-              "coverage": 0.33516625175692616,
+              "coverage": 0.3351662517569262,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#0aa7d864b1430f3d459c"
             },
@@ -547,7 +547,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 2.3",
               "score": 0.028594771241830064,
-              "coverage": 0.26852404346073133,
+              "coverage": 0.2685240434607314,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=3",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#c25bcca38eedc39ac3a4"
             },
@@ -556,7 +556,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., п. 3.2.1",
               "score": 0.02854251012145749,
-              "coverage": 0.35648301634207136,
+              "coverage": 0.3564830163420714,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#73ff1fbedece062c68ca"
             },
@@ -565,7 +565,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., п. 4.2",
               "score": 0.028438886647841874,
-              "coverage": 0.27388671762644595,
+              "coverage": 0.273886717626446,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#e43221690a280feea0f8"
             }
@@ -585,7 +585,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 64.75,
+          "elapsed_ms": 195.02,
           "applicability_passed": true,
           "trace": [
             {
@@ -803,7 +803,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 123.14,
+          "elapsed_ms": 299.59,
           "applicability_passed": true,
           "trace": [
             {
@@ -1013,7 +1013,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 105.87,
+          "elapsed_ms": 265.66,
           "applicability_passed": true,
           "trace": [
             {
@@ -1122,7 +1122,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "1",
               "score": 0.032266458495966696,
-              "coverage": 0.5437775827962061,
+              "coverage": 0.4368848642023397,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#77a112254550b63ad185"
             },
@@ -1131,7 +1131,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "3",
               "score": 0.03225806451612903,
-              "coverage": 0.4905893384684669,
+              "coverage": 0.3941520638158369,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=1",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#ca2cb8f1f244a9b586df"
             },
@@ -1140,7 +1140,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "2",
               "score": 0.031544957774465976,
-              "coverage": 0.5476895974089767,
+              "coverage": 0.4400278771306573,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=1",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#052c9347e8ff39442249"
             },
@@ -1149,7 +1149,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "4",
               "score": 0.031009615384615385,
-              "coverage": 0.3543994303741349,
+              "coverage": 0.2847335968066513,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=1",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#ffcd850f7e2cb0547408"
             },
@@ -1158,7 +1158,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 4.2",
               "score": 0.029418126757516764,
-              "coverage": 0.31330341618774366,
+              "coverage": 0.25171600442125924,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=6",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#c8676aad469125bc9f19"
             },
@@ -1167,7 +1167,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 2.1",
               "score": 0.02886002886002886,
-              "coverage": 0.3543994303741349,
+              "coverage": 0.2847335968066513,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=3",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#cceec1dc5e741fda9daf"
             },
@@ -1176,7 +1176,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "прил. 2, текст",
               "score": 0.02854251012145749,
-              "coverage": 0.47197062379601484,
+              "coverage": 0.37919331066262935,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=10",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#d513e4ec29d5ba395096"
             },
@@ -1185,7 +1185,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., п. 4.2",
               "score": 0.02761904761904762,
-              "coverage": 0.40216507707248844,
+              "coverage": 0.32310974310536333,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#e43221690a280feea0f8"
             },
@@ -1194,7 +1194,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "прил. 4, текст",
               "score": 0.027205882352941177,
-              "coverage": 0.47197062379601484,
+              "coverage": 0.37919331066262935,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=15",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#d5fce56538cbccaaff48"
             },
@@ -1203,7 +1203,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "6",
               "score": 0.026973565905412694,
-              "coverage": 0.31330341618774366,
+              "coverage": 0.25171600442125924,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=1",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#d777cd282dbd608a869e"
             }
@@ -1223,7 +1223,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 92.74,
+          "elapsed_ms": 170.9,
           "applicability_passed": true,
           "trace": [
             {
@@ -1368,7 +1368,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 2.4",
               "score": 0.031009615384615385,
-              "coverage": 0.48191675252376237,
+              "coverage": 0.4819167525237623,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=4",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#59d674a39ec3fade7e8c"
             },
@@ -1395,7 +1395,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 2",
               "score": 0.029411764705882353,
-              "coverage": 0.48191675252376237,
+              "coverage": 0.4819167525237623,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=3",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#2eca1a195471c4e32e6d"
             },
@@ -1449,7 +1449,7 @@
               "fragment_found": false
             }
           ],
-          "elapsed_ms": 55.59,
+          "elapsed_ms": 105.41,
           "applicability_passed": false,
           "trace": [
             {
@@ -1484,7 +1484,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., текст",
               "score": 0.03225806451612903,
-              "coverage": 0.5369877059827542,
+              "coverage": 0.5369877059827541,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#6bb5903966288f33addb"
             },
@@ -1493,7 +1493,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., п. 3",
               "score": 0.03036576949620428,
-              "coverage": 0.5369877059827542,
+              "coverage": 0.5369877059827541,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#43392cf7b0680e479c76"
             },
@@ -1502,7 +1502,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., п. 4",
               "score": 0.029910714285714284,
-              "coverage": 0.5369877059827542,
+              "coverage": 0.5369877059827541,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#99bc63d3849ab63a52ea"
             },
@@ -1511,7 +1511,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., п. 5",
               "score": 0.02946912242686891,
-              "coverage": 0.5369877059827542,
+              "coverage": 0.5369877059827541,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#21a3edc79171af87d618"
             },
@@ -1520,7 +1520,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "1",
               "score": 0.029386529386529386,
-              "coverage": 0.5369877059827542,
+              "coverage": 0.5369877059827541,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#66f2128f93e8cd4159d6"
             },
@@ -1529,7 +1529,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., п. 6",
               "score": 0.02904040404040404,
-              "coverage": 0.5369877059827542,
+              "coverage": 0.5369877059827541,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#3007002f7bc930b9c665"
             },
@@ -1538,7 +1538,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "преамбула",
               "score": 0.028814262023217248,
-              "coverage": 0.5369877059827542,
+              "coverage": 0.5369877059827541,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#9e01969fcba0376d0c65"
             },
@@ -1547,7 +1547,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., п. 1.1",
               "score": 0.028782894736842105,
-              "coverage": 0.5369877059827542,
+              "coverage": 0.5369877059827541,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#463953186f65456f2486"
             },
@@ -1556,7 +1556,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., п. 7",
               "score": 0.02862400327131466,
-              "coverage": 0.5369877059827542,
+              "coverage": 0.5369877059827541,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#273652e15818f597f74f"
             }
@@ -1584,7 +1584,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 79.06,
+          "elapsed_ms": 119.18,
           "applicability_passed": true,
           "trace": [
             {
@@ -1665,7 +1665,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "3",
               "score": 0.03252247488101534,
-              "coverage": 0.4223586480818145,
+              "coverage": 0.32428883504580097,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#fa4cded3d0d0500f40e0"
             },
@@ -1674,7 +1674,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "1",
               "score": 0.03252247488101534,
-              "coverage": 0.697584984625935,
+              "coverage": 0.5356088315870519,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#6a3659c676ae8af400ed"
             },
@@ -1683,7 +1683,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "4",
               "score": 0.03036576949620428,
-              "coverage": 0.4223586480818145,
+              "coverage": 0.32428883504580097,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#7d656a0b469fc037f3d8"
             },
@@ -1692,7 +1692,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил. 1, п. 2",
               "score": 0.030303030303030304,
-              "coverage": 0.26656071062205644,
+              "coverage": 0.20466649069267515,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#17faf90bc652f33df422"
             },
@@ -1701,7 +1701,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил. 1, текст",
               "score": 0.029850746268656716,
-              "coverage": 0.26656071062205644,
+              "coverage": 0.20466649069267515,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#8827c8d0373328378ec1"
             },
@@ -1710,7 +1710,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "преамбула",
               "score": 0.0293236301369863,
-              "coverage": 0.26656071062205644,
+              "coverage": 0.20466649069267515,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#7b7df2d80e4a1b865e7a"
             },
@@ -1719,7 +1719,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 44",
               "score": 0.02871794871794872,
-              "coverage": 0.2984418023564707,
+              "coverage": 0.2291449337066769,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=12",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#0bca8902b1b1037e6914"
             },
@@ -1728,7 +1728,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил., текст",
               "score": 0.02854251012145749,
-              "coverage": 0.20843172007023086,
+              "coverage": 0.1600347950613633,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#be7fdb0980b4b6d23f43"
             },
@@ -1737,7 +1737,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "2",
               "score": 0.02819138376017471,
-              "coverage": 0.26656071062205644,
+              "coverage": 0.20466649069267515,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#16dc5de6093fffa542e9"
             },
@@ -1746,7 +1746,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил. 1, п. 2.4",
               "score": 0.02817460317460317,
-              "coverage": 0.26656071062205644,
+              "coverage": 0.20466649069267515,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#39644a95d06e913c1a82"
             }
@@ -1766,7 +1766,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 111.82,
+          "elapsed_ms": 219.79,
           "applicability_passed": true,
           "trace": [
             {
@@ -1966,7 +1966,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 86.19,
+          "elapsed_ms": 121.78,
           "applicability_passed": true,
           "trace": [
             {
@@ -2023,7 +2023,7 @@
               "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
               "clause": "преамбула",
               "score": 0.03278688524590164,
-              "coverage": 0.5180208489334321,
+              "coverage": 0.5180208489334323,
               "url": "https://drive.google.com/file/d/1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm/view",
               "view_path": "data\\official\\view\\1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm.html#747696393be5497914ac"
             },
@@ -2032,7 +2032,7 @@
               "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
               "clause": "1",
               "score": 0.03225806451612903,
-              "coverage": 0.4202110503150147,
+              "coverage": 0.4202110503150149,
               "url": "https://drive.google.com/file/d/1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm/view",
               "view_path": "data\\official\\view\\1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm.html#aed3efd89f314e34490c"
             },
@@ -2041,7 +2041,7 @@
               "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
               "clause": "2",
               "score": 0.031746031746031744,
-              "coverage": 0.30804333688122126,
+              "coverage": 0.3080433368812213,
               "url": "https://drive.google.com/file/d/1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm/view",
               "view_path": "data\\official\\view\\1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm.html#f80b523658c59f50c514"
             },
@@ -2050,7 +2050,7 @@
               "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
               "clause": "3",
               "score": 0.03125,
-              "coverage": 0.30804333688122126,
+              "coverage": 0.3080433368812213,
               "url": "https://drive.google.com/file/d/1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm/view",
               "view_path": "data\\official\\view\\1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm.html#2a0b697ada5f6a7d6630"
             },
@@ -2059,7 +2059,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "3",
               "score": 0.03076923076923077,
-              "coverage": 0.2230409770414174,
+              "coverage": 0.22304097704141748,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#fa4cded3d0d0500f40e0"
             },
@@ -2068,7 +2068,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил. 1, п. 2.3.2",
               "score": 0.029211087420042643,
-              "coverage": 0.24790587788768093,
+              "coverage": 0.24790587788768106,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#e6b2d239fb03319c6318"
             },
@@ -2077,7 +2077,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил. 1, п. 2.3.1",
               "score": 0.02904040404040404,
-              "coverage": 0.24790587788768093,
+              "coverage": 0.24790587788768106,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#68f3449e7b3d3bc9c03d"
             },
@@ -2086,7 +2086,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил. 1, п. 2.5.6",
               "score": 0.028991596638655463,
-              "coverage": 0.24790587788768093,
+              "coverage": 0.24790587788768106,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#54415c51ec302b496d2a"
             },
@@ -2095,7 +2095,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил. 1, п. 2.3.5",
               "score": 0.02819138376017471,
-              "coverage": 0.24790587788768093,
+              "coverage": 0.24790587788768106,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#8d1f65555caae79e9951"
             },
@@ -2104,7 +2104,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил. 1, п. 2.3.4",
               "score": 0.028169014084507043,
-              "coverage": 0.24790587788768093,
+              "coverage": 0.24790587788768106,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#48884626a4910a146283"
             }
@@ -2124,7 +2124,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 93.72,
+          "elapsed_ms": 144.38,
           "applicability_passed": true,
           "trace": [
             {
@@ -2192,7 +2192,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "1",
               "score": 0.03278688524590164,
-              "coverage": 0.8370492880665144,
+              "coverage": 0.8370492880665142,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#8108ec2f27f62b7062d0"
             },
@@ -2201,7 +2201,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "11",
               "score": 0.03225806451612903,
-              "coverage": 0.7095623999315499,
+              "coverage": 0.7095623999315497,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#d7f271381804f49bc4bf"
             },
@@ -2210,7 +2210,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "13",
               "score": 0.031746031746031744,
-              "coverage": 0.5971334535795441,
+              "coverage": 0.597133453579544,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#49cdd3130fb0189a876b"
             },
@@ -2219,7 +2219,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "15",
               "score": 0.03125,
-              "coverage": 0.7095623999315499,
+              "coverage": 0.7095623999315497,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#b79e905855b0b6516dcf"
             },
@@ -2228,7 +2228,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "прил. 7, п. 1",
               "score": 0.030309988518943745,
-              "coverage": 0.35465021552088477,
+              "coverage": 0.3546502155208847,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#909f2acfc67485d93995"
             },
@@ -2237,7 +2237,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "12",
               "score": 0.030303030303030304,
-              "coverage": 0.5467069452199583,
+              "coverage": 0.5467069452199584,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#7c0bc2c77dbbcbbbef98"
             },
@@ -2264,7 +2264,7 @@
               "doc_id": "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t",
               "clause": "прил. 7, п. 1",
               "score": 0.02684684684684685,
-              "coverage": 0.2725607890885818,
+              "coverage": 0.27256078908858183,
               "url": "https://drive.google.com/file/d/19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t/view",
               "view_path": "data\\official\\view\\19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t.html#10ad6d3b6a7f45a5776c"
             },
@@ -2273,7 +2273,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "19",
               "score": 0.026838432635534086,
-              "coverage": 0.2599807047428827,
+              "coverage": 0.25998070474288265,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#9c9615e1a8f88c514ddd"
             }
@@ -2301,7 +2301,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 123.93,
+          "elapsed_ms": 213.97,
           "applicability_passed": true,
           "trace": [
             {
@@ -2481,7 +2481,7 @@
               "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
               "clause": "1",
               "score": 0.03278688524590164,
-              "coverage": 0.554725739213452,
+              "coverage": 0.5547257392134521,
               "url": "https://drive.google.com/file/d/1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O/view",
               "view_path": "data\\official\\view\\1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O.html#ff95e24041ee27d86b7c"
             },
@@ -2490,7 +2490,7 @@
               "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
               "clause": "2",
               "score": 0.03225806451612903,
-              "coverage": 0.5128428033051299,
+              "coverage": 0.51284280330513,
               "url": "https://drive.google.com/file/d/1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O/view",
               "view_path": "data\\official\\view\\1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O.html#393dbf39a94025437eb5"
             },
@@ -2499,7 +2499,7 @@
               "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
               "clause": "прил., текст (ч. 1)",
               "score": 0.03149801587301587,
-              "coverage": 0.3936049735563621,
+              "coverage": 0.3936049735563622,
               "url": "https://drive.google.com/file/d/1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O/view",
               "view_path": "data\\official\\view\\1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O.html#eec307d95afaac51cb28"
             },
@@ -2508,7 +2508,7 @@
               "doc_id": "1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN",
               "clause": "'2026'!A2:A2",
               "score": 0.031009615384615385,
-              "coverage": 0.2619988222403864,
+              "coverage": 0.2619988222403865,
               "url": "https://drive.google.com/file/d/1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN/view",
               "view_path": "data\\official\\view\\1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN.html#9f42d6b2958a8236739e"
             },
@@ -2517,7 +2517,7 @@
               "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
               "clause": "преамбула",
               "score": 0.030309988518943745,
-              "coverage": 0.26579372196398654,
+              "coverage": 0.2657937219639866,
               "url": "https://drive.google.com/file/d/1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O/view",
               "view_path": "data\\official\\view\\1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O.html#85882458fbffe8f7aff2"
             },
@@ -2526,7 +2526,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "1",
               "score": 0.02900988017658188,
-              "coverage": 0.18561581036875238,
+              "coverage": 0.18561581036875244,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#77a112254550b63ad185"
             },
@@ -2535,7 +2535,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., п. 5",
               "score": 0.028594771241830064,
-              "coverage": 0.30414915146110366,
+              "coverage": 0.3041491514611037,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=2",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#d0651ba305ce4d6f5054"
             },
@@ -2544,7 +2544,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "6",
               "score": 0.02607709750566893,
-              "coverage": 0.3838409898141569,
+              "coverage": 0.38384098981415693,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=1",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#d777cd282dbd608a869e"
             },
@@ -2553,7 +2553,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "26",
               "score": 0.024891774891774892,
-              "coverage": 0.1763378998687281,
+              "coverage": 0.17633789986872817,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#2202b44ec04267822757"
             },
@@ -2562,7 +2562,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 2",
               "score": 0.024809741248097414,
-              "coverage": 0.18561581036875238,
+              "coverage": 0.18561581036875244,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=3",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#2eca1a195471c4e32e6d"
             }
@@ -2590,7 +2590,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 81.9,
+          "elapsed_ms": 197.94,
           "applicability_passed": true,
           "trace": [
             {
@@ -2616,7 +2616,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "1",
               "score": 0.03252247488101534,
-              "coverage": 0.6597375440935458,
+              "coverage": 0.4651389219643142,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=1",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#fcb17b66fe0a4f235f67"
             },
@@ -2625,7 +2625,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "2",
               "score": 0.03252247488101534,
-              "coverage": 0.7908166647209097,
+              "coverage": 0.5575544611533304,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=1",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#052c9347e8ff39442249"
             },
@@ -2634,7 +2634,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "преамбула",
               "score": 0.031746031746031744,
-              "coverage": 0.6597375440935458,
+              "coverage": 0.4651389219643142,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=1",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#c70518605f54b64eef2e"
             },
@@ -2643,7 +2643,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., п. 10",
               "score": 0.030536130536130537,
-              "coverage": 0.5086651753038907,
+              "coverage": 0.35862741691731365,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=3",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#1b0460db340d6af33d2a"
             },
@@ -2652,7 +2652,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., текст",
               "score": 0.030330882352941176,
-              "coverage": 0.5086651753038907,
+              "coverage": 0.35862741691731365,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=2",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#23aed8777b29bd4008b7"
             },
@@ -2661,7 +2661,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., п. 16",
               "score": 0.03007688828584351,
-              "coverage": 0.5840763639823219,
+              "coverage": 0.41179504292248065,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=4",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#9812c8267049cb16b5ac"
             },
@@ -2670,7 +2670,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., п. 13",
               "score": 0.029910714285714284,
-              "coverage": 0.4529972433549579,
+              "coverage": 0.31937950373346446,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=4",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#f546ad50ada347043fca"
             },
@@ -2679,7 +2679,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., п. 15",
               "score": 0.02967032967032967,
-              "coverage": 0.4529972433549579,
+              "coverage": 0.31937950373346446,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=4",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#21fec8dce50f552bb3f4"
             },
@@ -2688,7 +2688,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., п. 7",
               "score": 0.028814262023217248,
-              "coverage": 0.37402285704981847,
+              "coverage": 0.2636996940309,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=3",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#f24cd36a4e14d3d42b3c"
             },
@@ -2697,7 +2697,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., п. 9",
               "score": 0.028594771241830064,
-              "coverage": 0.4529972433549579,
+              "coverage": 0.31937950373346446,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=3",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#991a9aa2d62f64121b55"
             }
@@ -2717,7 +2717,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 71.33,
+          "elapsed_ms": 124.62,
           "applicability_passed": true,
           "trace": [
             {
@@ -2913,7 +2913,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 40.29,
+          "elapsed_ms": 79.64,
           "applicability_passed": true,
           "trace": [
             {
@@ -2966,7 +2966,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 2.2",
               "score": 0.03225806451612903,
-              "coverage": 0.7237655648117981,
+              "coverage": 0.723765564811798,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=2",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#b58e0b2e93827b9cbdf7"
             },
@@ -2975,7 +2975,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 2",
               "score": 0.031746031746031744,
-              "coverage": 0.7237655648117981,
+              "coverage": 0.723765564811798,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=2",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#af8d9ddc3eb9b4682cb5"
             },
@@ -2984,7 +2984,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4.4",
               "score": 0.031009615384615385,
-              "coverage": 0.6818178480720711,
+              "coverage": 0.681817848072071,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#77b2b2ed4d63aa974f50"
             },
@@ -2993,7 +2993,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4.2",
               "score": 0.030309988518943745,
-              "coverage": 0.6818178480720711,
+              "coverage": 0.681817848072071,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#c9f1b888671c458d76b6"
             },
@@ -3020,7 +3020,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4",
               "score": 0.02964426877470356,
-              "coverage": 0.5623291444346493,
+              "coverage": 0.5623291444346492,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#2d08d27a84b011be56f2"
             },
@@ -3038,7 +3038,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4.6",
               "score": 0.02877846790890269,
-              "coverage": 0.5623291444346493,
+              "coverage": 0.5623291444346492,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#8dab6848738014ff10d2"
             }
@@ -3058,7 +3058,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 78.91,
+          "elapsed_ms": 225.67,
           "applicability_passed": true,
           "trace": [
             {
@@ -3102,7 +3102,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 2.1",
               "score": 0.03278688524590164,
-              "coverage": 0.8610501811823746,
+              "coverage": 0.8610501811823748,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=1",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#522f830fc700af4cff81"
             },
@@ -3111,7 +3111,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.3",
               "score": 0.03200204813108039,
-              "coverage": 0.6845215543112418,
+              "coverage": 0.6845215543112417,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#689fa8270d4d2cd18927"
             },
@@ -3120,7 +3120,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.2",
               "score": 0.03200204813108039,
-              "coverage": 0.6845215543112418,
+              "coverage": 0.6845215543112417,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#40775a900c3898ed7be6"
             },
@@ -3129,7 +3129,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 2.8",
               "score": 0.03125,
-              "coverage": 0.49841914868918435,
+              "coverage": 0.4984191486891844,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=2",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#da6f5b0417d6dd39d9ce"
             },
@@ -3138,7 +3138,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.5",
               "score": 0.030090497737556562,
-              "coverage": 0.49841914868918435,
+              "coverage": 0.4984191486891844,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#6ec7cf1bf39a623fc0f8"
             },
@@ -3147,7 +3147,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 3 (ч. 1)",
               "score": 0.029877369007803793,
-              "coverage": 0.49841914868918435,
+              "coverage": 0.4984191486891844,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=2",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#417bbf6145979a5a0981"
             },
@@ -3156,7 +3156,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.4",
               "score": 0.029857397504456328,
-              "coverage": 0.6845215543112418,
+              "coverage": 0.6845215543112417,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#620ab361f46c0c6959b8"
             },
@@ -3165,7 +3165,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 3 (ч. 2)",
               "score": 0.029850746268656716,
-              "coverage": 0.49841914868918435,
+              "coverage": 0.4984191486891844,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=2",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#fc070cf066bd783acc75"
             },
@@ -3174,7 +3174,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 2.5",
               "score": 0.029437229437229435,
-              "coverage": 0.49841914868918435,
+              "coverage": 0.4984191486891844,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=1",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#acf0317a9bc91261fa34"
             },
@@ -3183,7 +3183,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил. 1, текст (ч. 1)",
               "score": 0.027598020555767037,
-              "coverage": 0.49841914868918435,
+              "coverage": 0.4984191486891844,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=6",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#c980f2b78a0af2045e54"
             }
@@ -3203,7 +3203,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 36.37,
+          "elapsed_ms": 72.04,
           "applicability_passed": true,
           "trace": [
             {
@@ -3355,7 +3355,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 41.67,
+          "elapsed_ms": 90.99,
           "applicability_passed": true,
           "trace": [
             {
@@ -3517,7 +3517,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил. 1, п. 2.5.4",
               "score": 0.028594771241830064,
-              "coverage": 0.34761211646808493,
+              "coverage": 0.3476121164680849,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#45a0e8113a628ed20c63"
             }
@@ -3537,7 +3537,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 45.26,
+          "elapsed_ms": 118.54,
           "applicability_passed": true,
           "trace": [
             {
@@ -3682,7 +3682,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 67.88,
+          "elapsed_ms": 234.64,
           "applicability_passed": true,
           "trace": [
             {
@@ -3726,7 +3726,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!E1:E1",
               "score": 0.03252247488101534,
-              "coverage": 1.0,
+              "coverage": 0.7711537053725097,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#b225e55dc5aa3149188c"
             },
@@ -3735,7 +3735,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!E3:E3",
               "score": 0.031054405392392875,
-              "coverage": 1.0,
+              "coverage": 0.7711537053725097,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#50fe8caa50bdb6acf672"
             },
@@ -3744,7 +3744,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!E6:E6",
               "score": 0.031009615384615385,
-              "coverage": 1.0,
+              "coverage": 0.7711537053725097,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#6df9060e791c99b4fddb"
             },
@@ -3753,7 +3753,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!E5:H5",
               "score": 0.030798389007344232,
-              "coverage": 1.0,
+              "coverage": 0.7711537053725097,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#def1680e9b2234dfe8fb"
             },
@@ -3762,7 +3762,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!A10:A10",
               "score": 0.030776515151515152,
-              "coverage": 1.0,
+              "coverage": 0.7711537053725097,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#c30acaaf0ec559124c12"
             },
@@ -3771,7 +3771,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!E4:E4",
               "score": 0.030158730158730156,
-              "coverage": 1.0,
+              "coverage": 0.7711537053725097,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#c3033afb17d567e602f4"
             },
@@ -3780,7 +3780,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!A40:A40",
               "score": 0.030090497737556562,
-              "coverage": 1.0,
+              "coverage": 0.7711537053725097,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#37460c8798c17d4c38ab"
             },
@@ -3789,7 +3789,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!A39:F39",
               "score": 0.029236022193768675,
-              "coverage": 1.0,
+              "coverage": 0.7711537053725097,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#da5a3f1f23778ec795f1"
             },
@@ -3798,7 +3798,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!A43:F43",
               "score": 0.028985507246376812,
-              "coverage": 1.0,
+              "coverage": 0.7711537053725097,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#a130aa747ca60d59079e"
             },
@@ -3807,7 +3807,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!A9:I9",
               "score": 0.027984344422700584,
-              "coverage": 1.0,
+              "coverage": 0.7711537053725097,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#05e30a37930fafa81e70"
             }
@@ -3827,7 +3827,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 105.48,
+          "elapsed_ms": 218.04,
           "applicability_passed": true,
           "trace": [
             {
@@ -4005,7 +4005,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!A8:U8",
               "score": 0.03149801587301587,
-              "coverage": 0.5533119502573838,
+              "coverage": 0.5533119502573839,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#6cc60d0ec1b0ba408d62"
             },
@@ -4014,7 +4014,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смет_поквартально'!A8:M8",
               "score": 0.031009615384615385,
-              "coverage": 0.5533119502573838,
+              "coverage": 0.5533119502573839,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#b22f84f661d0f65c8eef"
             },
@@ -4059,7 +4059,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., п. 27 (ч. 1)",
               "score": 0.02782608695652174,
-              "coverage": 0.49469869220795865,
+              "coverage": 0.4946986922079586,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#a71eb38e574ccce2cd3b"
             },
@@ -4068,7 +4068,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., п. 27 (ч. 4)",
               "score": 0.027692895339954164,
-              "coverage": 0.4796601058854149,
+              "coverage": 0.479660105885415,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#4d3df705b9b37e4d3099"
             }
@@ -4088,7 +4088,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 86.25,
+          "elapsed_ms": 217.9,
           "applicability_passed": true,
           "trace": [
             {
@@ -4132,7 +4132,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смет_поквартально'!I1:I1",
               "score": 0.03278688524590164,
-              "coverage": 1.0,
+              "coverage": 0.656652825007443,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#363310512ca4dfcbe713"
             },
@@ -4141,7 +4141,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!Q1:Q1",
               "score": 0.030536130536130537,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#ad65a6c9bc3e981bbcdd"
             },
@@ -4150,7 +4150,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!E3:E3",
               "score": 0.028991596638655463,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#4f2ee20eb50e3f89150e"
             },
@@ -4159,7 +4159,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!A201:R201",
               "score": 0.027820121951219513,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#f195f4013564861b629f"
             },
@@ -4168,7 +4168,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!E6:E6",
               "score": 0.02758751902587519,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#a0155648a1165aba3876"
             },
@@ -4177,7 +4177,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смет_поквартально'!A7:M7",
               "score": 0.026973565905412694,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#b1d1d58eb759982ea237"
             },
@@ -4186,7 +4186,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смет_поквартально'!A204:A204",
               "score": 0.02684684684684685,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#2dd761ea239ec9479e5f"
             },
@@ -4195,7 +4195,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!A202:A202",
               "score": 0.02684684684684685,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#cdbc3bd4995a1eb118f2"
             },
@@ -4204,7 +4204,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!E4:E4",
               "score": 0.026709401709401708,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#bad2b519053aa69aa504"
             },
@@ -4213,7 +4213,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смет_поквартально'!E3:E3",
               "score": 0.026419626007891578,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#c9c3bf5ff3472396cf26"
             }
@@ -4233,7 +4233,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 71.53,
+          "elapsed_ms": 112.42,
           "applicability_passed": true,
           "trace": [
             {
@@ -4472,7 +4472,7 @@
               "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
               "clause": "2",
               "score": 0.03149801587301587,
-              "coverage": 0.25924363575983156,
+              "coverage": 0.2592436357598315,
               "url": "https://drive.google.com/file/d/1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O/view",
               "view_path": "data\\official\\view\\1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O.html#393dbf39a94025437eb5"
             },
@@ -4555,7 +4555,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 122.81,
+          "elapsed_ms": 243.45,
           "applicability_passed": true,
           "trace": [
             {
@@ -4653,7 +4653,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "прил. 2, текст",
               "score": 0.031544957774465976,
-              "coverage": 0.7452858912339723,
+              "coverage": 0.7452858912339722,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#53fae3aa35428e7d5394"
             },
@@ -4662,7 +4662,7 @@
               "doc_id": "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t",
               "clause": "прил. 2, текст",
               "score": 0.0315136476426799,
-              "coverage": 0.7452858912339723,
+              "coverage": 0.7452858912339722,
               "url": "https://drive.google.com/file/d/19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t/view",
               "view_path": "data\\official\\view\\19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t.html#44c225b92ba8a9814016"
             },
@@ -4671,7 +4671,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "9 (ч. 2)",
               "score": 0.030798389007344232,
-              "coverage": 0.4729688702577589,
+              "coverage": 0.4729688702577588,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#e37084e5368beb696811"
             },
@@ -4680,7 +4680,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "1",
               "score": 0.030158730158730156,
-              "coverage": 0.4058566829131672,
+              "coverage": 0.4058566829131671,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#8108ec2f27f62b7062d0"
             },
@@ -4689,7 +4689,7 @@
               "doc_id": "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t",
               "clause": "прил. 5, текст",
               "score": 0.029726775956284153,
-              "coverage": 0.3755020478701854,
+              "coverage": 0.3755020478701853,
               "url": "https://drive.google.com/file/d/19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t/view",
               "view_path": "data\\official\\view\\19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t.html#6f4b089dc7ac103e49da"
             },
@@ -4698,7 +4698,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "5",
               "score": 0.029513888888888888,
-              "coverage": 0.26018227721934073,
+              "coverage": 0.2601822772193407,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#538f5ea8d81cf1809aa2"
             },
@@ -4707,7 +4707,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "15",
               "score": 0.0293236301369863,
-              "coverage": 0.46843763787821124,
+              "coverage": 0.46843763787821113,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#b79e905855b0b6516dcf"
             },
@@ -4716,7 +4716,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "3",
               "score": 0.028850145288501453,
-              "coverage": 0.29053691226232253,
+              "coverage": 0.2905369122623225,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=1",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#464bd04f92d36e83f37a"
             },
@@ -4725,7 +4725,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "17",
               "score": 0.028381642512077296,
-              "coverage": 0.3358051483672761,
+              "coverage": 0.335805148367276,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#84209ca4aeced933f3ae"
             },
@@ -4734,7 +4734,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "прил. 5, текст",
               "score": 0.02832415420928403,
-              "coverage": 0.3755020478701854,
+              "coverage": 0.3755020478701853,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#0630b5327b6b5e4a8793"
             }
@@ -4770,7 +4770,7 @@
               "fragment_found": false
             }
           ],
-          "elapsed_ms": 240.01,
+          "elapsed_ms": 534.61,
           "applicability_passed": true,
           "trace": [
             {
@@ -4872,7 +4872,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 2.1",
               "score": 0.03278688524590164,
-              "coverage": 0.262426541356799,
+              "coverage": 0.23059894134713071,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=2",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#a5c5b53e2795c9ca0b22"
             },
@@ -4881,7 +4881,7 @@
               "doc_id": "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l",
               "clause": "прил. 1, п. 4.1",
               "score": 0.03149801587301587,
-              "coverage": 0.1981704412007084,
+              "coverage": 0.17413594566658422,
               "url": "https://drive.google.com/file/d/10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l/view#page=2",
               "view_path": "data\\official\\view\\10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l.html#17a33dbcf2028027ebc1"
             },
@@ -4890,7 +4890,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 52",
               "score": 0.0288981288981289,
-              "coverage": 0.20570742713339457,
+              "coverage": 0.1807588313245658,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=13",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#2042e179514d907871b1"
             },
@@ -4899,7 +4899,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 1.1",
               "score": 0.028850145288501453,
-              "coverage": 0.1448910174139502,
+              "coverage": 0.12731835375194972,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=2",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#0f07254454a9128ef15f"
             },
@@ -4908,7 +4908,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.2",
               "score": 0.027972027972027972,
-              "coverage": 0.15045070775389965,
+              "coverage": 0.13220375406238213,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#40775a900c3898ed7be6"
             },
@@ -4917,7 +4917,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 1.2",
               "score": 0.027443609022556388,
-              "coverage": 0.14675940528196718,
+              "coverage": 0.12896013991490018,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=2",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#2a35b825cd45fd294543"
             },
@@ -4926,7 +4926,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 3.1",
               "score": 0.027364110201042444,
-              "coverage": 0.17622106821038408,
+              "coverage": 0.1548486352115019,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=2",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#0be8468207a5fe2e74d8"
             },
@@ -4935,7 +4935,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.3",
               "score": 0.027222222222222224,
-              "coverage": 0.14437610455159644,
+              "coverage": 0.12686589052040725,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#689fa8270d4d2cd18927"
             },
@@ -4944,7 +4944,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 2.2",
               "score": 0.02699859747545582,
-              "coverage": 0.168242678295076,
+              "coverage": 0.14783787990217806,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=2",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#b58e0b2e93827b9cbdf7"
             },
@@ -4953,7 +4953,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4.4",
               "score": 0.026754075124025514,
-              "coverage": 0.17795871532531535,
+              "coverage": 0.1563755371135212,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#77b2b2ed4d63aa974f50"
             }
@@ -4981,7 +4981,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 279.13,
+          "elapsed_ms": 569.46,
           "applicability_passed": true,
           "trace": [
             {
@@ -5094,7 +5094,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 16",
               "score": 0.07442067736185383,
-              "coverage": 0.5234004119117882,
+              "coverage": 0.5234004119117881,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=4",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#cd396f1a21f9cd47adb7"
             },
@@ -5112,7 +5112,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 1",
               "score": 0.07190205627705629,
-              "coverage": 0.5234004119117882,
+              "coverage": 0.5234004119117881,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=1",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#5234dcef08eb3df000c0"
             },
@@ -5121,7 +5121,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 15",
               "score": 0.07166528583264292,
-              "coverage": 0.5234004119117882,
+              "coverage": 0.5234004119117881,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=4",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#cf5b819427c265f1e793"
             },
@@ -5130,7 +5130,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 30",
               "score": 0.0693697805073624,
-              "coverage": 0.7954692716183208,
+              "coverage": 0.7954692716183207,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=8",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#62054f2d3cdf5dd510d8"
             },
@@ -5139,7 +5139,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 13",
               "score": 0.07375526459772748,
-              "coverage": 0.6796928576875303,
+              "coverage": 0.5694664945990877,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=4",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#2729f77363a258777c8c"
             },
@@ -5148,7 +5148,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 44",
               "score": 0.0734212577962578,
-              "coverage": 0.6796928576875303,
+              "coverage": 0.5694664945990877,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=12",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#0bca8902b1b1037e6914"
             },
@@ -5157,7 +5157,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 9",
               "score": 0.07085315146787016,
-              "coverage": 0.5212326895181281,
+              "coverage": 0.43670394533820417,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=3",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#e34f9781011160b4f23d"
             },
@@ -5166,7 +5166,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 7",
               "score": 0.06993788819875776,
-              "coverage": 0.6796928576875303,
+              "coverage": 0.5694664945990877,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=3",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#6fe30a4fbf1b8a5ccfb2"
             },
@@ -5195,7 +5195,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 155.06,
+          "elapsed_ms": 139.6,
           "applicability_passed": true,
           "trace": [
             {
@@ -5390,7 +5390,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 174.22,
+          "elapsed_ms": 188.44,
           "applicability_passed": true,
           "trace": [
             {
@@ -5628,7 +5628,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 118.4,
+          "elapsed_ms": 268.95,
           "applicability_passed": true,
           "trace": [
             {
@@ -5883,7 +5883,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 251.64,
+          "elapsed_ms": 353.63,
           "applicability_passed": true,
           "trace": [
             {
@@ -6200,7 +6200,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 160.14,
+          "elapsed_ms": 138.06,
           "applicability_passed": true,
           "trace": [
             {
@@ -6319,7 +6319,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "3",
               "score": 0.07988511264720942,
-              "coverage": 0.5884897453511704,
+              "coverage": 0.5884897453511703,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=1",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#ca2cb8f1f244a9b586df"
             },
@@ -6328,7 +6328,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "4",
               "score": 0.07390838445008616,
-              "coverage": 0.4674342509479204,
+              "coverage": 0.4674342509479203,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=1",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#ffcd850f7e2cb0547408"
             },
@@ -6337,7 +6337,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 2.3",
               "score": 0.07370414563674932,
-              "coverage": 0.4674342509479204,
+              "coverage": 0.4674342509479203,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=3",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#c25bcca38eedc39ac3a4"
             },
@@ -6346,7 +6346,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., п. 4.2",
               "score": 0.07331365152260676,
-              "coverage": 0.591782577908681,
+              "coverage": 0.5917825779086809,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#e43221690a280feea0f8"
             },
@@ -6355,7 +6355,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 4.2",
               "score": 0.07236886970825972,
-              "coverage": 0.4674342509479204,
+              "coverage": 0.4674342509479203,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=6",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#c8676aad469125bc9f19"
             },
@@ -6364,7 +6364,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "прил. 2, текст",
               "score": 0.07199359707797923,
-              "coverage": 0.5757763968752672,
+              "coverage": 0.575776396875267,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=10",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#d513e4ec29d5ba395096"
             },
@@ -6373,7 +6373,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "6",
               "score": 0.06810485657339721,
-              "coverage": 0.4674342509479204,
+              "coverage": 0.4674342509479203,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=1",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#d777cd282dbd608a869e"
             },
@@ -6382,7 +6382,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "прил. 4, текст",
               "score": 0.06795607385521434,
-              "coverage": 0.5757763968752672,
+              "coverage": 0.575776396875267,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=15",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#d5fce56538cbccaaff48"
             },
@@ -6391,7 +6391,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., текст",
               "score": 0.06694069218628991,
-              "coverage": 0.48344043198133424,
+              "coverage": 0.48344043198133413,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#2538fb63d14341cf9041"
             },
@@ -6438,7 +6438,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 157.89,
+          "elapsed_ms": 120.67,
           "applicability_passed": true,
           "trace": [
             {
@@ -6593,7 +6593,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 2.4",
               "score": 0.07436490978157645,
-              "coverage": 0.48191675252376237,
+              "coverage": 0.4819167525237623,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=4",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#59d674a39ec3fade7e8c"
             },
@@ -6620,7 +6620,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 2",
               "score": 0.07198142414860681,
-              "coverage": 0.48191675252376237,
+              "coverage": 0.4819167525237623,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=3",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#2eca1a195471c4e32e6d"
             },
@@ -6692,7 +6692,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 129.05,
+          "elapsed_ms": 91.32,
           "applicability_passed": true,
           "trace": [
             {
@@ -6802,7 +6802,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., п. 2.1",
               "score": 0.0817028027498678,
-              "coverage": 0.8086759189551964,
+              "coverage": 0.8086759189551963,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#fef9c4c167e75be8b31b"
             },
@@ -6811,7 +6811,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., текст",
               "score": 0.08090957165520889,
-              "coverage": 0.6510461295247645,
+              "coverage": 0.6510461295247643,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#6bb5903966288f33addb"
             },
@@ -6820,7 +6820,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "1",
               "score": 0.07578804453804454,
-              "coverage": 0.6510461295247645,
+              "coverage": 0.6510461295247643,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#66f2128f93e8cd4159d6"
             },
@@ -6829,7 +6829,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., п. 2.3",
               "score": 0.07472363385406863,
-              "coverage": 0.6510461295247645,
+              "coverage": 0.6510461295247643,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#0009aa4811a969a6c6aa"
             },
@@ -6838,7 +6838,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., п. 2",
               "score": 0.073660767977197,
-              "coverage": 0.6510461295247645,
+              "coverage": 0.6510461295247643,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#c106afa27eb75243708e"
             },
@@ -6847,7 +6847,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., п. 1.1",
               "score": 0.07233227114248512,
-              "coverage": 0.6510461295247645,
+              "coverage": 0.6510461295247643,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#463953186f65456f2486"
             },
@@ -6856,7 +6856,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., п. 2.2",
               "score": 0.06977886542648531,
-              "coverage": 0.6789786268427733,
+              "coverage": 0.6789786268427731,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#b9943a3c61c719564d6b"
             },
@@ -6865,7 +6865,7 @@
               "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
               "clause": "прил., п. 2.2",
               "score": 0.06953665703665704,
-              "coverage": 0.6510461295247645,
+              "coverage": 0.6510461295247643,
               "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
               "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#5cfb9d81b90d9d6a9380"
             },
@@ -6874,7 +6874,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "регламент, п. 2.3",
               "score": 0.06896099805384001,
-              "coverage": 0.6778489869941705,
+              "coverage": 0.6778489869941703,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=3",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#c25bcca38eedc39ac3a4"
             },
@@ -6883,7 +6883,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., п. 3.2.4",
               "score": 0.06866648520007637,
-              "coverage": 0.6789786268427733,
+              "coverage": 0.6789786268427731,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#0aa7d864b1430f3d459c"
             },
@@ -6947,7 +6947,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 288.15,
+          "elapsed_ms": 208.67,
           "applicability_passed": true,
           "trace": [
             {
@@ -7217,7 +7217,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 44",
               "score": 0.07192865105908586,
-              "coverage": 0.2984418023564707,
+              "coverage": 0.2291449337066769,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=12",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#0bca8902b1b1037e6914"
             },
@@ -7226,7 +7226,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 43",
               "score": 0.06776403743315508,
-              "coverage": 0.2984418023564707,
+              "coverage": 0.2291449337066769,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=11",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#7dd4f5a7a1ee2c819cdb"
             },
@@ -7327,7 +7327,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 230.87,
+          "elapsed_ms": 159.49,
           "applicability_passed": true,
           "trace": [
             {
@@ -7588,7 +7588,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 271.25,
+          "elapsed_ms": 244.98,
           "applicability_passed": true,
           "trace": [
             {
@@ -7795,7 +7795,7 @@
               "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
               "clause": "1",
               "score": 0.0817028027498678,
-              "coverage": 0.6364759488804865,
+              "coverage": 0.6364759488804866,
               "url": "https://drive.google.com/file/d/1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm/view",
               "view_path": "data\\official\\view\\1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm.html#aed3efd89f314e34490c"
             },
@@ -7804,7 +7804,7 @@
               "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
               "clause": "преамбула",
               "score": 0.08090957165520889,
-              "coverage": 0.6364759488804865,
+              "coverage": 0.6364759488804866,
               "url": "https://drive.google.com/file/d/1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm/view",
               "view_path": "data\\official\\view\\1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm.html#747696393be5497914ac"
             },
@@ -7813,7 +7813,7 @@
               "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
               "clause": "2",
               "score": 0.07841743662639185,
-              "coverage": 0.46658024578555707,
+              "coverage": 0.4665802457855571,
               "url": "https://drive.google.com/file/d/1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm/view",
               "view_path": "data\\official\\view\\1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm.html#f80b523658c59f50c514"
             },
@@ -7822,7 +7822,7 @@
               "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
               "clause": "4",
               "score": 0.07316636851520572,
-              "coverage": 0.46658024578555707,
+              "coverage": 0.4665802457855571,
               "url": "https://drive.google.com/file/d/1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm/view",
               "view_path": "data\\official\\view\\1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm.html#20c4f74ddac3b1f0bdc7"
             },
@@ -7831,7 +7831,7 @@
               "doc_id": "15T-XGSL37xMaW9dlYTkN4Tmjs9kRmPzn",
               "clause": "прил. 1а, п. 3",
               "score": 0.07308490596161829,
-              "coverage": 0.2352910374028326,
+              "coverage": 0.23529103740283264,
               "url": "https://drive.google.com/file/d/15T-XGSL37xMaW9dlYTkN4Tmjs9kRmPzn/view",
               "view_path": "data\\official\\view\\15T-XGSL37xMaW9dlYTkN4Tmjs9kRmPzn.html#9e4894c2200a7f667bd2"
             },
@@ -7840,7 +7840,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 3 (ч. 1)",
               "score": 0.07082494969818914,
-              "coverage": 0.5785051644211967,
+              "coverage": 0.5785051644211968,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=2",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#417bbf6145979a5a0981"
             },
@@ -7849,7 +7849,7 @@
               "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
               "clause": "3",
               "score": 0.07076446280991736,
-              "coverage": 0.46658024578555707,
+              "coverage": 0.4665802457855571,
               "url": "https://drive.google.com/file/d/1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm/view",
               "view_path": "data\\official\\view\\1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm.html#2a0b697ada5f6a7d6630"
             },
@@ -7858,7 +7858,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил. 1, п. 2.3.2",
               "score": 0.0676070807649755,
-              "coverage": 0.22734419859860536,
+              "coverage": 0.22734419859860538,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#e6b2d239fb03319c6318"
             },
@@ -7867,7 +7867,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил. 1, п. 2.5.6",
               "score": 0.06758651440461741,
-              "coverage": 0.22734419859860536,
+              "coverage": 0.22734419859860538,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#54415c51ec302b496d2a"
             },
@@ -7876,7 +7876,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4.3",
               "score": 0.06756575415995705,
-              "coverage": 0.20736486004478244,
+              "coverage": 0.20736486004478247,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#716e42eee865a05eee57"
             },
@@ -8031,7 +8031,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 152.66,
+          "elapsed_ms": 174.17,
           "applicability_passed": true,
           "trace": [
             {
@@ -8100,7 +8100,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "1",
               "score": 0.0819672131147541,
-              "coverage": 0.8370492880665144,
+              "coverage": 0.8370492880665142,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#8108ec2f27f62b7062d0"
             },
@@ -8109,7 +8109,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "11",
               "score": 0.08064516129032258,
-              "coverage": 0.7095623999315499,
+              "coverage": 0.7095623999315497,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#d7f271381804f49bc4bf"
             },
@@ -8118,7 +8118,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "13",
               "score": 0.07911706349206349,
-              "coverage": 0.5971334535795441,
+              "coverage": 0.597133453579544,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#49cdd3130fb0189a876b"
             },
@@ -8127,7 +8127,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "15",
               "score": 0.07837301587301587,
-              "coverage": 0.7095623999315499,
+              "coverage": 0.7095623999315497,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#b79e905855b0b6516dcf"
             },
@@ -8136,7 +8136,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "12",
               "score": 0.07575757575757576,
-              "coverage": 0.5467069452199583,
+              "coverage": 0.5467069452199584,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#7c0bc2c77dbbcbbbef98"
             },
@@ -8145,7 +8145,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "прил. 7, п. 1",
               "score": 0.07554535017221585,
-              "coverage": 0.35465021552088477,
+              "coverage": 0.3546502155208847,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#909f2acfc67485d93995"
             },
@@ -8172,7 +8172,7 @@
               "doc_id": "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t",
               "clause": "прил. 7, п. 1",
               "score": 0.06839957604663488,
-              "coverage": 0.2725607890885818,
+              "coverage": 0.27256078908858183,
               "url": "https://drive.google.com/file/d/19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t/view",
               "view_path": "data\\official\\view\\19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t.html#10ad6d3b6a7f45a5776c"
             },
@@ -8209,7 +8209,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 278.31,
+          "elapsed_ms": 253.76,
           "applicability_passed": true,
           "trace": [
             {
@@ -8525,7 +8525,7 @@
               "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
               "clause": "2",
               "score": 0.07647840343735866,
-              "coverage": 0.44910473151102387,
+              "coverage": 0.4491047315110238,
               "url": "https://drive.google.com/file/d/1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O/view",
               "view_path": "data\\official\\view\\1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O.html#393dbf39a94025437eb5"
             },
@@ -8534,7 +8534,7 @@
               "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
               "clause": "преамбула",
               "score": 0.07625226142017187,
-              "coverage": 0.44910473151102387,
+              "coverage": 0.4491047315110238,
               "url": "https://drive.google.com/file/d/1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O/view",
               "view_path": "data\\official\\view\\1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O.html#85882458fbffe8f7aff2"
             },
@@ -8543,7 +8543,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., текст",
               "score": 0.07436112274821953,
-              "coverage": 0.5033752887024906,
+              "coverage": 0.5033752887024905,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#2538fb63d14341cf9041"
             },
@@ -8552,7 +8552,7 @@
               "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
               "clause": "6",
               "score": 0.07132867132867132,
-              "coverage": 0.5033752887024906,
+              "coverage": 0.5033752887024905,
               "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view#page=1",
               "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#d777cd282dbd608a869e"
             },
@@ -8561,7 +8561,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.3",
               "score": 0.0673048048048048,
-              "coverage": 0.2159593439842766,
+              "coverage": 0.21595934398427657,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#689fa8270d4d2cd18927"
             },
@@ -8570,7 +8570,7 @@
               "doc_id": "1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN",
               "clause": "'2026'!C28:C28",
               "score": 0.06695674440670699,
-              "coverage": 0.2267332442718753,
+              "coverage": 0.22673324427187527,
               "url": "https://drive.google.com/file/d/1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN/view",
               "view_path": "data\\official\\view\\1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN.html#0f727f869cdb28331b37"
             },
@@ -8579,7 +8579,7 @@
               "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
               "clause": "4",
               "score": 0.06644959978293312,
-              "coverage": 0.30637736278094724,
+              "coverage": 0.3063773627809472,
               "url": "https://drive.google.com/file/d/1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O/view",
               "view_path": "data\\official\\view\\1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O.html#fbdf5f48c3995e345ffa"
             },
@@ -8588,7 +8588,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "26",
               "score": 0.07838827838827839,
-              "coverage": 0.36397495582975614,
+              "coverage": 0.3639749558297561,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#2202b44ec04267822757"
             },
@@ -8597,7 +8597,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "20",
               "score": 0.07624497703788749,
-              "coverage": 0.36397495582975614,
+              "coverage": 0.3639749558297561,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#0cb644228a6816473e16"
             },
@@ -8606,7 +8606,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "18",
               "score": 0.07341342514589896,
-              "coverage": 0.36397495582975614,
+              "coverage": 0.3639749558297561,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#48c55185fb60786f4278"
             },
@@ -8615,7 +8615,7 @@
               "doc_id": "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j",
               "clause": "прил. 1, п. 1.4",
               "score": 0.07192990832696715,
-              "coverage": 0.36397495582975614,
+              "coverage": 0.3639749558297561,
               "url": "https://drive.google.com/file/d/1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j/view#page=2",
               "view_path": "data\\official\\view\\1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j.html#387e89fb2f7a7d75a1e0"
             },
@@ -8624,7 +8624,7 @@
               "doc_id": "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t",
               "clause": "прил. 6, текст",
               "score": 0.06907889536997519,
-              "coverage": 0.36397495582975614,
+              "coverage": 0.3639749558297561,
               "url": "https://drive.google.com/file/d/19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t/view",
               "view_path": "data\\official\\view\\19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t.html#228a0a8be42c5dcda3a5"
             },
@@ -8633,7 +8633,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "прил. 6, текст",
               "score": 0.06794598436389482,
-              "coverage": 0.36397495582975614,
+              "coverage": 0.3639749558297561,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#fdde544fd7ce9f1df149"
             },
@@ -8642,7 +8642,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!A28:E28",
               "score": 0.06726464003770473,
-              "coverage": 0.36397495582975614,
+              "coverage": 0.3639749558297561,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#3699b696e346f28e176c"
             },
@@ -8651,7 +8651,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 64",
               "score": 0.0624927150748747,
-              "coverage": 0.36397495582975614,
+              "coverage": 0.3639749558297561,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=14",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#1c32209e150a29bc5686"
             },
@@ -8751,7 +8751,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 218.49,
+          "elapsed_ms": 274.34,
           "applicability_passed": true,
           "trace": [
             {
@@ -8849,7 +8849,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 44",
               "score": 0.08040593286494926,
-              "coverage": 0.6132042484223469,
+              "coverage": 0.39169771891140026,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=12",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#0bca8902b1b1037e6914"
             },
@@ -8858,7 +8858,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "преамбула",
               "score": 0.07605207860063608,
-              "coverage": 0.4344962484679415,
+              "coverage": 0.27754404806933725,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=1",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#c70518605f54b64eef2e"
             },
@@ -8867,7 +8867,7 @@
               "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
               "clause": "прил., п. 43",
               "score": 0.07470288624787776,
-              "coverage": 0.6132042484223469,
+              "coverage": 0.39169771891140026,
               "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view#page=11",
               "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#7dd4f5a7a1ee2c819cdb"
             },
@@ -8876,7 +8876,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "1",
               "score": 0.07270973963355834,
-              "coverage": 0.6132042484223469,
+              "coverage": 0.39169771891140026,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#6a3659c676ae8af400ed"
             },
@@ -8885,7 +8885,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил. 2, п. 4",
               "score": 0.07135695187165775,
-              "coverage": 0.4344962484679415,
+              "coverage": 0.27754404806933725,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=6",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#35bf2e153ba4e2389eda"
             },
@@ -8894,7 +8894,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., п. 10",
               "score": 0.07091269841269841,
-              "coverage": 0.4344962484679415,
+              "coverage": 0.27754404806933725,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=3",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#1b0460db340d6af33d2a"
             },
@@ -8903,7 +8903,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "4",
               "score": 0.07049027382562859,
-              "coverage": 0.4344962484679415,
+              "coverage": 0.27754404806933725,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=1",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#5e03a72fe1b90e3e5c8e"
             },
@@ -8912,7 +8912,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "2",
               "score": 0.07004783648619264,
-              "coverage": 0.4344962484679415,
+              "coverage": 0.27754404806933725,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=1",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#052c9347e8ff39442249"
             },
@@ -8921,7 +8921,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "3",
               "score": 0.06952678986763648,
-              "coverage": 0.4344962484679415,
+              "coverage": 0.27754404806933725,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=1",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#464bd04f92d36e83f37a"
             },
@@ -8930,7 +8930,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "1",
               "score": 0.06545893719806763,
-              "coverage": 0.4344962484679415,
+              "coverage": 0.27754404806933725,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=1",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#fcb17b66fe0a4f235f67"
             },
@@ -8939,7 +8939,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., текст",
               "score": 0.0771780303030303,
-              "coverage": 0.6432150433797519,
+              "coverage": 0.5363127744776333,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=2",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#23aed8777b29bd4008b7"
             },
@@ -8948,7 +8948,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., п. 16",
               "score": 0.07577149218940264,
-              "coverage": 0.7385736669932855,
+              "coverage": 0.6158228054181696,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=4",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#9812c8267049cb16b5ac"
             },
@@ -8957,7 +8957,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., п. 15",
               "score": 0.07467374909830153,
-              "coverage": 0.5728220756638038,
+              "coverage": 0.47761911019222636,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=4",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#21fec8dce50f552bb3f4"
             },
@@ -8966,7 +8966,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., п. 13",
               "score": 0.07452731092436975,
-              "coverage": 0.5728220756638038,
+              "coverage": 0.47761911019222636,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=4",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#f546ad50ada347043fca"
             },
@@ -8975,7 +8975,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил. 1, текст",
               "score": 0.07379983200878723,
-              "coverage": 0.8089666347092336,
+              "coverage": 0.6745164697035765,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=5",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#6f6430604f9653d2f554"
             },
@@ -8984,7 +8984,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "прил., п. 9",
               "score": 0.07088817262064642,
-              "coverage": 0.5728220756638038,
+              "coverage": 0.47761911019222636,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=3",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#991a9aa2d62f64121b55"
             },
@@ -9022,7 +9022,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 147.38,
+          "elapsed_ms": 177.39,
           "applicability_passed": true,
           "trace": [
             {
@@ -9102,7 +9102,7 @@
               "doc_id": "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j",
               "clause": "прил. 1, п. 1.1",
               "score": 0.07839556277056277,
-              "coverage": 0.6141681290776423,
+              "coverage": 0.6141681290776422,
               "url": "https://drive.google.com/file/d/1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j/view#page=2",
               "view_path": "data\\official\\view\\1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j.html#3730b80c1a6b3e6db411"
             },
@@ -9120,7 +9120,7 @@
               "doc_id": "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j",
               "clause": "прил. 1, текст",
               "score": 0.07566773504273505,
-              "coverage": 0.6141681290776423,
+              "coverage": 0.6141681290776422,
               "url": "https://drive.google.com/file/d/1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j/view#page=2",
               "view_path": "data\\official\\view\\1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j.html#51f764c6d434b6e50b44"
             },
@@ -9129,7 +9129,7 @@
               "doc_id": "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j",
               "clause": "прил. 1, п. 6.4",
               "score": 0.07341978719753336,
-              "coverage": 0.6141681290776423,
+              "coverage": 0.6141681290776422,
               "url": "https://drive.google.com/file/d/1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j/view#page=4",
               "view_path": "data\\official\\view\\1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j.html#4c7530a0a3e1ae99c74a"
             },
@@ -9138,7 +9138,7 @@
               "doc_id": "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j",
               "clause": "прил. 1, п. 6.3",
               "score": 0.0711896970457111,
-              "coverage": 0.6141681290776423,
+              "coverage": 0.6141681290776422,
               "url": "https://drive.google.com/file/d/1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j/view#page=4",
               "view_path": "data\\official\\view\\1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j.html#e2aac6a798246394fe35"
             },
@@ -9147,7 +9147,7 @@
               "doc_id": "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j",
               "clause": "прил. 1, п. 3.4",
               "score": 0.06930411881593174,
-              "coverage": 0.6141681290776423,
+              "coverage": 0.6141681290776422,
               "url": "https://drive.google.com/file/d/1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j/view#page=3",
               "view_path": "data\\official\\view\\1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j.html#f794a9204830e712e35c"
             },
@@ -9156,7 +9156,7 @@
               "doc_id": "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j",
               "clause": "прил. 1, п. 4.1",
               "score": 0.06465129040337206,
-              "coverage": 0.48305880300003484,
+              "coverage": 0.48305880300003495,
               "url": "https://drive.google.com/file/d/1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j/view#page=3",
               "view_path": "data\\official\\view\\1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j.html#4bf347e0a30a3b471dc5"
             },
@@ -9185,7 +9185,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 76.75,
+          "elapsed_ms": 78.0,
           "applicability_passed": true,
           "trace": [
             {
@@ -9239,7 +9239,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 2.2",
               "score": 0.08064516129032258,
-              "coverage": 0.7237655648117981,
+              "coverage": 0.723765564811798,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=2",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#b58e0b2e93827b9cbdf7"
             },
@@ -9248,7 +9248,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 2",
               "score": 0.07936507936507936,
-              "coverage": 0.7237655648117981,
+              "coverage": 0.723765564811798,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=2",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#af8d9ddc3eb9b4682cb5"
             },
@@ -9266,7 +9266,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4.4",
               "score": 0.07500624375624376,
-              "coverage": 0.6818178480720711,
+              "coverage": 0.681817848072071,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#77b2b2ed4d63aa974f50"
             },
@@ -9293,7 +9293,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4",
               "score": 0.07421391068373548,
-              "coverage": 0.5623291444346493,
+              "coverage": 0.5623291444346492,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#2d08d27a84b011be56f2"
             },
@@ -9302,7 +9302,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4.2",
               "score": 0.0734404898584003,
-              "coverage": 0.6818178480720711,
+              "coverage": 0.681817848072071,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#c9f1b888671c458d76b6"
             },
@@ -9311,7 +9311,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4.6",
               "score": 0.06932164170015832,
-              "coverage": 0.5623291444346493,
+              "coverage": 0.5623291444346492,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#8dab6848738014ff10d2"
             }
@@ -9331,7 +9331,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 224.13,
+          "elapsed_ms": 252.33,
           "applicability_passed": true,
           "trace": [
             {
@@ -9392,7 +9392,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 2.1",
               "score": 0.08092635961488422,
-              "coverage": 0.8348605440376372,
+              "coverage": 0.8348605440376373,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=1",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#522f830fc700af4cff81"
             },
@@ -9401,7 +9401,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.2",
               "score": 0.08019646491354583,
-              "coverage": 0.8135420257138929,
+              "coverage": 0.8135420257138927,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#40775a900c3898ed7be6"
             },
@@ -9410,7 +9410,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.3",
               "score": 0.08013312852022529,
-              "coverage": 0.8135420257138929,
+              "coverage": 0.8135420257138927,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#689fa8270d4d2cd18927"
             },
@@ -9455,7 +9455,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.4",
               "score": 0.07082590612002376,
-              "coverage": 0.8135420257138929,
+              "coverage": 0.8135420257138927,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#620ab361f46c0c6959b8"
             },
@@ -9482,7 +9482,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил. 1, текст (ч. 1)",
               "score": 0.06908493000042296,
-              "coverage": 0.49841914868918435,
+              "coverage": 0.4984191486891844,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=6",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#c980f2b78a0af2045e54"
             }
@@ -9502,7 +9502,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 60.04,
+          "elapsed_ms": 64.26,
           "applicability_passed": true,
           "trace": [
             {
@@ -9664,7 +9664,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 63.74,
+          "elapsed_ms": 70.29,
           "applicability_passed": true,
           "trace": [
             {
@@ -9827,7 +9827,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "прил. 1, п. 2.5.4",
               "score": 0.07168229610684854,
-              "coverage": 0.34761211646808493,
+              "coverage": 0.3476121164680849,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#45a0e8113a628ed20c63"
             },
@@ -9865,7 +9865,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 87.13,
+          "elapsed_ms": 96.17,
           "applicability_passed": true,
           "trace": [
             {
@@ -10011,7 +10011,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 182.48,
+          "elapsed_ms": 238.09,
           "applicability_passed": true,
           "trace": [
             {
@@ -10056,7 +10056,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!E1:E1",
               "score": 0.08014952301209573,
-              "coverage": 0.5126346346657619,
+              "coverage": 0.4449456709098493,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#b225e55dc5aa3149188c"
             },
@@ -10065,7 +10065,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!A41:A41",
               "score": 0.07251545629154738,
-              "coverage": 0.604737250705574,
+              "coverage": 0.5248869341705845,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#2437aa086428bb2df4fa"
             },
@@ -10074,7 +10074,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!E3:E3",
               "score": 0.06902837524456375,
-              "coverage": 0.5126346346657619,
+              "coverage": 0.4449456709098493,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#50fe8caa50bdb6acf672"
             },
@@ -10083,7 +10083,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!E6:E6",
               "score": 0.06851136095087708,
-              "coverage": 0.5126346346657619,
+              "coverage": 0.4449456709098493,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#6df9060e791c99b4fddb"
             },
@@ -10092,7 +10092,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!A10:A10",
               "score": 0.06822027063878469,
-              "coverage": 0.5126346346657619,
+              "coverage": 0.4449456709098493,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#c30acaaf0ec559124c12"
             },
@@ -10101,7 +10101,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!A8:I8",
               "score": 0.06817150063051702,
-              "coverage": 1.0,
+              "coverage": 0.8679586606549793,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#ac9b2011c2a257302476"
             },
@@ -10110,7 +10110,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!E5:H5",
               "score": 0.0681384445823122,
-              "coverage": 0.5126346346657619,
+              "coverage": 0.4449456709098493,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#def1680e9b2234dfe8fb"
             },
@@ -10119,7 +10119,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!E4:E4",
               "score": 0.06756231573304744,
-              "coverage": 0.5126346346657619,
+              "coverage": 0.4449456709098493,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#c3033afb17d567e602f4"
             },
@@ -10128,7 +10128,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!A40:A40",
               "score": 0.06671450100887122,
-              "coverage": 0.5126346346657619,
+              "coverage": 0.4449456709098493,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#37460c8798c17d4c38ab"
             },
@@ -10137,7 +10137,7 @@
               "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
               "clause": "'смет_РЦНИ с физ.лицами'!A39:F39",
               "score": 0.06507717024719295,
-              "coverage": 0.5126346346657619,
+              "coverage": 0.4449456709098493,
               "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
               "view_path": "data\\official\\view\\1GknepK18y5LhDnoLkKQdzcwlMzBBs45y.html#da5a3f1f23778ec795f1"
             }
@@ -10157,7 +10157,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 156.91,
+          "elapsed_ms": 179.07,
           "applicability_passed": true,
           "trace": [
             {
@@ -10336,7 +10336,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!A8:U8",
               "score": 0.07912506400409626,
-              "coverage": 0.5533119502573838,
+              "coverage": 0.5533119502573839,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#6cc60d0ec1b0ba408d62"
             },
@@ -10345,7 +10345,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смет_поквартально'!A8:M8",
               "score": 0.07789224664224664,
-              "coverage": 0.5533119502573838,
+              "coverage": 0.5533119502573839,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#b22f84f661d0f65c8eef"
             },
@@ -10399,7 +10399,7 @@
               "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
               "clause": "прил., п. 27 (ч. 1)",
               "score": 0.06831040176114475,
-              "coverage": 0.49469869220795865,
+              "coverage": 0.4946986922079586,
               "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
               "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#a71eb38e574ccce2cd3b"
             },
@@ -10491,7 +10491,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 215.14,
+          "elapsed_ms": 183.81,
           "applicability_passed": true,
           "trace": [
             {
@@ -10536,7 +10536,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смет_поквартально'!I1:I1",
               "score": 0.0819672131147541,
-              "coverage": 1.0,
+              "coverage": 0.656652825007443,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#363310512ca4dfcbe713"
             },
@@ -10545,7 +10545,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!Q1:Q1",
               "score": 0.07535797535797537,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#ad65a6c9bc3e981bbcdd"
             },
@@ -10554,7 +10554,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!E3:E3",
               "score": 0.06759857789269555,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#4f2ee20eb50e3f89150e"
             },
@@ -10563,7 +10563,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смет_поквартально'!A204:A204",
               "score": 0.064563258911085,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#2dd761ea239ec9479e5f"
             },
@@ -10572,7 +10572,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!E6:E6",
               "score": 0.06426594714265946,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#a0155648a1165aba3876"
             },
@@ -10581,7 +10581,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смет_поквартально'!A7:M7",
               "score": 0.06415121344347845,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#b1d1d58eb759982ea237"
             },
@@ -10590,7 +10590,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!A201:R201",
               "score": 0.06370476003147128,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#f195f4013564861b629f"
             },
@@ -10599,7 +10599,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!A204:A204",
               "score": 0.06338426711941143,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#68f209a88ac71f525887"
             },
@@ -10608,7 +10608,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!A202:A202",
               "score": 0.0627027027027027,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#cdbc3bd4995a1eb118f2"
             },
@@ -10617,7 +10617,7 @@
               "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
               "clause": "'смета_помесячно'!E4:E4",
               "score": 0.06259311534540893,
-              "coverage": 0.47712526023372337,
+              "coverage": 0.3133056500148859,
               "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
               "view_path": "data\\official\\view\\1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv.html#bad2b519053aa69aa504"
             }
@@ -10637,7 +10637,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 130.11,
+          "elapsed_ms": 90.76,
           "applicability_passed": true,
           "trace": [
             {
@@ -10816,7 +10816,7 @@
               "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
               "clause": "2",
               "score": 0.07912506400409626,
-              "coverage": 0.25924363575983156,
+              "coverage": 0.2592436357598315,
               "url": "https://drive.google.com/file/d/1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O/view",
               "view_path": "data\\official\\view\\1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O.html#393dbf39a94025437eb5"
             },
@@ -10944,7 +10944,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 256.27,
+          "elapsed_ms": 156.39,
           "applicability_passed": true,
           "trace": [
             {
@@ -11043,7 +11043,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "прил. 2, текст",
               "score": 0.07737562983464623,
-              "coverage": 0.7452858912339723,
+              "coverage": 0.7452858912339722,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#53fae3aa35428e7d5394"
             },
@@ -11052,7 +11052,7 @@
               "doc_id": "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t",
               "clause": "прил. 2, текст",
               "score": 0.07711180232761333,
-              "coverage": 0.7452858912339723,
+              "coverage": 0.7452858912339722,
               "url": "https://drive.google.com/file/d/19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t/view",
               "view_path": "data\\official\\view\\19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t.html#44c225b92ba8a9814016"
             },
@@ -11061,7 +11061,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "9 (ч. 2)",
               "score": 0.07652215114901682,
-              "coverage": 0.4729688702577589,
+              "coverage": 0.4729688702577588,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#e37084e5368beb696811"
             },
@@ -11070,7 +11070,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "1",
               "score": 0.07619047619047618,
-              "coverage": 0.4058566829131672,
+              "coverage": 0.4058566829131671,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#8108ec2f27f62b7062d0"
             },
@@ -11079,7 +11079,7 @@
               "doc_id": "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t",
               "clause": "прил. 5, текст",
               "score": 0.07558258417063282,
-              "coverage": 0.3755020478701854,
+              "coverage": 0.3755020478701853,
               "url": "https://drive.google.com/file/d/19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t/view",
               "view_path": "data\\official\\view\\19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t.html#6f4b089dc7ac103e49da"
             },
@@ -11088,7 +11088,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "15",
               "score": 0.07379877542548775,
-              "coverage": 0.46843763787821124,
+              "coverage": 0.46843763787821113,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#b79e905855b0b6516dcf"
             },
@@ -11097,7 +11097,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "прил. 5, текст",
               "score": 0.07304175104151887,
-              "coverage": 0.3755020478701854,
+              "coverage": 0.3755020478701853,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#0630b5327b6b5e4a8793"
             },
@@ -11106,7 +11106,7 @@
               "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
               "clause": "5",
               "score": 0.07291666666666666,
-              "coverage": 0.26018227721934073,
+              "coverage": 0.2601822772193407,
               "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
               "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#538f5ea8d81cf1809aa2"
             },
@@ -11115,7 +11115,7 @@
               "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
               "clause": "17",
               "score": 0.07146916737709577,
-              "coverage": 0.3358051483672761,
+              "coverage": 0.335805148367276,
               "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
               "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#84209ca4aeced933f3ae"
             },
@@ -11124,7 +11124,7 @@
               "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
               "clause": "3",
               "score": 0.07052080339751572,
-              "coverage": 0.29053691226232253,
+              "coverage": 0.2905369122623225,
               "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view#page=1",
               "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#464bd04f92d36e83f37a"
             },
@@ -11196,7 +11196,7 @@
               "fragment_found": true
             }
           ],
-          "elapsed_ms": 369.26,
+          "elapsed_ms": 337.29,
           "applicability_passed": true,
           "trace": [
             {
@@ -11332,7 +11332,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 2.2",
               "score": 0.08064516129032258,
-              "coverage": 0.7237655648117981,
+              "coverage": 0.723765564811798,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=2",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#b58e0b2e93827b9cbdf7"
             },
@@ -11341,7 +11341,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 2",
               "score": 0.07936507936507936,
-              "coverage": 0.7237655648117981,
+              "coverage": 0.723765564811798,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=2",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#af8d9ddc3eb9b4682cb5"
             },
@@ -11359,7 +11359,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4.4",
               "score": 0.07500624375624376,
-              "coverage": 0.6818178480720711,
+              "coverage": 0.681817848072071,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#77b2b2ed4d63aa974f50"
             },
@@ -11386,7 +11386,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4",
               "score": 0.07421391068373548,
-              "coverage": 0.5623291444346493,
+              "coverage": 0.5623291444346492,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#2d08d27a84b011be56f2"
             },
@@ -11395,7 +11395,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4.2",
               "score": 0.0734404898584003,
-              "coverage": 0.6818178480720711,
+              "coverage": 0.681817848072071,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#c9f1b888671c458d76b6"
             },
@@ -11404,7 +11404,7 @@
               "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
               "clause": "прил., п. 4.6",
               "score": 0.06932164170015832,
-              "coverage": 0.5623291444346493,
+              "coverage": 0.5623291444346492,
               "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view#page=3",
               "view_path": "data\\official\\view\\14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv.html#8dab6848738014ff10d2"
             },
@@ -11503,7 +11503,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 2.1",
               "score": 0.08092635961488422,
-              "coverage": 0.8348605440376372,
+              "coverage": 0.8348605440376373,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=1",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#522f830fc700af4cff81"
             },
@@ -11512,7 +11512,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.2",
               "score": 0.08019646491354583,
-              "coverage": 0.8135420257138929,
+              "coverage": 0.8135420257138927,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#40775a900c3898ed7be6"
             },
@@ -11521,7 +11521,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.3",
               "score": 0.08013312852022529,
-              "coverage": 0.8135420257138929,
+              "coverage": 0.8135420257138927,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#689fa8270d4d2cd18927"
             },
@@ -11566,7 +11566,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил., п. 6.4",
               "score": 0.07082590612002376,
-              "coverage": 0.8135420257138929,
+              "coverage": 0.8135420257138927,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=5",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#620ab361f46c0c6959b8"
             },
@@ -11593,7 +11593,7 @@
               "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
               "clause": "прил. 1, текст (ч. 1)",
               "score": 0.06908493000042296,
-              "coverage": 0.49841914868918435,
+              "coverage": 0.4984191486891844,
               "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view#page=6",
               "view_path": "data\\official\\view\\1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12.html#c980f2b78a0af2045e54"
             }

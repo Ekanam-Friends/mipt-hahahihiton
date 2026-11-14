@@ -155,7 +155,10 @@ class HybridSearcher:
         if not q:
             return 0.0
         # вес слова = его idf: «командировка» важнее «оформить»
-        w = {t: self.words.idf.get(t, 0.0) for t in q}
+        # OOV terms carry the strongest known query weight. This penalizes an
+        # unsupported topic without letting a single paraphrase dominate it.
+        unknown_idf = max((self.words.idf[t] for t in q if t in self.words.idf), default=1.0)
+        w = {t: self.words.idf.get(t, unknown_idf) for t in q}
         tot = sum(w.values()) or 1.0
         return sum(v for t, v in w.items() if t in self._token_sets[i]) / tot
 

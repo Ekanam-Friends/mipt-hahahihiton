@@ -19,6 +19,7 @@ from typing import Protocol
 import httpx
 import numpy as np
 from .privacy import check_provider, local_only
+from .budget import remaining_timeout
 
 
 class LLMClient(Protocol):
@@ -37,6 +38,7 @@ class OpenAICompatClient:
     def complete(self, system: str, user: str, *, temperature: float = 0.0, response_schema: dict | None = None) -> str:
         r = self.http.post(
             f"{self.base_url}/chat/completions",
+            timeout=remaining_timeout(float(os.environ.get('REGNAV_LLM_TIMEOUT', '600'))),
             headers={"Authorization": f"Bearer {self.api_key}"},
             json={
                 "model": self.model,
