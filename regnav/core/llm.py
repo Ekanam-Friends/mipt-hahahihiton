@@ -18,26 +18,32 @@ from typing import Protocol
 
 import httpx
 import numpy as np
+from .privacy import check_provider, local_only
 
 
 class LLMClient(Protocol):
-    def complete(self, system: str, user: str, *, temperature: float = 0.0) -> str: ...
+    def complete(self, system: str, user: str, *, temperature: float = 0.0, response_schema: dict | None = None) -> str: ...
 
 
 class OpenAICompatClient:
     def __init__(self, base_url: str | None = None, api_key: str | None = None, model: str | None = None):
         self.base_url = (base_url or os.environ["OPENAI_BASE_URL"]).rstrip("/")
+        check_provider('openai', self.base_url)
         self.api_key = api_key or os.environ.get("OPENAI_API_KEY", "EMPTY")
         self.model = model or os.environ.get("OPENAI_MODEL", "ai-sage/GigaChat-20B-A3B-instruct")
-        self.http = httpx.Client(timeout=120)
+        self.http = httpx.Client(timeout=float(os.environ.get("REGNAV_LLM_TIMEOUT", "600")),
+                                 trust_env=not local_only(), follow_redirects=False)
 
-    def complete(self, system: str, user: str, *, temperature: float = 0.0) -> str:
+    def complete(self, system: str, user: str, *, temperature: float = 0.0, response_schema: dict | None = None) -> str:
         r = self.http.post(
             f"{self.base_url}/chat/completions",
             headers={"Authorization": f"Bearer {self.api_key}"},
             json={
                 "model": self.model,
                 "temperature": temperature,
+                "max_tokens": int(os.environ.get("REGNAV_MAX_TOKENS", "1800")),
+                **({"response_format": {"type": "json_schema", "json_schema": {
+                    "name": "regnav", "strict": True, "schema": response_schema}}} if response_schema else {}),
                 "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
             },
         )
@@ -50,6 +56,7 @@ class GigaChatClient:
     API = "https://gigachat.devices.sberbank.ru/api/v1"
 
     def __init__(self, auth_key: str | None = None, scope: str | None = None, model: str | None = None):
+        check_provider('gigachat')
         self.auth_key = auth_key or os.environ["GIGACHAT_AUTH_KEY"]
         self.scope = scope or os.environ.get("GIGACHAT_SCOPE", "GIGACHAT_API_PERS")
         self.model = model or os.environ.get("GIGACHAT_MODEL", "GigaChat")
@@ -71,7 +78,7 @@ class GigaChatClient:
         self._token, self._exp = j["access_token"], j["expires_at"] / 1000
         return self._token
 
-    def complete(self, system: str, user: str, *, temperature: float = 0.0) -> str:
+    def complete(self, system: str, user: str, *, temperature: float = 0.0, response_schema: dict | None = None) -> str:
         r = self.http.post(
             f"{self.API}/chat/completions",
             headers={"Authorization": f"Bearer {self._auth()}"},
@@ -99,6 +106,7 @@ class GigaChatClient:
 
 def client_from_env() -> LLMClient | None:
     kind = os.environ.get("REGNAV_LLM", "extractive").lower()
+    check_provider(kind, os.environ.get('OPENAI_BASE_URL'))
     if kind == "gigachat":
         return GigaChatClient()
     if kind == "openai":

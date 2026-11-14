@@ -1,0 +1,76 @@
+{
+  "scope": "Recorded local completions reproduced through current code with exact prompt checks; compare substantive fields separately from metadata",
+  "inference_report": "data\\official\\e3-procedure-inference-report.json",
+  "inference_report_sha256": "e907a980489f0711ff8c166405496854d3b3ac8674b9ba4380d7b82ee3c22a2d",
+  "results": [
+    {
+      "id": "negative-mortgage",
+      "changed_fields": [],
+      "substantive_fields_unchanged": true,
+      "answer_sha256": "d9cd2805819ebfc326aeaf70c40fec73a24b25623a94644e5382831f576a904b",
+      "status_matches": true,
+      "gold_cited": true
+    },
+    {
+      "id": "negative-secret",
+      "changed_fields": [],
+      "substantive_fields_unchanged": true,
+      "answer_sha256": "d82f6e8a171256e1e1d79dc469ff5ce8afcabf8ad7d4f79a6c451eaebe22ca38",
+      "status_matches": true,
+      "gold_cited": true
+    },
+    {
+      "id": "partial-support-mortgage",
+      "changed_fields": [
+        "sources",
+        "warnings",
+        "applicability"
+      ],
+      "substantive_fields_unchanged": true,
+      "answer_sha256": "92663f126cb0cc60aa451d9aeebb4d9658a273fedadcf535268633bd39f57d92",
+      "status_matches": true,
+      "gold_cited": true
+    },
+    {
+      "id": "procedure-datacenter",
+      "changed_fields": [
+        "sources",
+        "warnings",
+        "applicability"
+      ],
+      "substantive_fields_unchanged": true,
+      "answer_sha256": "6e5e72f9de54c2ff6833b3b24ac2b0af3f9056e07142d72823e9dde65b4f07c1",
+      "status_matches": true,
+      "gold_cited": true
+    },
+    {
+      "id": "procedure-support-datacenter",
+      "changed_fields": [
+        "sources",
+        "warnings",
+        "applicability"
+      ],
+      "substantive_fields_unchanged": true,
+      "answer_sha256": "44f75f311457b8a55bb11abd1fd5b707307e1c88740dd4e947c5d1f22b58eef4",
+      "status_matches": true,
+      "gold_cited": true
+    },
+    {
+      "id": "procedure-recruitment",
+      "changed_fields": [],
+      "substantive_fields_unchanged": true,
+      "answer_sha256": "47d9a6154e8b2b9b5c9d10035d6c265424606eab51efb9eb89704052972c700e",
+      "status_matches": true,
+      "gold_cited": true
+    },
+    {
+      "id": "procedure-fls-3065",
+      "changed_fields": [],
+      "substantive_fields_unchanged": true,
+      "answer_sha256": "7b1d7936cc0fb4fa63db1340ba4bd04e8c528b4c2a6260c3a84e6b20482e296d",
+      "status_matches": true,
+      "gold_cited": true
+    }
+  ],
+  "passed": true
+}

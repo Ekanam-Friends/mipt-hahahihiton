@@ -1,0 +1,41 @@
+{
+  "started_at": "2026-11-13T00:37:06.627549+00:00",
+  "finished_at": "2026-11-13T00:37:08.886974+00:00",
+  "command": [
+    "C:\\Users\\Dell\\Desktop\\Ekanam-Friends\\mipt-hahahihiton\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "pytest",
+    "-q"
+  ],
+  "returncode": 0,
+  "stdout": "........................................................................ [ 80%]\n..................                                                       [100%]\n90 passed in 1.54s\n",
+  "stderr": "",
+  "files_sha256": {
+    "regnav\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "regnav\\__main__.py": "4db2864ad3ea198f49a6e361f4be2f9a4d6bc5b8939622a1000981046baaa140",
+    "regnav\\core\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "regnav\\core\\extract.py": "de644b0dd15da47317d238e19c86b893c52929a4fb1239555e0e234b54e58bfe",
+    "regnav\\core\\grounding.py": "9b47081e66da8fa2d7534137ec03edf69a1da5af58a8caee1bff4a203ec6c3c3",
+    "regnav\\core\\ingest.py": "9cc300a639d6f65f65c9cc1aaa0b22ec3c7b3288fc3e74fad09d666eb375fd24",
+    "regnav\\core\\llm.py": "f94fff0394dc063b15c92061e306bebc4c16d4638bdf97c75291f0834b02710b",
+    "regnav\\core\\parse.py": "864a5653bb77b539b5e1a73ab700f156bc5e5f83fd3722a1c9971bc8585d7a79",
+    "regnav\\core\\pipeline.py": "3746eba3cebd58cd84a1c2171a4feb90d7627ec4e210ce81189543163490877a",
+    "regnav\\core\\revisions.py": "3632b1355dd1f806fe94aaf9409bce13d63d3aad91610415c59e807f7f7cbb96",
+    "regnav\\core\\search.py": "a3591fcb18888d463baee5fc8abd3ae555aa63f1911224242e9e4dba823d6a1a",
+    "regnav\\core\\text.py": "b251ecde1313c17140243a9088e8c1db2d086972784b322ff4cfde3d8f9fc4b3",
+    "regnav\\core\\verify.py": "97c3cbe5ce1488217b133aa6f5c5297192b904da347be3633a38d52a5775c372",
+    "regnav\\sources\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "regnav\\sources\\mipt.py": "3fcfba4db9c29e65848ee6dd182dee2efefc8cfa0fb8b069b27b0f472022703e",
+    "tests\\test_core.py": "d293b9c9891953efa725b92df66df657908db23f2c1fc2549220530b90bae8f2",
+    "tests\\test_e2.py": "eccb5567e9c3cf00f04b851c941eb0480373c05aa4bade2c9d02ab017ceff818",
+    "tests\\test_e3.py": "d20ce3bd7660b3bc87b2bfd69342051c0c770ddfa9d32dc11592ab92c793e4f4",
+    "tests\\test_e3_acceptance.py": "6029fafb4f376c1b1b2997c3a4c35dc39d9dbe2dff2092b5ff0ddd0335370a56",
+    "tests\\test_ingest.py": "3a998fc96e36982be80f869a40c17bdf2bb957a5532920af4c5d934527308c23",
+    "scripts\\apply_e3_reviews.py": "93f54f3c5e33fd5294dca767845744c4d458e06422ed82d671cbddb119bcf1ba",
+    "scripts\\verify_e3.py": "64cd3d81683fd92ec329f530a4836f90831abb1e3cecf8acb0e37d9c1636175b"
+  },
+  "snapshot_stable": true,
+  "passed": true
+}

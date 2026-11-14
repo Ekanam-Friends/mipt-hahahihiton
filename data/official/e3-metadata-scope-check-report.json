@@ -1,0 +1,36 @@
+{
+  "scope": "Postprocessing comparison only; semantic source reviews remain separate",
+  "checks": [
+    {
+      "id": "travel",
+      "unchanged_substantive_fields": true,
+      "gold_cited": true
+    },
+    {
+      "id": "fls-composite",
+      "unchanged_substantive_fields": true,
+      "gold_cited": true
+    },
+    {
+      "id": "estimate-composite",
+      "unchanged_substantive_fields": true,
+      "gold_cited": true
+    },
+    {
+      "id": "structure",
+      "unchanged_substantive_fields": true,
+      "gold_cited": true
+    },
+    {
+      "id": "form-2019",
+      "unchanged_substantive_fields": true,
+      "gold_cited": true
+    },
+    {
+      "id": "long-composite",
+      "unchanged_substantive_fields": true,
+      "gold_cited": true
+    }
+  ],
+  "passed": true
+}

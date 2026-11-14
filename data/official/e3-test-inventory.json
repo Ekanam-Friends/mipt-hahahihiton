@@ -1,0 +1,945 @@
+{
+  "generated_at": "2026-11-13T12:34:58.793926+00:00",
+  "scope": "Evidence inventory, not automatic semantic acceptance",
+  "reports": [
+    {
+      "path": "data\\official\\e3-acceptance-report.json",
+      "sha256": "c587bad3a99786d376638655773edceeb7efe0b8566c2dedc385b757829c053d",
+      "file_modified_at": "2026-11-13T12:34:54.317918+00:00",
+      "created_at": "2026-11-13T12:34:54.118099+00:00",
+      "recorded": 0,
+      "statuses": {},
+      "source_reviews": {},
+      "quality_acceptance": null,
+      "check_passed": true,
+      "implementation_matches": true
+    },
+    {
+      "path": "data\\official\\e3-adversarial-report.json",
+      "sha256": "91bfb87f91168d253c215ef51b71c6a075a71ee5d792913e5dc965dccb5d46f4",
+      "file_modified_at": "2026-11-12T23:39:07.150654+00:00",
+      "created_at": "2026-11-12T23:39:07.148652+00:00",
+      "recorded": 1,
+      "statuses": {
+        "answer": 1
+      },
+      "source_reviews": {
+        "not_recorded": 1
+      },
+      "quality_acceptance": null,
+      "check_passed": true,
+      "implementation_matches": null
+    },
+    {
+      "path": "data\\official\\e3-answer-report.json",
+      "sha256": "808aa6d8175b24df928fb64efdef4ab35d886f09c00abf7714dc8b74f50f7d8f",
+      "file_modified_at": "2026-11-12T13:39:20.226362+00:00",
+      "created_at": "2026-11-12T12:55:34.819775+00:00",
+      "recorded": 26,
+      "statuses": {
+        "answer": 9,
+        "error": 17
+      },
+      "source_reviews": {
+        "pending": 26
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-audit-shape-baseline-report.json",
+      "sha256": "1be1278a5b8acb9b350ff456898816449a47888f4ec1df7d92a93364a2c67071",
+      "file_modified_at": "2026-11-12T11:48:09.031703+00:00",
+      "created_at": "2026-11-12T11:45:47.543227+00:00",
+      "recorded": 1,
+      "statuses": {
+        "error": 1
+      },
+      "source_reviews": {
+        "pending": 1
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-baseline-report.json",
+      "sha256": "b6bcdbeb59a05cf84b36325b4c889fb47288403d28b37c4558763da37760c26f",
+      "file_modified_at": "2026-11-12T11:21:21.778920+00:00",
+      "created_at": "2026-11-12T11:18:51.118602+00:00",
+      "recorded": 2,
+      "statuses": {
+        "error": 2
+      },
+      "source_reviews": {
+        "not_recorded": 2
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": null
+    },
+    {
+      "path": "data\\official\\e3-before-borrowing-question-fix-report.json",
+      "sha256": "0001cebaae0c70241fb11910fa61f814f9dfb02f5c7a52a9d47e8a990496d2dc",
+      "file_modified_at": "2026-11-13T08:00:57.429667+00:00",
+      "created_at": "2026-11-13T07:40:29.115650+00:00",
+      "recorded": 20,
+      "statuses": {
+        "answer": 16,
+        "clarify": 3,
+        "error": 1
+      },
+      "source_reviews": {
+        "pending": 20
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-before-city-abbreviation-fix-report.json",
+      "sha256": "a1eb2a55373e0b957cb90665c4626e9b103ff6248b3aa5cbbf06a30f3e46e948",
+      "file_modified_at": "2026-11-13T12:06:28.128175+00:00",
+      "created_at": "2026-11-13T08:04:26.355063+00:00",
+      "recorded": 24,
+      "statuses": {
+        "answer": 20,
+        "clarify": 3,
+        "error": 1
+      },
+      "source_reviews": {
+        "pending": 24
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-before-clause-answer-report.json",
+      "sha256": "95176b805139184ffed12f20ba6d521c2ee80a27074b7c8be94191b97231df4e",
+      "file_modified_at": "2026-11-12T21:47:31.672511+00:00",
+      "created_at": "2026-11-12T21:47:25.572778+00:00",
+      "recorded": 1,
+      "statuses": {
+        "answer": 1
+      },
+      "source_reviews": {
+        "pending": 1
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-before-composite-isolation-report.json",
+      "sha256": "97784e5e5141e7d99d44b29dce2bb9fd4c947128d299c131b9b61b912aff641f",
+      "file_modified_at": "2026-11-13T00:24:21.212475+00:00",
+      "created_at": "2026-11-13T00:12:39.779243+00:00",
+      "recorded": 6,
+      "statuses": {
+        "answer": 5,
+        "clarify": 1
+      },
+      "source_reviews": {
+        "pending": 6
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-before-fact-relevance-report.json",
+      "sha256": "7307a82c318bfc53622c33d504e8dd39d19ba08f0a7a368137ec21ad8f64be6e",
+      "file_modified_at": "2026-11-13T00:12:37.475350+00:00",
+      "created_at": "2026-11-12T22:55:46.231746+00:00",
+      "recorded": 8,
+      "statuses": {
+        "answer": 8
+      },
+      "source_reviews": {
+        "pending": 6,
+        "rejected": 2
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-before-parser-report.json",
+      "sha256": "d4c765db1f74724d22f1f119c6e55a1a17c3d0fb3829f0e3e496997dd72631ac",
+      "file_modified_at": "2026-11-12T21:27:04.475888+00:00",
+      "created_at": "2026-11-12T21:25:00.641732+00:00",
+      "recorded": 1,
+      "statuses": {
+        "answer": 1
+      },
+      "source_reviews": {
+        "pending": 1
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-before-relevance-answer-report.json",
+      "sha256": "fb5e78e4973f2e37a6ee680f819bc953fabf44a9bbd6847ff1f1e308edc2601e",
+      "file_modified_at": "2026-11-12T22:15:50.650865+00:00",
+      "created_at": "2026-11-12T22:15:42.351782+00:00",
+      "recorded": 1,
+      "statuses": {
+        "answer": 1
+      },
+      "source_reviews": {
+        "pending": 1
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-before-relevance-report.json",
+      "sha256": "0c78d9ebea93098f2829d7c774d118f0c1a943b3365d7ef124fabf2669bca792",
+      "file_modified_at": "2026-11-12T22:46:15.497151+00:00",
+      "created_at": "2026-11-12T22:15:53.624249+00:00",
+      "recorded": 5,
+      "statuses": {
+        "not_found": 2,
+        "partial": 1,
+        "answer": 2
+      },
+      "source_reviews": {
+        "pending": 5
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-compact-pilot-report.json",
+      "sha256": "a6acb785a39714e1afe9e3b5e0bf66d99050a9f97ecdee3ff4a346eecbf37a19",
+      "file_modified_at": "2026-11-12T12:16:35.637596+00:00",
+      "created_at": "2026-11-12T12:09:54.211920+00:00",
+      "recorded": 3,
+      "statuses": {
+        "partial": 3
+      },
+      "source_reviews": {
+        "pending": 3
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-context-report.json",
+      "sha256": "9ae27fcddeaf3cfb37ba2761cc6e20e2353d9da38a028c243c0bd38d41786a68",
+      "file_modified_at": "2026-11-12T12:12:35.393894+00:00",
+      "created_at": null,
+      "recorded": 0,
+      "statuses": {},
+      "source_reviews": {},
+      "quality_acceptance": null,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-current-adversarial-report.json",
+      "sha256": "1eb4e818e997f6b3a6c9f3f0f0bd1478dc0928d235413143a5c9d8d883f3930f",
+      "file_modified_at": "2026-11-13T12:32:27.415093+00:00",
+      "created_at": "2026-11-13T12:32:21.307139+00:00",
+      "recorded": 1,
+      "statuses": {
+        "answer": 1
+      },
+      "source_reviews": {
+        "not_recorded": 1
+      },
+      "quality_acceptance": null,
+      "check_passed": true,
+      "implementation_matches": true
+    },
+    {
+      "path": "data\\official\\e3-current-answer-report.json",
+      "sha256": "e10cd2409775849ab09a9c1baa9565404e058b48afb731897cd922edda2c5932",
+      "file_modified_at": "2026-11-13T12:31:57.407429+00:00",
+      "created_at": "2026-11-13T12:06:53.626567+00:00",
+      "recorded": 26,
+      "statuses": {
+        "answer": 23,
+        "clarify": 3
+      },
+      "source_reviews": {
+        "accepted": 26
+      },
+      "quality_acceptance": true,
+      "check_passed": null,
+      "implementation_matches": true
+    },
+    {
+      "path": "data\\official\\e3-current-extra-report.json",
+      "sha256": "f7a41d163365b6ce5d58cbfb026c2fe5cd350d0d18ea026ad2adc6bf84083dfe",
+      "file_modified_at": "2026-11-13T12:08:33.930110+00:00",
+      "created_at": "2026-11-13T12:07:06.656373+00:00",
+      "recorded": 7,
+      "statuses": {
+        "not_found": 2,
+        "partial": 1,
+        "answer": 4
+      },
+      "source_reviews": {
+        "accepted": 7
+      },
+      "quality_acceptance": true,
+      "check_passed": null,
+      "implementation_matches": true
+    },
+    {
+      "path": "data\\official\\e3-evidence-progress.json",
+      "sha256": "56ad3c6342b82ae70af629c21c56951cf63efa87ef89b8545c7912b46ff5b199",
+      "file_modified_at": "2026-11-13T00:27:34.985805+00:00",
+      "created_at": "2026-11-13T00:27:34.955804+00:00",
+      "recorded": 0,
+      "statuses": {},
+      "source_reviews": {},
+      "quality_acceptance": null,
+      "check_passed": true,
+      "implementation_matches": null
+    },
+    {
+      "path": "data\\official\\e3-evidence-report.json",
+      "sha256": "a89dccb4b0ac9a54a2c4262b262190054653b5b2a49be3ab0e5e6608eca810fc",
+      "file_modified_at": "2026-11-13T12:32:00.112572+00:00",
+      "created_at": "2026-11-13T12:32:00.079572+00:00",
+      "recorded": 0,
+      "statuses": {},
+      "source_reviews": {},
+      "quality_acceptance": null,
+      "check_passed": true,
+      "implementation_matches": null
+    },
+    {
+      "path": "data\\official\\e3-extra-evidence-progress.json",
+      "sha256": "4301b16cb6ee16d458d949d4a05209becc3a3546459b457942931a7738498c72",
+      "file_modified_at": "2026-11-13T12:12:56.241835+00:00",
+      "created_at": "2026-11-13T12:12:56.226828+00:00",
+      "recorded": 0,
+      "statuses": {},
+      "source_reviews": {},
+      "quality_acceptance": null,
+      "check_passed": true,
+      "implementation_matches": null
+    },
+    {
+      "path": "data\\official\\e3-extra-postprocessing-check-report.json",
+      "sha256": "fc324acf2a1c7be799f7f10c4234f2580a529bb4d19fded71db62047fc18a345",
+      "file_modified_at": "2026-11-13T07:52:02.935745+00:00",
+      "created_at": null,
+      "recorded": 0,
+      "statuses": {},
+      "source_reviews": {},
+      "quality_acceptance": null,
+      "check_passed": true,
+      "implementation_matches": null
+    },
+    {
+      "path": "data\\official\\e3-final-extra-replayed-report.json",
+      "sha256": "eebe222b6ef394b9798cc1833e9c0bfa2a3fb438f099a2bb7e08017f3ab36a88",
+      "file_modified_at": "2026-11-12T21:44:12.348881+00:00",
+      "created_at": "2026-11-12T21:37:42.499965+00:00",
+      "recorded": 4,
+      "statuses": {
+        "answer": 2,
+        "not_found": 1,
+        "error": 1
+      },
+      "source_reviews": {
+        "pending": 4
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-final-extra-report.json",
+      "sha256": "e04523563bc7d1df107e100f722711e17188eaa52cede0244cf8c16735aeef61",
+      "file_modified_at": "2026-11-12T21:37:07.148080+00:00",
+      "created_at": "2026-11-12T21:31:12.990211+00:00",
+      "recorded": 1,
+      "statuses": {
+        "answer": 1
+      },
+      "source_reviews": {
+        "pending": 1
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-final-replayed-report.json",
+      "sha256": "d1cf87f7a58a41aa485329d1e5d0085ad872f513a65f4f78cac7b2253b66535c",
+      "file_modified_at": "2026-11-12T21:37:38.654811+00:00",
+      "created_at": "2026-11-12T21:37:32.439637+00:00",
+      "recorded": 1,
+      "statuses": {
+        "answer": 1
+      },
+      "source_reviews": {
+        "pending": 1
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-final-report.json",
+      "sha256": "c4b4754415064db3c0f044eabfaebc6de979ed9dd66516dd1d2efc8f8c413b80",
+      "file_modified_at": "2026-11-12T21:29:56.318574+00:00",
+      "created_at": "2026-11-12T21:28:44.103322+00:00",
+      "recorded": 1,
+      "statuses": {
+        "answer": 1
+      },
+      "source_reviews": {
+        "pending": 1
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-isolation-only-failed-report.json",
+      "sha256": "4e082746134b06919b94f107f1ed3a312358e2349a38c2d31d3c43f24028f33b",
+      "file_modified_at": "2026-11-13T00:33:36.235512+00:00",
+      "created_at": "2026-11-13T00:26:07.686646+00:00",
+      "recorded": 5,
+      "statuses": {
+        "answer": 4,
+        "clarify": 1
+      },
+      "source_reviews": {
+        "pending": 5
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-main-before-final-audit-report.json",
+      "sha256": "d9712a6deaeada24334d51deab2e8b8cd4413be2079b6e8d1ea99a85f1fec10b",
+      "file_modified_at": "2026-11-13T02:21:18.202085+00:00",
+      "created_at": "2026-11-13T00:37:17.897761+00:00",
+      "recorded": 14,
+      "statuses": {
+        "answer": 10,
+        "clarify": 3,
+        "partial": 1
+      },
+      "source_reviews": {
+        "pending": 14
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-metadata-scope-check-report.json",
+      "sha256": "f1d343f3750e9a60fd3379eb3222ae51e03fba794001af92024f9620ff535963",
+      "file_modified_at": "2026-11-13T01:35:31.867050+00:00",
+      "created_at": null,
+      "recorded": 0,
+      "statuses": {},
+      "source_reviews": {},
+      "quality_acceptance": null,
+      "check_passed": true,
+      "implementation_matches": null
+    },
+    {
+      "path": "data\\official\\e3-metadata-scope-inference-report.json",
+      "sha256": "23fed67f53ee300bc9df7c6e4b9ea39bcdd15ac9d520168102d1d1d0c5809483",
+      "file_modified_at": "2026-11-13T01:26:56.613272+00:00",
+      "created_at": "2026-11-13T00:37:17.897761+00:00",
+      "recorded": 6,
+      "statuses": {
+        "answer": 5,
+        "clarify": 1
+      },
+      "source_reviews": {
+        "pending": 6
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-paraphrase-baseline-report.json",
+      "sha256": "e7f799188787adf96f4ed77ca123b63e3f5c5fa8ef9b1988299b61f88de7ae6c",
+      "file_modified_at": "2026-11-12T11:57:40.506036+00:00",
+      "created_at": "2026-11-12T11:49:43.760793+00:00",
+      "recorded": 2,
+      "statuses": {
+        "answer": 2
+      },
+      "source_reviews": {
+        "rejected": 1,
+        "pending": 1
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-pilot-report.json",
+      "sha256": "6337d8511b6ab57874cfb1301181b4e1617d234068f415343e90e8d129aa5e03",
+      "file_modified_at": "2026-11-12T11:18:32.900851+00:00",
+      "created_at": "2026-11-12T11:13:34.473753+00:00",
+      "recorded": 2,
+      "statuses": {
+        "error": 2
+      },
+      "source_reviews": {
+        "not_recorded": 2
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": null
+    },
+    {
+      "path": "data\\official\\e3-procedure-inference-report.json",
+      "sha256": "e907a980489f0711ff8c166405496854d3b3ac8674b9ba4380d7b82ee3c22a2d",
+      "file_modified_at": "2026-11-12T23:51:29.179262+00:00",
+      "created_at": "2026-11-12T22:55:55.985637+00:00",
+      "recorded": 7,
+      "statuses": {
+        "not_found": 2,
+        "answer": 4,
+        "partial": 1
+      },
+      "source_reviews": {
+        "pending": 7
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-qwen17-partial-run-report.json",
+      "sha256": "b73743c61c5166d8e7d714f138977789fe89131c1de3ee1432b92aa6018c72e5",
+      "file_modified_at": "2026-11-12T12:55:10.814407+00:00",
+      "created_at": "2026-11-12T12:40:50.384006+00:00",
+      "recorded": 7,
+      "statuses": {
+        "answer": 7
+      },
+      "source_reviews": {
+        "pending": 5,
+        "rejected": 2
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-qwen4-partial-run-report.json",
+      "sha256": "f7612523fe6521792a88a9485e9a96f20cf3f31080e03763e75fbe8e27d55166",
+      "file_modified_at": "2026-11-12T12:40:26.462239+00:00",
+      "created_at": "2026-11-12T12:32:09.353716+00:00",
+      "recorded": 2,
+      "statuses": {
+        "answer": 2
+      },
+      "source_reviews": {
+        "accepted": 1,
+        "pending": 1
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-qwen4-pilot-report.json",
+      "sha256": "885279640085c68e58965de2748c3596eba5bc7c2c4db7078e26360dc243fd84",
+      "file_modified_at": "2026-11-12T12:20:09.409720+00:00",
+      "created_at": "2026-11-12T12:17:49.949694+00:00",
+      "recorded": 1,
+      "statuses": {
+        "not_found": 1
+      },
+      "source_reviews": {
+        "pending": 1
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-rejected-procedure-baseline-report.json",
+      "sha256": "420a6367229249a41e66311af506ad97eae920ec2955aa1ed40ceb30d4266c72",
+      "file_modified_at": "2026-11-12T22:15:40.382240+00:00",
+      "created_at": "2026-11-12T21:47:33.882172+00:00",
+      "recorded": 6,
+      "statuses": {
+        "not_found": 2,
+        "partial": 1,
+        "answer": 3
+      },
+      "source_reviews": {
+        "pending": 4,
+        "rejected": 2
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-relevance-pilot-report.json",
+      "sha256": "045c72bc60fee53e61442cca972fa9b9b3f300a67a1af61beab8dc54e0717fdd",
+      "file_modified_at": "2026-11-12T22:52:03.444665+00:00",
+      "created_at": null,
+      "recorded": 0,
+      "statuses": {},
+      "source_reviews": {},
+      "quality_acceptance": null,
+      "check_passed": null,
+      "implementation_matches": null,
+      "diagnostic_matches": 7,
+      "diagnostic_total": 7
+    },
+    {
+      "path": "data\\official\\e3-replay-order-failed-report.json",
+      "sha256": "34e3ce0cdb394dbca3e2f27aab0dd162197eb672c8604912dc92025519df1b76",
+      "file_modified_at": "2026-11-13T00:22:17.290257+00:00",
+      "created_at": "2026-11-13T00:14:26.837364+00:00",
+      "recorded": 2,
+      "statuses": {
+        "not_found": 2
+      },
+      "source_reviews": {
+        "accepted": 2
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-retry-report.json",
+      "sha256": "a9c7c40b74ca3f032e75be1194ccb81247bf308c5a3ab33a9544108fecc5d195",
+      "file_modified_at": "2026-11-12T20:32:26.984524+00:00",
+      "created_at": "2026-11-12T20:29:45.101516+00:00",
+      "recorded": 1,
+      "statuses": {
+        "answer": 1
+      },
+      "source_reviews": {
+        "pending": 1
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-run-events.json",
+      "sha256": "88beb14eeaceaea601e711777037c7689d9d6208a397049ba7ff85219c7a609b",
+      "file_modified_at": "2026-11-13T00:29:40.677828+00:00",
+      "created_at": null,
+      "recorded": 0,
+      "statuses": {},
+      "source_reviews": {},
+      "quality_acceptance": null,
+      "check_passed": null,
+      "implementation_matches": null
+    },
+    {
+      "path": "data\\official\\e3-scoped-progress-report.json",
+      "sha256": "246314b6aa663b59d2ae2dafd60afd0daacbf75e0bb6e2ce5efeb3fae069cfe9",
+      "file_modified_at": "2026-11-13T01:33:32.375844+00:00",
+      "created_at": "2026-11-13T01:33:24.914995+00:00",
+      "recorded": 6,
+      "statuses": {
+        "answer": 5,
+        "clarify": 1
+      },
+      "source_reviews": {
+        "pending": 6
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-simple-pilot-report.json",
+      "sha256": "5e1bbd7e5c523e241ed312ea038d37f5406238499725f8604b1b0e040e23312a",
+      "file_modified_at": "2026-11-12T12:29:43.192090+00:00",
+      "created_at": "2026-11-12T12:25:58.686188+00:00",
+      "recorded": 2,
+      "statuses": {
+        "answer": 2
+      },
+      "source_reviews": {
+        "pending": 2
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-structured-baseline-report.json",
+      "sha256": "b7db2358ebf682ba6d1720ebe060beed3b0ed24627b959e726beba2cc00243d0",
+      "file_modified_at": "2026-11-12T11:44:37.812341+00:00",
+      "created_at": "2026-11-12T11:41:07.663527+00:00",
+      "recorded": 1,
+      "statuses": {
+        "error": 1
+      },
+      "source_reviews": {
+        "pending": 1
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    },
+    {
+      "path": "data\\official\\e3-unit-scope-credit-report.json",
+      "sha256": "04f10f5280cde761a9304c38fb92fbd4f143b6f3160f753e6f9e6121c9d208ae",
+      "file_modified_at": "2026-11-13T02:05:47.938073+00:00",
+      "created_at": null,
+      "recorded": 0,
+      "statuses": {},
+      "source_reviews": {},
+      "quality_acceptance": null,
+      "check_passed": true,
+      "implementation_matches": null
+    },
+    {
+      "path": "data\\official\\e3-wide-context-baseline-report.json",
+      "sha256": "fdf4a7621188efdfde4f61986f0882a9718b3e9f846aad215a81493f9388ec57",
+      "file_modified_at": "2026-11-12T12:09:24.842945+00:00",
+      "created_at": "2026-11-12T12:03:43.269534+00:00",
+      "recorded": 2,
+      "statuses": {
+        "error": 1,
+        "partial": 1
+      },
+      "source_reviews": {
+        "pending": 2
+      },
+      "quality_acceptance": false,
+      "check_passed": null,
+      "implementation_matches": false
+    }
+  ],
+  "unit_runs": [
+    {
+      "path": "data\\official\\e3-unit-runs\\20261112T235727075749Z.json",
+      "finished_at": "2026-11-12T23:57:34.166100+00:00",
+      "returncode": 0,
+      "passed": true,
+      "runner_returncode": null,
+      "snapshot_stable": true,
+      "matches_current_files": false,
+      "stdout": "........................................................................ [ 88%]\n.........                                                                [100%]\n81 passed in 4.58s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T000339747280Z.json",
+      "finished_at": "2026-11-13T00:03:43.167648+00:00",
+      "returncode": 1,
+      "passed": false,
+      "runner_returncode": null,
+      "snapshot_stable": true,
+      "matches_current_files": false,
+      "stdout": "........................................................................ [ 84%]\n.......FF....                                                            [100%]\n================================== FAILURES ===================================\n_ test_uncertain_conflict_matters_only_when_both_sides_are_actually_used[True-clarify] _\n\ninclude_old = True, status = 'clarify'\n\n    @pytest.mark.parametrize('include_old,status', [(True, 'clarify'), (False, 'answer')])\n    def test_uncertain_conflict_matters_only_when_both_sides_are_actually_used(include_old, status):\n        from regnav.core.revisions import RevisionRegistry\n        chunks = [Chunk('old', 'old', 'Старый порядок', '2.3', '', 'Номер присваивает сотрудник ПФО.'),\n                  Chunk('new', 'new', 'Новый порядок', '2.2', '', 'Номер присваивает сотрудник ФЭУ.'),\n                  Chunk('other', 'other', 'Дополнение', '2.2', '', 'Номер присваивает сотрудник ФЭУ по данным карточки проекта.')]\n        class Search:\n            def __init__(self):\n                self.chunks = chunks\n    \n            def retrieve(self, *args):\n                return [('номер', [Hit(c, 1, 1, {}) for c in self.chunks])]\n    \n        class Reasoner:\n            def rewrite(self, question, history):\n                return question\n    \n            def checklist(self, question, hits):\n                selected = chunks[:2] if include_old else chunks[1:]\n                return {'status': 'answer', 'kind': 'fact',\n                        'summary': [{'text': c.text, 'evidence': [{'chunk_id': c.chunk_id, 'quote': c.text}]} for c in selected],\n                        'steps': [], 'missing_information': [], 'clarifying_question': None,\n                        '_audit': {'summary_supported': [True, True], 'steps_supported': [], 'complete': True,\n                                   'ordered': True, 'status_supported': True, 'missing_information': [], 'conflicts': []}}\n        registry = RevisionRegistry({'documents': {'old': {'effective_from': '2017-05-01', 'uncertainty': 'Применимость не подтверждена'},\n                                                   'new': {'effective_from': '2021-12-01'}, 'other': {'effective_from': '2024-12-28'}},\n            'conflicts': [{'type': 'possible_conflict', 'doc_ids': ['old', 'new', 'other'], 'evidence': []}]})\n>       answer = Navigator(Search(), Reasoner(), registry=registry).ask('Кто присваивает номер?')\n\ntests\\test_e3_acceptance.py:249: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nregnav\\core\\pipeline.py:538: in ask\n    cautions = [i[\"message\"] for i in issues]\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n.0 = <list_iterator object at 0x0000020E03F82EC0>\n\n>   cautions = [i[\"message\"] for i in issues]\nE   KeyError: 'message'\n\nregnav\\core\\pipeline.py:538: KeyError\n_ test_uncertain_conflict_matters_only_when_both_sides_are_actually_used[False-answer] _\n\ninclude_old = False, status = 'answer'\n\n    @pytest.mark.parametrize('include_old,status', [(True, 'clarify'), (False, 'answer')])\n    def test_uncertain_conflict_matters_only_when_both_sides_are_actually_used(include_old, status):\n        from regnav.core.revisions import RevisionRegistry\n        chunks = [Chunk('old', 'old', 'Старый порядок', '2.3', '', 'Номер присваивает сотрудник ПФО.'),\n                  Chunk('new', 'new', 'Новый порядок', '2.2', '', 'Номер присваивает сотрудник ФЭУ.'),\n                  Chunk('other', 'other', 'Дополнение', '2.2', '', 'Номер присваивает сотрудник ФЭУ по данным карточки проекта.')]\n        class Search:\n            def __init__(self):\n                self.chunks = chunks\n    \n            def retrieve(self, *args):\n                return [('номер', [Hit(c, 1, 1, {}) for c in self.chunks])]\n    \n        class Reasoner:\n            def rewrite(self, question, history):\n                return question\n    \n            def checklist(self, question, hits):\n                selected = chunks[:2] if include_old else chunks[1:]\n                return {'status': 'answer', 'kind': 'fact',\n                        'summary': [{'text': c.text, 'evidence': [{'chunk_id': c.chunk_id, 'quote': c.text}]} for c in selected],\n                        'steps': [], 'missing_information': [], 'clarifying_question': None,\n                        '_audit': {'summary_supported': [True, True], 'steps_supported': [], 'complete': True,\n                                   'ordered': True, 'status_supported': True, 'missing_information': [], 'conflicts': []}}\n        registry = RevisionRegistry({'documents': {'old': {'effective_from': '2017-05-01', 'uncertainty': 'Применимость не подтверждена'},\n                                                   'new': {'effective_from': '2021-12-01'}, 'other': {'effective_from': '2024-12-28'}},\n            'conflicts': [{'type': 'possible_conflict', 'doc_ids': ['old', 'new', 'other'], 'evidence': []}]})\n>       answer = Navigator(Search(), Reasoner(), registry=registry).ask('Кто присваивает номер?')\n\ntests\\test_e3_acceptance.py:249: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nregnav\\core\\pipeline.py:538: in ask\n    cautions = [i[\"message\"] for i in issues]\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n.0 = <list_iterator object at 0x0000020E04048E50>\n\n>   cautions = [i[\"message\"] for i in issues]\nE   KeyError: 'message'\n\nregnav\\core\\pipeline.py:538: KeyError\n=========================== short test summary info ===========================\nFAILED tests/test_e3_acceptance.py::test_uncertain_conflict_matters_only_when_both_sides_are_actually_used[True-clarify]\nFAILED tests/test_e3_acceptance.py::test_uncertain_conflict_matters_only_when_both_sides_are_actually_used[False-answer]\n2 failed, 83 passed in 2.50s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T000427767272Z.json",
+      "finished_at": "2026-11-13T00:04:30.222978+00:00",
+      "returncode": 0,
+      "passed": true,
+      "runner_returncode": null,
+      "snapshot_stable": true,
+      "matches_current_files": false,
+      "stdout": "........................................................................ [ 84%]\n.............                                                            [100%]\n85 passed in 1.64s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T001841367951Z.json",
+      "finished_at": "2026-11-13T00:18:49.877147+00:00",
+      "returncode": 0,
+      "passed": true,
+      "runner_returncode": null,
+      "snapshot_stable": true,
+      "matches_current_files": false,
+      "stdout": "........................................................................ [ 83%]\n..............                                                           [100%]\n86 passed in 4.87s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T002042359377Z.json",
+      "finished_at": "2026-11-13T00:20:46.295825+00:00",
+      "returncode": 0,
+      "passed": true,
+      "runner_returncode": null,
+      "snapshot_stable": true,
+      "matches_current_files": false,
+      "stdout": "........................................................................ [ 82%]\n...............                                                          [100%]\n87 passed in 2.66s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T002614278204Z.json",
+      "finished_at": "2026-11-13T00:26:18.750532+00:00",
+      "returncode": 0,
+      "passed": true,
+      "runner_returncode": null,
+      "snapshot_stable": true,
+      "matches_current_files": false,
+      "stdout": "........................................................................ [ 82%]\n...............                                                          [100%]\n87 passed in 3.01s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T003540802150Z.json",
+      "finished_at": "2026-11-13T00:35:44.846211+00:00",
+      "returncode": 1,
+      "passed": false,
+      "runner_returncode": null,
+      "snapshot_stable": true,
+      "matches_current_files": false,
+      "stdout": "............................................................F........... [ 82%]\n...............                                                          [100%]\n================================== FAILURES ===================================\n___ test_factual_parts_are_selected_separately_without_repeating_antecedent ___\n\n    def test_factual_parts_are_selected_separately_without_repeating_antecedent():\n        class Parts(Client):\n            def complete(self, system, user, **kwargs):\n                if 'независимый проверяющий' in user:\n                    return super().complete(system,user,**kwargs)\n                self.calls.append((system,user))\n                target = json.loads(user.rsplit('\\n',1)[-1])\n                assert '(' not in target\n                return json.dumps({'unit_ids':['c2s0' if target.lower().startswith('какие') else 'c1s0']})\n        a = audit(); a['summary_supported'] = [True,True]; a['steps_supported'] = []\n        client = Parts(a=a); navigator = nav(client); navigator.reasoner.source_preserving = True\n        result = navigator.ask('Кто представляет документы и какие документы требуются?')\n>       assert result.status == 'answer' and len(result.summary) == 2\nE       AssertionError: assert ('error' == 'answer'\nE         \nE         - answer\nE         + error)\n\ntests\\test_e3.py:379: AssertionError\n=========================== short test summary info ===========================\nFAILED tests/test_e3.py::test_factual_parts_are_selected_separately_without_repeating_antecedent\n1 failed, 86 passed in 3.05s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T003613555404Z.json",
+      "finished_at": "2026-11-13T00:36:16.375061+00:00",
+      "returncode": 0,
+      "passed": true,
+      "runner_returncode": null,
+      "snapshot_stable": true,
+      "matches_current_files": false,
+      "stdout": "........................................................................ [ 80%]\n..................                                                       [100%]\n90 passed in 1.99s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T003649537675Z.json",
+      "finished_at": "2026-11-13T00:36:52.171161+00:00",
+      "returncode": 1,
+      "passed": false,
+      "runner_returncode": null,
+      "snapshot_stable": true,
+      "matches_current_files": false,
+      "stdout": "...................................................F.....F..FF.......... [ 80%]\n...FF.....FFF.....                                                       [100%]\n================================== FAILURES ===================================\n__________ test_source_preserving_mode_never_emits_model_paraphrases __________\n\n    def test_source_preserving_mode_never_emits_model_paraphrases():\n        plan = {'unit_ids': ['c1s0'],\n                'text': 'Приказ оформляется по неверной форме — это поле модели игнорируется.'}\n        a = audit(); a['steps_supported'] = []\n        navigator = nav(Client(plan, a)); navigator.reasoner.source_preserving = True\n        result = navigator.ask('Какой срок?')\n>       assert result.status == 'answer'\nE       AssertionError: assert 'error' == 'answer'\nE         \nE         - answer\nE         + error\n\ntests\\test_e3.py:292: AssertionError\n___ test_fact_route_cannot_emit_a_procedure_even_if_provider_ignores_schema ___\n\n    def test_fact_route_cannot_emit_a_procedure_even_if_provider_ignores_schema():\n        plan = {'unit_ids': ['c1s0'], 'kind': 'procedure', 'step_units': ['c1s0']}\n        a = audit(); a['steps_supported'] = []\n        navigator = nav(Client(plan,a)); navigator.reasoner.source_preserving = True\n        result = navigator.ask('Кто подаёт записку?')\n>       assert result.status == 'answer' and result.kind == 'fact' and not result.steps\nE       AssertionError: assert ('error' == 'answer'\nE         \nE         - answer\nE         + error)\n\ntests\\test_e3.py:339: AssertionError\n___ test_factual_parts_are_selected_separately_without_repeating_antecedent ___\n\n    def test_factual_parts_are_selected_separately_without_repeating_antecedent():\n        class Parts(Client):\n            def complete(self, system, user, **kwargs):\n                if 'независимый проверяющий' in user or user.startswith('Проверь уместность'):\n                    return super().complete(system,user,**kwargs)\n                self.calls.append((system,user))\n                target = json.loads(user.rsplit('\\n',1)[-1])\n                assert '(' not in target\n                return json.dumps({'unit_ids':['c2s0' if target.lower().startswith('какие') else 'c1s0']})\n        a = audit(); a['summary_supported'] = [True,True]; a['steps_supported'] = []\n        client = Parts(a=a); navigator = nav(client); navigator.reasoner.source_preserving = True\n        result = navigator.ask('Кто представляет документы и какие документы требуются?')\n>       assert result.status == 'answer' and len(result.summary) == 2\nE       AssertionError: assert ('error' == 'answer'\nE         \nE         - answer\nE         + error)\n\ntests\\test_e3.py:379: AssertionError\n________ test_one_unanswered_part_remains_partial_with_supported_part _________\n\n    def test_one_unanswered_part_remains_partial_with_supported_part():\n        class Parts(Client):\n            def complete(self, system, user, **kwargs):\n                if 'независимый проверяющий' in user or user.startswith('Проверь уместность'):\n                    return super().complete(system,user,**kwargs)\n                target = json.loads(user.rsplit('\\n',1)[-1])\n                return json.dumps({'unit_ids': [] if target.lower().startswith('какие') else ['c1s0']})\n        a = audit(); a['steps_supported'] = []; a['complete'] = False\n        navigator = nav(Parts(a=a)); navigator.reasoner.source_preserving = True\n        result = navigator.ask('Кто представляет документы и какие документы требуются?')\n>       assert result.status == 'partial' and len(result.summary) == 1\nE       AssertionError: assert ('error' == 'partial'\nE         \nE         - partial\nE         + error)\n\ntests\\test_e3.py:393: AssertionError\n_ test_named_worksheet_cannot_be_silently_substituted[\\u0441\\u043c\\u0435\\u0442\\u0430_\\u0443\\u043d\\u0438\\u0432\\u0435\\u0440\\u0441\\u0430\\u043b\\u044c\\u043d\\u0430\\u044f-clarify] _\n\nrequested = 'смета_универсальная', status = 'clarify'\n\n    @pytest.mark.parametrize('requested,status', [('смета_универсальная', 'clarify'), ('смет_поквартально', 'answer')])\n    def test_named_worksheet_cannot_be_silently_substituted(requested, status):\n        from regnav.core.pipeline import LLMReasoner\n        class Client:\n            def complete(self, system, user, **kwargs):\n                if user.startswith('Проверь уместность'):\n                    return json.dumps({'relevant': True})\n                if 'независимый проверяющий' not in user:\n                    return json.dumps({'unit_ids': ['c1s0']})\n                return json.dumps({'summary_supported': {'0': True}, 'steps_supported': {},\n                                   'complete': True, 'ordered': True, 'status_supported': True,\n                                   'missing_information': [], 'conflicts': []})\n        chunk = Chunk('cell', 'book', 'Смета 2019', \"'смет_поквартально'!I1:I1\", '',\n                      'Лист «смет_поквартально», I1:I1: I1: Приложение № 1а', meta={'sheet': 'смет_поквартально'})\n        nav = Navigator(HybridSearcher([chunk]), LLMReasoner(Client()), min_top_coverage=0)\n        answer = nav.ask('Приложение 1а на листе ' + requested)\n>       assert answer.status == status\nE       AssertionError: assert 'error' == 'clarify'\nE         \nE         - clarify\nE         + error\n\ntests\\test_e3_acceptance.py:184: AssertionError\n_ test_named_worksheet_cannot_be_silently_substituted[\\u0441\\u043c\\u0435\\u0442_\\u043f\\u043e\\u043a\\u0432\\u0430\\u0440\\u0442\\u0430\\u043b\\u044c\\u043d\\u043e-answer] _\n\nrequested = 'смет_поквартально', status = 'answer'\n\n    @pytest.mark.parametrize('requested,status', [('смета_универсальная', 'clarify'), ('смет_поквартально', 'answer')])\n    def test_named_worksheet_cannot_be_silently_substituted(requested, status):\n        from regnav.core.pipeline import LLMReasoner\n        class Client:\n            def complete(self, system, user, **kwargs):\n                if user.startswith('Проверь уместность'):\n                    return json.dumps({'relevant': True})\n                if 'независимый проверяющий' not in user:\n                    return json.dumps({'unit_ids': ['c1s0']})\n                return json.dumps({'summary_supported': {'0': True}, 'steps_supported': {},\n                                   'complete': True, 'ordered': True, 'status_supported': True,\n                                   'missing_information': [], 'conflicts': []})\n        chunk = Chunk('cell', 'book', 'Смета 2019', \"'смет_поквартально'!I1:I1\", '',\n                      'Лист «смет_поквартально», I1:I1: I1: Приложение № 1а', meta={'sheet': 'смет_поквартально'})\n        nav = Navigator(HybridSearcher([chunk]), LLMReasoner(Client()), min_top_coverage=0)\n        answer = nav.ask('Приложение 1а на листе ' + requested)\n>       assert answer.status == status\nE       AssertionError: assert 'error' == 'answer'\nE         \nE         - answer\nE         + error\n\ntests\\test_e3_acceptance.py:184: AssertionError\n__ test_composite_fact_selection_payload_contains_only_its_current_question ___\n\n    def test_composite_fact_selection_payload_contains_only_its_current_question():\n        from regnav.core.pipeline import LLMReasoner\n        class Client:\n            def __init__(self):\n                self.questions = []\n    \n            def complete(self, system, user, **kwargs):\n                if user.startswith('Проверь уместность'):\n                    return json.dumps({'relevant': True})\n                if 'независимый проверяющий' in user:\n                    return json.dumps({'summary_supported': {'0': True, '1': True}, 'steps_supported': {},\n                                       'complete': True, 'ordered': True, 'status_supported': True,\n                                       'missing_information': [], 'conflicts': []})\n                data = json.loads(user.split('Данные:\\n', 1)[1].split('\\n\\nЗадание:\\n', 1)[0])\n                self.questions.append(data['question'])\n                return json.dumps({'unit_ids': ['c1s0' if data['question'].startswith('Кому') else 'c2s0']})\n        client = Client()\n        hits = [Hit(Chunk('one', 'd', 'Регламент', '1', '', 'Карточка направляется в центр трансфера технологий.'), 1, 1, {}),\n                Hit(Chunk('two', 'd', 'Регламент', '2', '', 'Номер присваивает сотрудник финансового управления.'), 1, 1, {})]\n>       answer = LLMReasoner(client).checklist('Кому направить карточку проекта? Кто присваивает номер проекта?', hits)\n\ntests\\test_e3_acceptance.py:281: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <regnav.core.pipeline.LLMReasoner object at 0x000001D437195060>\nquestion = 'Кому направить карточку проекта? Кто присваивает номер проекта?'\nhits = [Hit(chunk=Chunk(chunk_id='one', doc_id='d', doc_title='Регламент', clause='1', heading='', text='Карточка направляетс...ng='', text='Номер присваивает сотрудник финансового управления.', page=None, meta={}), score=1, coverage=1, ranks={})]\n\n    def checklist(self, question: str, hits: list[Hit]) -> dict:\n        # Short local handles avoid asking a small model to reproduce opaque Drive hashes.\n        procedure = bool(re.search(r\"пошагов|полный порядок|весь порядок|все этапы|(?:^|[?;]\\s*)как\\s+(?:оформить|открыть|подать|получить|начать|согласовать|скорректировать|обратиться)\\b\", question, re.I))\n        # Keep actions and their conditions together; a short sentence must not\n        # lose a maximum term or an exception from the same source clause.\n        whole_clauses = procedure\n        interval = re.search(r'пункт\\w*\\s+(\\d+\\.\\d+(?:\\.\\d+)*)\\s*[-–—]\\s*(\\d+\\.\\d+(?:\\.\\d+)*)', question, re.I)\n        handles = {f\"c{i}\": h.chunk.chunk_id for i, h in enumerate(hits, 1)}\n        docs = {h.chunk.doc_id: h.chunk.doc_title for h in hits}\n        context = [{\"chunk_id\": f\"c{i}\", \"doc_id\": h.chunk.doc_id,\n                    \"location\": h.chunk.clause, \"text\": h.chunk.text} for i, h in enumerate(hits, 1)]\n        units = None\n        if self.source_preserving:\n            units, docs, context = source_units(hits, whole_clauses=whole_clauses)\n            if not units:\n                raise GenerationError('Нет достаточно полных исходных формулировок.')\n        payload = json.dumps({\"question\": question, \"documents\": docs, \"sources\": context}, ensure_ascii=False)\n        if len(payload) > self.max_context_chars:\n            raise GenerationError(\"Контекст превышает лимит; требуется разбиение запроса.\")\n        prefix = \"Данные:\\n\" + payload + \"\\n\\nЗадание:\\n\"\n        parts = split_query(question)\n        kind = None\n        if procedure:\n            kind = 'procedure'\n        elif all(re.match(r\"(?:.*?:\\s*)?(?:кто|кому|где|когда|сколько|какие|какой|какую|какова|с какого|с какой|до какого|на какую|на какой|на основании чего)\\b\", p, re.I) for p in parts):\n            kind = 'fact'\n        if kind == 'fact' and len(parts) > 1:\n            # Keep the long source prefix byte-identical across subquestions\n            # and the final audit, allowing local KV-cache reuse.\n            prefix = 'Данные:\\n' + json.dumps(\n                {'documents': docs, 'sources': context, 'question': question}, ensure_ascii=False) + '\\n\\nЗадание:\\n'\n        if units:\n            # One small task per independent question. The model selects evidence only;\n            # it does not also invent status, gaps, roles or a new factual formulation.\n            kind = kind or 'fact'\n            selected, step_selected, missing = [], [], []\n            mandatory = []\n            if interval and whole_clauses:\n                start, end = (tuple(map(int, value.split('.'))) for value in interval.groups())\n                for i, hit in enumerate(hits, 1):\n                    point = re.search(r'\\b(\\d+\\.\\d+(?:\\.\\d+)*)', hit.chunk.clause)\n                    if point and start <= tuple(map(int, point[1].split('.')))[:len(start)] <= end:\n                        mandatory.extend(uid for uid, (_, cid) in units.items() if cid == f'c{i}')\n            if whole_clauses and not mandatory:\n                return self._open_procedure(question, hits, units, docs, context, parts)\n            for part in parts:\n                target = part\n                # E2 appends antecedents for retrieval. Keep them in the full question\n                # context, but do not turn them into a second task for generation.\n                if part not in question and ' (' in part and part.endswith(')'):\n                    target = part.rsplit(' (', 1)[0]\n                # A full composite question in the payload can override the\n                # trailing selection task on small models. Isolate the actual\n                # subquestion as well as the instruction; keep all evidence.\n                selection_prefix = prefix\n                if kind == 'fact' and len(parts) > 1:\n                    selection_prefix = 'Данные:\\n' + json.dumps(\n                        {'documents': docs, 'sources': context, 'question': target}, ensure_ascii=False) + '\\n\\nЗадание:\\n'\n                factual_part = bool(re.match(r'(?:.*?:\\s*)?(?:кто|кому|где|когда|сколько|какие|какой|какую|какова|с какого|с какой|до какого|на какую|на какой|на основании чего)\\b', target, re.I))\n                procedural_part = kind == 'procedure' and not factual_part\n                allowed = mandatory if mandatory and procedural_part else list(units)\n                selection_schema = {'type': 'array', 'items': {'enum': allowed},\n                                    'maxItems': len(mandatory) if mandatory and procedural_part else 64 if procedural_part else 3}\n                if mandatory and procedural_part:\n                    selection_schema['minItems'] = len(mandatory)\n                schema = object_schema({'unit_ids': selection_schema})\n                task = PROCEDURE_CLAUSE_TASK if whole_clauses and procedural_part else UNIT_SELECTION_TASK\n                if mandatory and procedural_part:\n                    task = RANGE_ORDER_TASK\n                choice = json_object(self.client.complete(SYSTEM, selection_prefix + task + '\\nВопрос сотрудника:\\n' +\n                                                          json.dumps(target, ensure_ascii=False), response_schema=schema))\n                ids = choice.get('unit_ids')\n                if not isinstance(ids, list) or len(ids) > 64 or any(not isinstance(uid, str) or uid not in units for uid in ids):\n                    raise GenerationError('Выбран несуществующий исходный текст.')\n                if mandatory and procedural_part and (len(ids) != len(mandatory) or set(ids) != set(mandatory)):\n                    raise GenerationError('Неполный явно заданный диапазон пунктов.')\n                if not procedural_part and ids:\n                    by_handle = {f'c{i}': hit.chunk for i, hit in enumerate(hits, 1)}\n                    rejected = set()\n                    for attempt in range(2):\n                        relevant_ids = []\n                        for uid in dict.fromkeys(ids):\n                            text, handle = units[uid]\n                            chunk = by_handle[handle]\n                            candidate = {'question': target, 'candidate': {'id': uid, 'title': chunk.doc_title,\n                                         'location': chunk.clause, 'text': text}}\n                            # The task judges only this candidate. Retaining the\n                            # source prefix allows local KV-cache reuse.\n                            verdict = json_object(self.client.complete(SYSTEM, selection_prefix + FACT_RELEVANCE_TASK + '\\nКандидат:\\n' +\n                                                  json.dumps(candidate, ensure_ascii=False),\n                                                  response_schema=object_schema({'relevant': BOOL_SCHEMA})))\n                            if type(verdict.get('relevant')) is not bool:\n>                               raise GenerationError('Не проверена уместность выбранного предложения.')\nE                               regnav.core.grounding.GenerationError: Не проверена уместность выбранного предложения.\n\nregnav\\core\\pipeline.py:321: GenerationError\n_ test_single_irrelevant_selection_is_retried_once_and_cannot_reuse_rejected_id[c2s0-answer] _\n\nretry_id = 'c2s0', expected = 'answer'\n\n    @pytest.mark.parametrize('retry_id,expected', [('c2s0', 'answer'), ('c3s0', 'not_found'), ('c1s0', 'error')])\n    def test_single_irrelevant_selection_is_retried_once_and_cannot_reuse_rejected_id(retry_id, expected):\n        from regnav.core.pipeline import LLMReasoner\n        class Client:\n            selections = 0\n    \n            def complete(self, system, user, **kwargs):\n                if user.startswith('Проверь уместность'):\n                    candidate = json.loads(user.split('\\nКандидат:\\n', 1)[1])['candidate']\n                    return json.dumps({'relevant': candidate['id'] == 'c2s0'})\n                if 'независимый проверяющий' in user:\n                    return json.dumps({'summary_supported': {'0': True} if expected == 'answer' else {},\n                                       'steps_supported': {}, 'complete': expected == 'answer', 'ordered': True,\n                                       'status_supported': True, 'missing_information': [], 'conflicts': []})\n                self.selections += 1\n                if self.selections > 1:\n                    assert 'c1s0' not in kwargs['response_schema']['properties']['unit_ids']['items']['enum']\n                return json.dumps({'unit_ids': ['c1s0' if self.selections == 1 else retry_id]})\n        chunks = [Chunk('a', 'd', 'Регламент', '1', '', 'Отправитель отвечает за достоверность сведений.'),\n                  Chunk('b', 'd', 'Регламент', '2', '', 'Карточка направляется в центр трансфера технологий.'),\n                  Chunk('c', 'd', 'Регламент', '3', '', 'Форма карточки содержит номер проекта.')]\n        class Search:\n            def __init__(self):\n                self.chunks = chunks\n    \n            def retrieve(self, *args):\n                return [('карточка', [Hit(c, 1, 1, {}) for c in chunks])]\n        client = Client()\n        answer = Navigator(Search(), LLMReasoner(client)).ask('Кому направить карточку проекта?')\n>       assert client.selections == 2 and answer.status == expected\nE       AssertionError: assert (2 == 2 and 'error' == 'answer'\nE        +  where 2 = <test_e3_acceptance.test_single_irrelevant_selection_is_retried_once_and_cannot_reuse_rejected_id.<locals>.Client object at 0x000001D435D368F0>.selections\nE         \nE         - answer\nE         + error)\n\ntests\\test_e3_acceptance.py:315: AssertionError\n_ test_single_irrelevant_selection_is_retried_once_and_cannot_reuse_rejected_id[c3s0-not_found] _\n\nretry_id = 'c3s0', expected = 'not_found'\n\n    @pytest.mark.parametrize('retry_id,expected', [('c2s0', 'answer'), ('c3s0', 'not_found'), ('c1s0', 'error')])\n    def test_single_irrelevant_selection_is_retried_once_and_cannot_reuse_rejected_id(retry_id, expected):\n        from regnav.core.pipeline import LLMReasoner\n        class Client:\n            selections = 0\n    \n            def complete(self, system, user, **kwargs):\n                if user.startswith('Проверь уместность'):\n                    candidate = json.loads(user.split('\\nКандидат:\\n', 1)[1])['candidate']\n                    return json.dumps({'relevant': candidate['id'] == 'c2s0'})\n                if 'независимый проверяющий' in user:\n                    return json.dumps({'summary_supported': {'0': True} if expected == 'answer' else {},\n                                       'steps_supported': {}, 'complete': expected == 'answer', 'ordered': True,\n                                       'status_supported': True, 'missing_information': [], 'conflicts': []})\n                self.selections += 1\n                if self.selections > 1:\n                    assert 'c1s0' not in kwargs['response_schema']['properties']['unit_ids']['items']['enum']\n                return json.dumps({'unit_ids': ['c1s0' if self.selections == 1 else retry_id]})\n        chunks = [Chunk('a', 'd', 'Регламент', '1', '', 'Отправитель отвечает за достоверность сведений.'),\n                  Chunk('b', 'd', 'Регламент', '2', '', 'Карточка направляется в центр трансфера технологий.'),\n                  Chunk('c', 'd', 'Регламент', '3', '', 'Форма карточки содержит номер проекта.')]\n        class Search:\n            def __init__(self):\n                self.chunks = chunks\n    \n            def retrieve(self, *args):\n                return [('карточка', [Hit(c, 1, 1, {}) for c in chunks])]\n        client = Client()\n        answer = Navigator(Search(), LLMReasoner(client)).ask('Кому направить карточку проекта?')\n>       assert client.selections == 2 and answer.status == expected\nE       AssertionError: assert (2 == 2 and 'error' == 'not_found'\nE        +  where 2 = <test_e3_acceptance.test_single_irrelevant_selection_is_retried_once_and_cannot_reuse_rejected_id.<locals>.Client object at 0x000001D437195C60>.selections\nE         \nE         - not_found\nE         + error)\n\ntests\\test_e3_acceptance.py:315: AssertionError\n=========================== short test summary info ===========================\nFAILED tests/test_e3.py::test_source_preserving_mode_never_emits_model_paraphrases\nFAILED tests/test_e3.py::test_fact_route_cannot_emit_a_procedure_even_if_provider_ignores_schema\nFAILED tests/test_e3.py::test_factual_parts_are_selected_separately_without_repeating_antecedent\nFAILED tests/test_e3.py::test_one_unanswered_part_remains_partial_with_supported_part\nFAILED tests/test_e3_acceptance.py::test_named_worksheet_cannot_be_silently_substituted[\\u0441\\u043c\\u0435\\u0442\\u0430_\\u0443\\u043d\\u0438\\u0432\\u0435\\u0440\\u0441\\u0430\\u043b\\u044c\\u043d\\u0430\\u044f-clarify]\nFAILED tests/test_e3_acceptance.py::test_named_worksheet_cannot_be_silently_substituted[\\u0441\\u043c\\u0435\\u0442_\\u043f\\u043e\\u043a\\u0432\\u0430\\u0440\\u0442\\u0430\\u043b\\u044c\\u043d\\u043e-answer]\nFAILED tests/test_e3_acceptance.py::test_composite_fact_selection_payload_contains_only_its_current_question\nFAILED tests/test_e3_acceptance.py::test_single_irrelevant_selection_is_retried_once_and_cannot_reuse_rejected_id[c2s0-answer]\nFAILED tests/test_e3_acceptance.py::test_single_irrelevant_selection_is_retried_once_and_cannot_reuse_rejected_id[c3s0-not_found]\n9 failed, 81 passed in 1.83s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T003706627549Z.json",
+      "finished_at": "2026-11-13T00:37:08.886974+00:00",
+      "returncode": 0,
+      "passed": true,
+      "runner_returncode": null,
+      "snapshot_stable": true,
+      "matches_current_files": false,
+      "stdout": "........................................................................ [ 80%]\n..................                                                       [100%]\n90 passed in 1.54s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T013104104743Z.json",
+      "finished_at": "2026-11-13T01:31:30.158887+00:00",
+      "returncode": 0,
+      "passed": true,
+      "runner_returncode": null,
+      "snapshot_stable": true,
+      "matches_current_files": false,
+      "stdout": "........................................................................ [ 79%]\n...................                                                      [100%]\n91 passed in 16.10s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T014601937571Z.json",
+      "finished_at": "2026-11-13T01:46:36.458741+00:00",
+      "returncode": 0,
+      "passed": false,
+      "runner_returncode": null,
+      "snapshot_stable": false,
+      "matches_current_files": false,
+      "stdout": "........................................................................ [ 76%]\n......................                                                   [100%]\n94 passed in 23.82s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T014844256227Z.json",
+      "finished_at": "2026-11-13T01:54:21.568169+00:00",
+      "returncode": 0,
+      "passed": false,
+      "runner_returncode": 2,
+      "snapshot_stable": false,
+      "matches_current_files": false,
+      "stdout": "........................................................................ [ 72%]\n...........................                                              [100%]\n============================== warnings summary ===============================\n.venv\\lib\\site-packages\\fastapi\\testclient.py:1\n  C:\\Users\\Dell\\Desktop\\Ekanam-Friends\\mipt-hahahihiton\\.venv\\lib\\site-packages\\fastapi\\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n99 passed, 1 warning in 324.82s (0:05:24)\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T015711007903Z.json",
+      "finished_at": "2026-11-13T01:57:24.459569+00:00",
+      "returncode": 0,
+      "passed": true,
+      "runner_returncode": 0,
+      "snapshot_stable": true,
+      "matches_current_files": false,
+      "stdout": "........................................................................ [ 76%]\n......................                                                   [100%]\n94 passed in 9.80s\n"
+    },
+    {
+      "path": "data\\official\\e3-unit-runs\\20261113T120541511999Z.json",
+      "finished_at": "2026-11-13T12:05:46.962289+00:00",
+      "returncode": 0,
+      "passed": true,
+      "runner_returncode": 0,
+      "snapshot_stable": true,
+      "matches_current_files": true,
+      "stdout": "........................................................................ [ 75%]\n.......................                                                  [100%]\n95 passed in 3.43s\n"
+    }
+  ],
+  "historical_unit_observations": {
+    "scope": "Historical summaries from tool outputs in this chat; exact execution timestamps and code hashes not reconstructed",
+    "observations": [
+      {
+        "stage": "Исходное состояние",
+        "result": "67 passed in 2.54s"
+      },
+      {
+        "stage": "OCR и привязка приёмки",
+        "result": "69 passed in 3.28s"
+      },
+      {
+        "stage": "Нумерованный список внутри пункта",
+        "result": "70 passed in 2.60s"
+      },
+      {
+        "stage": "Явный диапазон процедуры",
+        "result": "71 passed in 3.16s"
+      },
+      {
+        "stage": "Обоснованность not_found",
+        "result": "72 passed in 2.48s"
+      },
+      {
+        "stage": "Раздельные части и страницы фрагментов",
+        "result": "75 passed in 2.25s"
+      },
+      {
+        "stage": "Промежуточная ошибка инициализации режима",
+        "result": "25 failed, 51 passed in 3.42s; исправлена перед следующим прогоном"
+      },
+      {
+        "stage": "Выбор целых пунктов после исправления",
+        "result": "76 passed in 2.19s"
+      },
+      {
+        "stage": "Обязательная полнота диапазона",
+        "result": "77 passed in 1.79s"
+      },
+      {
+        "stage": "Переход на проверку частей: старые заглушки",
+        "result": "2 failed, 75 passed in 2.88s; обновлён протокол заглушек"
+      },
+      {
+        "stage": "Проверка изоляции частей",
+        "result": "1 failed, 78 passed in 2.09s; исправлен повтор предшествующего вопроса"
+      },
+      {
+        "stage": "Раздельная проверка частей",
+        "result": "79 passed in 1.94s"
+      },
+      {
+        "stage": "Краткий ответ до перестановки шагов",
+        "result": "79 passed in 1.68s"
+      },
+      {
+        "stage": "Несовпадение явно названного листа",
+        "result": "81 passed in 10.90s"
+      }
+    ]
+  }
+}

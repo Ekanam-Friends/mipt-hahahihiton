@@ -11,6 +11,7 @@
 from __future__ import annotations
 
 import math
+import re
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 from typing import Protocol, Sequence
@@ -18,7 +19,57 @@ from typing import Protocol, Sequence
 import numpy as np
 
 from .parse import Chunk
-from .text import char_ngrams, tokenize
+from .text import char_ngrams, tokenize, normalize
+
+
+# Local vocabulary; no query or document is sent to a service.
+ALIASES = {
+    "флс": "финансовый лицевой счет",
+    "цод": "центр обработки данных",
+    "эб": "электронный бюджет",
+    "рцни": "российский центр научной информации",
+    "пфо": "планово финансовый отдел",
+    "фэу": "финансово экономическое управление",
+}
+PARAPHRASES = {
+    "поездка по работе": "служебная командировка",
+    "рабочая поездка": "служебная командировка",
+    "нанять сотрудника": "поиск подбор персонала",
+    "найти сотрудника": "поиск подбор персонала",
+    "жилье для сотрудника": "поселение сотрудников",
+    "заселиться": "поселение",
+    "забронировать зал": "бронирование концертного зала",
+    "изменить смету": "корректировка сметы",
+    "скорректировать смету": "корректировка сметы",
+    "поселиться": "поселение",
+    "денег до поступления": "внутреннее заимствование",
+}
+
+
+def expand_query(query: str) -> str:
+    q = normalize(query)
+    # OCR/typographic variants of order numbers and whitespace around hyphens.
+    q = re.sub(r"(?<=\d)\s*-\s*(?=\d)", "-", q)
+    extra = [value for key, value in ALIASES.items() if re.search(r"\b" + key + r"\b", q)]
+    extra += [value for key, value in PARAPHRASES.items() if key in q]
+    return " ".join([q, *extra])
+
+
+def split_query(query: str) -> list[str]:
+    """Keep topic context in coordinated questions; never split plain noun lists."""
+    # Drop declarative preamble but retain sentences belonging to the question.
+    query = re.sub(r"^.*\.\s+(?=(?:Как|Кто|Кому|На основании|Какие|Где)\b)", "", query)
+    parts = re.split(r"[?;\n]+|\s+(?:и|а также)\s+(?=(?:как|како\w*|кто|когда|где|какие|куда|сколько)\b)", query, flags=re.I)
+    parts = [p.strip(" ,.") for p in parts if p.strip(" ,.")]
+    if len(parts) <= 1:
+        return [query]
+    # Retain antecedents ("его номер", "какой бланк") while weighting each part separately.
+    out = [parts[0]]
+    for i, part in enumerate(parts[1:], 1):
+        if len(tokenize(part)) <= 3 or re.search(r"\b(?:его|ее|он|она|они)\b", normalize(part)):
+            part = f"{part} ({parts[i - 1]})"
+        out.append(part)
+    return out
 
 
 @dataclass
@@ -87,11 +138,14 @@ def _ranks(scores: np.ndarray) -> np.ndarray:
 
 
 class HybridSearcher:
-    def __init__(self, chunks: list[Chunk], embedder: Embedder | None = None, emb_cache: np.ndarray | None = None):
+    def __init__(self, chunks: list[Chunk], embedder: Embedder | None = None, emb_cache: np.ndarray | None = None,
+                 *, expanded: bool = True):
+        self.expanded = expanded
         self.chunks = chunks
         texts = [c.index_text() for c in chunks]
         self.word_tokens = [tokenize(t) for t in texts]
         self.words = SparseIndex(self.word_tokens)
+        self.content = SparseIndex([tokenize(c.text) for c in chunks])
         self.ngrams = SparseIndex([char_ngrams(t) for t in texts], k1=1.2, b=0.5)
         self.dense = DenseIndex(embedder, texts, emb_cache) if embedder else None
         self._token_sets = [set(t) for t in self.word_tokens]
@@ -106,12 +160,27 @@ class HybridSearcher:
         return sum(v for t, v in w.items() if t in self._token_sets[i]) / tot
 
     def search(self, query: str, k: int = 10) -> list[Hit]:
+        if k <= 0 or not self.chunks:
+            return []
+        original = query
+        query = expand_query(query) if self.expanded else query
         qt = tokenize(query)
         channels = {"bm25": self.words.scores(qt), "ngram": self.ngrams.scores(char_ngrams(query))}
+        if self.expanded:
+            channels["content"] = self.content.scores(qt)
+            channels["original_bm25"] = self.words.scores(tokenize(original))
+            channels["original_ngram"] = self.ngrams.scores(char_ngrams(original))
         if self.dense:
             channels["dense"] = self.dense.scores(query)
         ranks = {name: _ranks(s) for name, s in channels.items()}
         fused = _rrf(list(ranks.values()))
+        if self.expanded:
+            # Sheet/cell addresses are identifiers, not Russian lexical terms.
+            addresses = set(re.findall(r"\b[A-Z]{1,3}[1-9]\d*\b", original.upper()))
+            for i, c in enumerate(self.chunks):
+                cells = {cell.get("address") for cell in c.meta.get("cells", [])}
+                if addresses & cells:
+                    fused[i] += 0.1
         order = np.argsort(-fused)[:k]
         return [
             Hit(
@@ -123,3 +192,7 @@ class HybridSearcher:
             for i in order
             if any(r[i] <= len(self.chunks) for r in ranks.values())
         ]
+
+    def retrieve(self, query: str, k: int = 10, per_part: int = 6) -> list[tuple[str, list[Hit]]]:
+        """Independent evidence budget for every task; no global context truncation."""
+        return [(part, self.search(part, k=max(k, per_part))) for part in split_query(query)]

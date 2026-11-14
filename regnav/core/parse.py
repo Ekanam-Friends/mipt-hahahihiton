@@ -98,13 +98,15 @@ def split_document(pages: list[str], doc_id: str, doc_title: str, meta: dict | N
     roman_title = ""
 
     cur_clause, cur_lines, cur_page = "преамбула", [], 1
+    cur_line_pages: list[int] = []
     cur_end = 1
     last_num: list[int] = []
 
     def flush():
-        nonlocal cur_lines
+        nonlocal cur_lines, cur_line_pages
+        original_lines, original_pages = cur_lines, cur_line_pages
         text = _join(cur_lines)
-        cur_lines = []
+        cur_lines, cur_line_pages = [], []
         if not text:
             return
         clause = cur_clause
@@ -116,7 +118,20 @@ def split_document(pages: list[str], doc_id: str, doc_title: str, meta: dict | N
         parents = [headings[k] for k in sorted(headings, key=len) if _is_parent(k, cur_clause)]
         heading = " / ".join(x for x in [roman_title, *parents] if x)
         parts = _split_long(text)
+        normalized = re.sub(r'\s+', ' ', text)
+        boundaries = [(len(re.sub(r'\s+', ' ', _join(original_lines[:i]))), page)
+                      for i, page in enumerate(original_pages)
+                      if i == 0 or page != original_pages[i - 1]]
+        cursor = 0
         for i, part in enumerate(parts):
+            needle = re.sub(r'\s+', ' ', part)
+            offset = normalized.find(needle, cursor)
+            if offset < 0:
+                raise ValueError('Cannot locate a split fragment in its source text')
+            end = offset + len(needle)
+            part_page = next((page for pos, page in reversed(boundaries) if pos <= offset), cur_page)
+            end_page = next((page for pos, page in reversed(boundaries) if pos < end), cur_end)
+            cursor = end
             chunks.append(
                 Chunk(
                     chunk_id=f"{doc_id}#{len(chunks)}",
@@ -125,8 +140,8 @@ def split_document(pages: list[str], doc_id: str, doc_title: str, meta: dict | N
                     clause=clause if len(parts) == 1 else f"{clause} (ч. {i + 1})",
                     heading=heading[:300],
                     text=part,
-                    page=cur_page,
-                    meta={**(meta or {}), "source_start": cur_page, "source_end": cur_end},
+                    page=part_page,
+                    meta={**(meta or {}), "source_start": part_page, "source_end": end_page},
                 )
             )
 
@@ -150,6 +165,7 @@ def split_document(pages: list[str], doc_id: str, doc_title: str, meta: dict | N
         s = line.strip()
         if not s:
             cur_lines.append("")
+            cur_line_pages.append(pno)
             continue
 
         m = RE_APPENDIX.match(s)
@@ -158,6 +174,7 @@ def split_document(pages: list[str], doc_id: str, doc_title: str, meta: dict | N
             appendix = "прил." + (f" {m.group(2)}" if m.group(2) else "")
             cur_clause, cur_page, last_num, headings, roman_title = "текст", pno, [], {}, ""
             cur_lines.append(s)
+            cur_line_pages.append(pno)
             cur_end = pno
             continue
 
@@ -173,11 +190,23 @@ def split_document(pages: list[str], doc_id: str, doc_title: str, meta: dict | N
                 roman_title = f"{g[0]}. {g[1]}"
             cur_clause, cur_page = roman, pno
             cur_lines.append(s)
+            cur_line_pages.append(pno)
             cur_end = pno
             continue
 
         m = RE_NUM.match(s)
-        if m and not RE_DATE_LIKE.match(s) and plausible_next(m.group(1)):
+        # A scanned approved regulation can follow an order without an explicit
+        # "Appendix" label. Its first section must reset the order's numbering.
+        if (m and m.group(1) == '1' and 'общие положения' in m.group(2).lower()
+                and last_num and last_num != [1] and pno > cur_page):
+            flush()
+            last_num, headings = [], {}
+            appendix = appendix or 'регламент'
+        # Parenthesized enumerations inside a clause (1), 2), ...) do not
+        # advance the document's section counter. Otherwise a list under 2.10
+        # can become section 3 and swallow the real section 3 and all its steps.
+        inline_list = bool(re.match(r'^\d+\)', s) and len(last_num) > 1)
+        if m and not inline_list and not RE_DATE_LIKE.match(s) and plausible_next(m.group(1)):
             flush()
             num = m.group(1)
             last_num = [int(x) for x in num.split(".")]
@@ -187,12 +216,14 @@ def split_document(pages: list[str], doc_id: str, doc_title: str, meta: dict | N
                 headings[num] = body.rstrip(".")
             cur_clause, cur_page = num, pno
             cur_lines.append(s)
+            cur_line_pages.append(pno)
             cur_end = pno
             continue
 
         if not cur_lines:
             cur_page = pno
         cur_lines.append(line)
+        cur_line_pages.append(pno)
         cur_end = pno
 
     flush()

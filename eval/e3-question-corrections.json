@@ -1,0 +1,16 @@
+{
+  "reviewed_on": "2026-11-13",
+  "id": "borrowing",
+  "before": "Какой приказ отменяет 5990-1 и с какой даты действует новая редакция внутреннего заимствования?",
+  "after": "Какой прежний приказ отменён приказом 5990-1? С какой даты по приказу 5990-1 введён в действие Регламент о внутреннем заимствовании?",
+  "reason": "Disambiguate actor and cancelled order; original PDF 5990-1 page 1 clauses 1 and 2 cancel 1465-1 and introduce the regulation from signing. Expected answer and source excerpts unchanged.",
+  "source_sha256": "0788efe4cf5df8a9561293eb28d25db87113cebbc29252cb249aae84a046d29f",
+  "source_quotes": [
+    "Считать утратившим силу приказ от 08.07.2020 № 1465-1",
+    "с даты подписания приказа"
+  ],
+  "expected_and_required_elements_unchanged": true,
+  "question_count": 26,
+  "gold_sha256_before": "e52b424ad720783300230c3c0ba6bfd50c0e327f7bf62b8b169a7d29f5d1a985",
+  "gold_sha256_after": "ea87d0b0ca0dcba5e61a297f7b58e9fa497ebe0535825c71069f7b64a466cfbc"
+}

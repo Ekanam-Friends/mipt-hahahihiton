@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Навигатор регламентов</title><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
+<body>
+<div class="concept">Демонстрационный прототип · все данные пользователей вымышлены</div>
+<section id="login" class="login panel"><span class="eyebrow">ЛИЧНЫЙ КАБИНЕТ</span><h1>Добро пожаловать</h1><p>Выберите демо-аккаунт. Вход без пароля доступен только для этих вымышленных профилей.</p><div id="accounts"></div><p id="login-error" role="alert"></p></section>
+<div id="cabinet" hidden>
+<aside class="sidebar"><strong>МФТИ<br>Личный кабинет</strong><p id="role-label"></p><nav id="menu"></nav><button id="logout" class="secondary">Выйти</button></aside>
+<main>
+<div class="topbar"><span id="user-name"></span><span id="user-unit"></span></div>
+<section id="dashboard" hidden><span class="eyebrow">ЛИЧНЫЙ КАБИНЕТ</span><h1 id="page-title">Главная</h1><div id="page-content"></div></section>
+<div id="assistant">
+<header><span class="eyebrow">МФТИ · РЕГЛАМЕНТЫ</span><h1>От вопроса к источнику</h1><p>Задайте вопрос о порядке действий. Проверьте ответ по точным фрагментам документов.</p></header>
+<section class="panel"><form id="ask">
+<label for="question">Ваш вопрос</label><textarea id="question" maxlength="8000" required rows="4" placeholder="Как открыть финансовый лицевой счёт?"></textarea>
+<div class="controls"><label>Дата применимости <input id="as-of" type="date"></label><button id="submit">Найти ответ</button><button type="button" id="reset" class="secondary">Новый диалог</button></div>
+</form><p id="progress" role="status" aria-live="polite">История хранится только до закрытия или обновления страницы.</p></section>
+<section id="conversation" aria-label="История вопросов и ответов"></section>
+<footer>Ответ относится к доступному снимку базы. Дата загрузки документа не подтверждает дату действия нормы.</footer>
+</div></main></div></body></html>

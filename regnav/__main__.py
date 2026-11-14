@@ -14,24 +14,30 @@ from pathlib import Path
 
 from .core.ingest import build_chunks, build_texts, load_chunks
 from .core.llm import client_from_env
-from .core.pipeline import ExtractiveReasoner, LLMReasoner, Navigator
+from .core.pipeline import Answer, ExtractiveReasoner, LLMReasoner, Navigator
 from .core.search import HybridSearcher
+from .core.revisions import RevisionRegistry
 
 
 def make_navigator(data: Path) -> Navigator:
     searcher = HybridSearcher(load_chunks(data))
     client = client_from_env()
     reasoner = LLMReasoner(client) if client else ExtractiveReasoner()
-    return Navigator(searcher, reasoner)
+    return Navigator(searcher, reasoner, registry=RevisionRegistry.load(data / "revisions.json"))
 
 
 def print_answer(a) -> None:
-    if a.status == "not_found":
-        print("✗", a.message)
-        return
+    print("Статус:", a.status)
+    print("Снимок корпуса:", ", ".join(a.corpus_snapshot) or "дата не установлена")
+    if a.message:
+        print(a.message)
     if a.status == "clarify":
         print("?", a.clarifying_question)
-        return
+    for claim in a.summary:
+        print(claim.text)
+        for e in claim.evidence:
+            print(f"   ↳ {e.ref}: «{e.quote}»")
+            print(f"     {e.view_path or e.url}")
     for i, s in enumerate(a.steps, 1):
         extra = " · ".join(x for x in [s.responsible and f"кто: {s.responsible}",
                                         s.deadline and f"срок: {s.deadline}",
@@ -39,7 +45,15 @@ def print_answer(a) -> None:
         print(f"{i}. {s.action}")
         if extra:
             print(f"   {extra}")
-        print(f"   ↳ {s.ref}: «{s.quote}»")
+        for e in s.evidence:
+            print(f"   ↳ {e.ref}: «{e.quote}»")
+            print(f"     {e.view_path or e.url}")
+    for conflict in a.conflicts:
+        print("Расхождение:", conflict.text)
+        for e in conflict.evidence:
+            print(f"   ↳ {e.ref}: «{e.quote}» ({e.view_path or e.url})")
+    for gap in a.missing_information:
+        print("Не подтверждено:", gap)
     for w in a.warnings:
         print("⚠", w)
     print("Источники:", "; ".join(f"{s['title']} ({s['url']})" for s in a.sources))
@@ -86,9 +100,11 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("search")
     p.add_argument("query")
     p.add_argument("-k", type=int, default=5)
+    p.add_argument("--as-of", help="Дата применимости YYYY-MM-DD")
     p = sub.add_parser("ask")
     p.add_argument("question")
     p.add_argument("--json", action="store_true")
+    p.add_argument("--as-of", help="Дата применимости YYYY-MM-DD")
     p = sub.add_parser("eval")
     p.add_argument("--questions", type=Path, default=Path("eval/questions.jsonl"))
     p.add_argument("-k", type=int, default=5)
@@ -104,17 +120,32 @@ def main(argv: list[str] | None = None) -> int:
             return 1
     elif a.cmd == "search":
         s = HybridSearcher(load_chunks(a.data))
-        for i, h in enumerate(s.search(a.query, k=a.k), 1):
+        registry = RevisionRegistry.load(a.data / "revisions.json")
+        nav = Navigator(s, ExtractiveReasoner(), k=a.k, max_context=a.k, registry=registry)
+        hits, trace = nav.retrieve(a.query)
+        for part in trace:
+            print(f"Подзадача [{part['status']}]: {part['query']}")
+        for i, h in enumerate(hits, 1):
             print(f"{i}. [{h.score:.4f} cov={h.coverage:.2f} {h.ranks}] {h.chunk.ref()}")
             print("   " + h.chunk.text[:300].replace("\n", " "))
             if h.chunk.meta.get("view_path"):
                 print("   Фрагмент: " + h.chunk.meta["view_path"])
+        for issue in registry.assess({h.chunk.doc_id for h in hits}, a.as_of):
+            print("⚠", issue["message"])
+            for source in issue["sources"]:
+                print(f"   {source['title']}: {source['url']}")
     elif a.cmd == "ask":
-        ans = make_navigator(a.data).ask(a.question)
+        try:
+            nav = make_navigator(a.data)
+        except (OSError, ValueError, KeyError):
+            ans = Answer("error", a.question, message="Индекс не загружен или не соответствует реестру. Повторите импорт и проверьте каталог данных.", error_code="index_unavailable")
+        else:
+            ans = nav.ask(a.question, as_of=a.as_of)
         if a.json:
             print(json.dumps(ans.to_dict(), ensure_ascii=False, indent=2))
         else:
             print_answer(ans)
+        return int(ans.status == "error")
     elif a.cmd == "eval":
         return run_eval(a.data, a.questions, a.k)
     return 0

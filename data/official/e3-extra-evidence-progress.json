@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-11-13T12:12:56.226828+00:00",
+  "scope": "literal text, original hashes and local anchors only; not semantic completeness",
+  "reports": {
+    "data/official/e3-current-extra-report.json": "f7a41d163365b6ce5d58cbfb026c2fe5cd350d0d18ea026ad2adc6bf84083dfe"
+  },
+  "chunks_sha256": "cb489c8e7c63263d461b31bde6a2fca9c72cac18c296f895bc74a01d59f0938e",
+  "claims_checked": 25,
+  "evidence_checked": 25,
+  "unique_local_anchors": 18,
+  "passed": true,
+  "errors": []
+}

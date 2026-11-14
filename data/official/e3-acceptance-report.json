@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-11-13T12:34:54.118099+00:00",
+  "passed": true,
+  "scope": "Technical acceptance on the 26+7 control set, reviewed by Codex against source originals; not human or corpus-owner acceptance, not held-out quality",
+  "corpus_snapshot": "2026-11-11",
+  "reviewer": "Codex (source comparison including PDF page inspection; not human or corpus-owner acceptance)",
+  "counts": {
+    "main_accepted": 26,
+    "extra_accepted": 7,
+    "unit_tests_passed": 95,
+    "claims_and_evidence_checked": 68,
+    "unique_local_anchors": 42
+  },
+  "latest_collection_inference_modes": {
+    "main_live": 4,
+    "main_exact_prompt_replay": 22,
+    "extra_exact_prompt_replay": 7
+  },
+  "artifacts_sha256": {
+    "data/official/e3-current-answer-report.json": "e10cd2409775849ab09a9c1baa9565404e058b48afb731897cd922edda2c5932",
+    "data/official/e3-current-extra-report.json": "f7a41d163365b6ce5d58cbfb026c2fe5cd350d0d18ea026ad2adc6bf84083dfe",
+    "data/official/e3-current-adversarial-report.json": "1eb4e818e997f6b3a6c9f3f0f0bd1478dc0928d235413143a5c9d8d883f3930f",
+    "data/official/e3-evidence-report.json": "a89dccb4b0ac9a54a2c4262b262190054653b5b2a49be3ab0e5e6608eca810fc",
+    "data/official/e3-unit-runs/20261113T120541511999Z.json": "bc14a6dbd007a7d387a783a458dd3f73d1580e5edc89ce741e89fb7e8b609d0e",
+    "eval/e3-final-source-reviews.json": "01566bf89d3983f3864186e9cd5b3a175346dc33a510d0f18a58330e03f42b6c",
+    "eval/e3-question-corrections.json": "ead360704e112fedc46bb59a0e87aa5e4f152637a8f9341d4e47a5e2b4f29c0d"
+  },
+  "implementation_sha256": {
+    "regnav\\core\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "regnav\\core\\extract.py": "de644b0dd15da47317d238e19c86b893c52929a4fb1239555e0e234b54e58bfe",
+    "regnav\\core\\grounding.py": "f508535ee17d97aca12ff39e4f8187961db1af563017be2407dbbdb6505a0ae4",
+    "regnav\\core\\ingest.py": "9cc300a639d6f65f65c9cc1aaa0b22ec3c7b3288fc3e74fad09d666eb375fd24",
+    "regnav\\core\\llm.py": "f94fff0394dc063b15c92061e306bebc4c16d4638bdf97c75291f0834b02710b",
+    "regnav\\core\\parse.py": "864a5653bb77b539b5e1a73ab700f156bc5e5f83fd3722a1c9971bc8585d7a79",
+    "regnav\\core\\pipeline.py": "65b0f5755d5ffe9565917fa784a43d7e3ab4790b8e7ecc026bf60ba5ca0875ab",
+    "regnav\\core\\revisions.py": "3632b1355dd1f806fe94aaf9409bce13d63d3aad91610415c59e807f7f7cbb96",
+    "regnav\\core\\search.py": "a3591fcb18888d463baee5fc8abd3ae555aa63f1911224242e9e4dba823d6a1a",
+    "regnav\\core\\text.py": "b251ecde1313c17140243a9088e8c1db2d086972784b322ff4cfde3d8f9fc4b3",
+    "regnav\\core\\verify.py": "97c3cbe5ce1488217b133aa6f5c5297192b904da347be3633a38d52a5775c372"
+  },
+  "corpus_sha256": {
+    "data\\official\\chunks.jsonl": "cb489c8e7c63263d461b31bde6a2fca9c72cac18c296f895bc74a01d59f0938e",
+    "data\\official\\manifest.jsonl": "39f6c938aedb38019fa7a1a622af027b11ef94c24e0bb7169af9b767b38be1d5",
+    "data\\official\\revisions.json": "0a354c598f94ecf6870b62fa8da179a392ea937402d9dbdd50ca32601fcea4ec"
+  },
+  "model_sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e",
+  "limitations": [
+    "Control questions used during fixes; independent E5 evaluation remains.",
+    "CPU inference is slow; saved real completions reused only with byte-identical prompts.",
+    "Some source effective dates are unknown; XLSX formulas were not computed.",
+    "DOCX answer retains extra table text; budget appendix repeats corroborating evidence.",
+    "Historical failed outputs and provider outages retained; they are not accepted final answers."
+  ]
+}

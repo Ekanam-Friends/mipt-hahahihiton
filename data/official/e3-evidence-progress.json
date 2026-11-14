@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-11-13T00:27:34.955804+00:00",
+  "scope": "literal text, original hashes and local anchors only; not semantic completeness",
+  "reports": {
+    "data/official/e3-current-answer-report.json": "4dbcc651ca392fdb38b05902c7ff425c15f56589ade77d711a10467b1e767c99",
+    "data/official/e3-current-extra-report.json": "0d867187532e1889be5ee9a15f6691166f5c14909467fafe52498f076d4b3e6f"
+  },
+  "chunks_sha256": "cb489c8e7c63263d461b31bde6a2fca9c72cac18c296f895bc74a01d59f0938e",
+  "claims_checked": 31,
+  "evidence_checked": 31,
+  "unique_local_anchors": 22,
+  "passed": true,
+  "errors": []
+}

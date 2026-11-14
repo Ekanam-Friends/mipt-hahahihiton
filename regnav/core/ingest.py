@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import hashlib
+import copy
 import html
 import json
 from concurrent.futures import ProcessPoolExecutor
@@ -12,6 +13,27 @@ from .extract import VERSION, extract
 from .parse import Chunk, split_document, _split_long
 
 PAGE_SEP = "\n\f\n"
+
+
+def corrected_extraction(result: dict, doc_id: str, data_dir: Path) -> dict:
+    """Apply reviewed, source-hash-bound OCR repairs without altering the raw cache."""
+    path = data_dir / "ocr-corrections.json"
+    if not path.exists():
+        return result
+    repairs = json.loads(path.read_text(encoding="utf-8")).get(doc_id, [])
+    if not repairs:
+        return result
+    result = copy.deepcopy(result)
+    result["corrections"] = []
+    for repair in repairs:
+        if repair["source_sha256"] != result["sha256"]:
+            raise ValueError("OCR correction belongs to another source snapshot: " + doc_id)
+        matches = [b for b in result["blocks"] if b.get("page") == repair["page"]]
+        if len(matches) != 1 or matches[0]["text"].count(repair["before"]) != 1:
+            raise ValueError("OCR correction no longer matches extraction: " + doc_id)
+        matches[0]["text"] = matches[0]["text"].replace(repair["before"], repair["after"], 1)
+        result["corrections"].append(repair)
+    return result
 
 
 def _write(path: Path, value):
@@ -75,6 +97,8 @@ def _job(args):
             result = extract(path)
             result["sha256"] = digest
             _write(cache, result)
+        result = corrected_extraction(result, doc_id, data_dir)
+        entry["ocr_corrections"] = result.get("corrections", [])
         (data_dir / "text" / f"{doc_id}.txt").write_text(PAGE_SEP.join(b["text"] for b in result["blocks"]), encoding="utf-8")
         entry["warnings"].extend(result["warnings"])
         entry.update({k: result[k] for k in ("pages", "ocr_pages", "empty_pages", "formula_count", "missing_formula_values")})
@@ -115,6 +139,7 @@ def build_chunks(data_dir: Path) -> list[Chunk]:
         if entry["status"] == "error":
             continue
         cache = json.loads((data_dir / "extracted" / f"{record['id']}.json").read_text(encoding="utf-8"))
+        cache = corrected_extraction(cache, record['id'], data_dir)
         meta = {**record, "source_sha256": cache["sha256"]}
         blocks = cache["blocks"]
         if entry["format"] in {"pdf", "docx"}:

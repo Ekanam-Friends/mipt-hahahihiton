@@ -1,0 +1,16 @@
+{
+  "scope": "Manually recorded execution notes; no exact timestamps or missing model responses reconstructed",
+  "observed_on": "2026-11-13",
+  "events": [
+    {
+      "report": "e3-before-composite-isolation-report.json",
+      "event": "Collection interrupted after six completed rows to fix rejected fls-composite. Interrupted next inference is not a completed test."
+    },
+    {
+      "event": "Replay of travel refused after composite prompt isolation; source report kept. Four unchanged single-question completions replayed successfully. This refusal is expected invalidation, not a model quality outcome."
+    },
+    {
+      "event": "First isolated-composite trial interrupted before a completed answer to move the common source prefix ahead of question text for local KV-cache reuse. No quality outcome claimed."
+    }
+  ]
+}

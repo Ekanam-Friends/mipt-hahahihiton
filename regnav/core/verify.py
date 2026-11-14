@@ -12,6 +12,12 @@ from .text import normalize
 MIN_QUOTE = 20  # короче — не доказательство
 
 
+def contiguous_quote_in_text(quote: str, text: str) -> bool:
+    """Generation requires an intact span, preserving conditions and negation."""
+    q = _norm(quote).strip()
+    return len(q) >= MIN_QUOTE and q in _norm(text)
+
+
 def _norm(s: str) -> str:
     s = re.sub(r"(\w)-\s+(\w)", r"\1\2", s)  # перенос слова, оставшийся после OCR
     return normalize(s)

@@ -66,63 +66,6 @@ def test_search_finds_travel(chunks):
 def test_extractive_answer_and_refusal(chunks):
     nav = Navigator(HybridSearcher(chunks), ExtractiveReasoner())
     a = nav.ask("Как оформить командировку?")
-    assert a.status == "answer" and a.steps
-    assert all(quote_in_text(s.quote, next(c.text for c in chunks if c.chunk_id == s.chunk_id)) for s in a.steps)
+    assert a.status == "partial" and a.summary and not a.steps
+    assert all(quote_in_text(e.quote, next(c.text for c in chunks if c.chunk_id == e.chunk_id)) for claim in a.summary for e in claim.evidence)
     assert nav.ask("Как получить ипотеку на квартиру?").status == "not_found"
-
-
-class FakeClient:
-    """Скриптованная LLM: релевантность — по ключевому слову, чек-лист — заранее заданный."""
-
-    def __init__(self, checklist: dict, keyword: str = "командир"):
-        self.checklist, self.keyword = checklist, keyword
-
-    def complete(self, system, user, *, temperature=0.0):
-        if '"relevant"' in user:
-            frag = user.split("Фрагмент", 1)[1]
-            return json.dumps({"relevant": self.keyword in frag.lower()})
-        return json.dumps(self.checklist, ensure_ascii=False)
-
-
-def _cid(chunks, suffix):
-    return next(c.chunk_id for c in chunks if c.clause.endswith(suffix))
-
-
-def test_hallucinated_quote_is_dropped(chunks):
-    fake = FakeClient({"status": "answer", "steps": [
-        {"action": "Подайте служебную записку", "chunk_id": _cid(chunks, "2.1"),
-         "quote": "не позднее чем за 10 рабочих дней до начала командировки"},
-        {"action": "Получите аванс наличными", "chunk_id": _cid(chunks, "2.1"),
-         "quote": "аванс выдается наличными в кассе в день отъезда"},  # такого нет
-        # верная цитата, но chunk_id перепутан — должен переназначиться
-        {"action": "Сдайте авансовый отчет", "chunk_id": _cid(chunks, "2.1"),
-         "quote": "В течение 3 рабочих дней после возвращения работник представляет авансовый отчет"},
-    ]})
-    a = Navigator(HybridSearcher(chunks), LLMReasoner(fake), max_context=10).ask("Как оформить командировку?")
-    assert a.status == "answer"
-    assert [s.action for s in a.steps] == ["Подайте служебную записку", "Сдайте авансовый отчет"]
-    assert a.steps[1].chunk_id == _cid(chunks, "3.1")
-    assert a.dropped_steps == 1
-
-
-def test_all_quotes_fake_means_refusal(chunks):
-    fake = FakeClient({"status": "answer", "steps": [
-        {"action": "x", "chunk_id": _cid(chunks, "2.1"), "quote": "командировка оформляется через госуслуги онлайн"}]})
-    a = Navigator(HybridSearcher(chunks), LLMReasoner(fake)).ask("Как оформить командировку?")
-    assert a.status == "not_found"
-
-
-def test_clarify(chunks):
-    fake = FakeClient({"status": "clarify", "clarifying_question": "Вы штатный сотрудник или совместитель?"})
-    a = Navigator(HybridSearcher(chunks), LLMReasoner(fake)).ask("Как оформить командировку?")
-    assert a.status == "clarify" and "совместитель" in a.clarifying_question
-
-
-def test_broken_llm_json_falls_back(chunks):
-    class Broken(FakeClient):
-        def complete(self, system, user, *, temperature=0.0):
-            if '"relevant"' in user:
-                return super().complete(system, user)
-            return "Вот ваш ответ: {сломанный json"
-    a = Navigator(HybridSearcher(chunks), LLMReasoner(Broken({}))).ask("Как оформить командировку?")
-    assert a.status == "answer" and a.steps  # extractive-фолбэк

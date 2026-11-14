@@ -1,0 +1,14 @@
+{
+  "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l": [
+    {
+      "source_sha256": "9efd496936a7c3336335f35f80d22438ca1b69ce966f7a1da1d446fca4b37fc1",
+      "page": 2,
+      "before": "7 лёт",
+      "after": "7 лет",
+      "reviewer": "Codex, visual comparison with original page; not corpus-owner acceptance",
+      "reviewed_on": "2026-11-13",
+      "evidence": "data/official/evidence/e3-datacenter-p2.png",
+      "reason": "Paragraph 4.1 in the original says 7 лет. Numeric value and conditions unchanged."
+    }
+  ]
+}
