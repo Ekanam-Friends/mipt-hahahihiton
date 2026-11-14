@@ -1,0 +1,61 @@
+{
+  "scope": "Historical summaries from tool outputs in this chat; exact execution timestamps and code hashes not reconstructed",
+  "observations": [
+    {
+      "stage": "Исходное состояние",
+      "result": "67 passed in 2.54s"
+    },
+    {
+      "stage": "OCR и привязка приёмки",
+      "result": "69 passed in 3.28s"
+    },
+    {
+      "stage": "Нумерованный список внутри пункта",
+      "result": "70 passed in 2.60s"
+    },
+    {
+      "stage": "Явный диапазон процедуры",
+      "result": "71 passed in 3.16s"
+    },
+    {
+      "stage": "Обоснованность not_found",
+      "result": "72 passed in 2.48s"
+    },
+    {
+      "stage": "Раздельные части и страницы фрагментов",
+      "result": "75 passed in 2.25s"
+    },
+    {
+      "stage": "Промежуточная ошибка инициализации режима",
+      "result": "25 failed, 51 passed in 3.42s; исправлена перед следующим прогоном"
+    },
+    {
+      "stage": "Выбор целых пунктов после исправления",
+      "result": "76 passed in 2.19s"
+    },
+    {
+      "stage": "Обязательная полнота диапазона",
+      "result": "77 passed in 1.79s"
+    },
+    {
+      "stage": "Переход на проверку частей: старые заглушки",
+      "result": "2 failed, 75 passed in 2.88s; обновлён протокол заглушек"
+    },
+    {
+      "stage": "Проверка изоляции частей",
+      "result": "1 failed, 78 passed in 2.09s; исправлен повтор предшествующего вопроса"
+    },
+    {
+      "stage": "Раздельная проверка частей",
+      "result": "79 passed in 1.94s"
+    },
+    {
+      "stage": "Краткий ответ до перестановки шагов",
+      "result": "79 passed in 1.68s"
+    },
+    {
+      "stage": "Несовпадение явно названного листа",
+      "result": "81 passed in 10.90s"
+    }
+  ]
+}

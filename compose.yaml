@@ -1,0 +1,26 @@
+services:
+  web:
+    build: .
+    image: regnav:e4
+    ports:
+      - "127.0.0.1:${REGNAV_PORT:-8000}:8000"
+    environment:
+      REGNAV_LLM: extractive
+      REGNAV_LOCAL_ONLY: "1"
+      REGNAV_WEB_TIMEOUT: ${REGNAV_WEB_TIMEOUT:-1800}
+      REGNAV_WEB_DB: /app/state/accounts.sqlite3
+    volumes:
+      - ./data/official:/app/data/official:ro
+      - web-state:/app/state
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    networks: [local]
+networks:
+  local:
+    driver: bridge
+volumes:
+  web-state:

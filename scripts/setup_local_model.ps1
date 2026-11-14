@@ -1,3 +1,4 @@
+param([switch]$Baseline)
 $ErrorActionPreference = 'Stop'
 Set-Location (Split-Path $PSScriptRoot -Parent)
 New-Item -ItemType Directory -Force .tools/llama, models | Out-Null
@@ -16,5 +17,9 @@ function Get-CheckedFile($url, $path, $hash) {
 
 Get-CheckedFile $runtimeUrl '.tools/llama/runtime.zip' $runtimeHash
 Expand-Archive -LiteralPath .tools/llama/runtime.zip -DestinationPath .tools/llama/bin -Force
-Get-CheckedFile $modelUrl 'models/qwen2.5-1.5b-instruct-q4_k_m.gguf' $modelHash
+if ($Baseline) {
+    Get-CheckedFile $modelUrl 'models/qwen2.5-1.5b-instruct-q4_k_m.gguf' $modelHash
+} else {
+    & "$PSScriptRoot/setup_e3_model.ps1"
+}
 Write-Output 'Runtime and model verified. Start with scripts/start_local_model.ps1.'

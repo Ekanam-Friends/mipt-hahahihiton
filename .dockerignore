@@ -1,0 +1,9 @@
+*
+!Dockerfile
+!requirements.txt
+!requirements-web.txt
+!constraints-web.txt
+!regnav/
+!regnav/**
+**/__pycache__
+**/*.pyc

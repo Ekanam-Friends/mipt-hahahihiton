@@ -1,0 +1,1755 @@
+{
+  "created_at": "2026-11-14T16:00:22.160857+00:00",
+  "scope": "Offline release regression; no fresh LLM, independent human or submission acceptance",
+  "snapshot_downloaded_at": [
+    "2026-11-11T14:45:30.764730+00:00",
+    "2026-11-11T14:45:41.353601+00:00",
+    "2026-11-11T14:45:44.872963+00:00",
+    "2026-11-11T14:45:46.609310+00:00",
+    "2026-11-11T14:45:49.921087+00:00",
+    "2026-11-11T14:45:50.215068+00:00",
+    "2026-11-11T14:45:53.811208+00:00",
+    "2026-11-11T14:45:54.970610+00:00",
+    "2026-11-11T14:45:55.084963+00:00",
+    "2026-11-11T14:45:56.919179+00:00",
+    "2026-11-11T14:45:57.463281+00:00",
+    "2026-11-11T14:45:57.649998+00:00",
+    "2026-11-11T14:45:59.707786+00:00",
+    "2026-11-11T14:45:59.884571+00:00",
+    "2026-11-11T14:46:04.816307+00:00",
+    "2026-11-11T14:46:05.738728+00:00",
+    "2026-11-11T14:46:06.143675+00:00",
+    "2026-11-11T14:46:16.345581+00:00",
+    "2026-11-11T14:46:17.893516+00:00"
+  ],
+  "implementation_sha256": {
+    "regnav/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "regnav/__main__.py": "4db2864ad3ea198f49a6e361f4be2f9a4d6bc5b8939622a1000981046baaa140",
+    "regnav/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "regnav/core/extract.py": "de644b0dd15da47317d238e19c86b893c52929a4fb1239555e0e234b54e58bfe",
+    "regnav/core/grounding.py": "f508535ee17d97aca12ff39e4f8187961db1af563017be2407dbbdb6505a0ae4",
+    "regnav/core/ingest.py": "9cc300a639d6f65f65c9cc1aaa0b22ec3c7b3288fc3e74fad09d666eb375fd24",
+    "regnav/core/llm.py": "8d6298af2f1ae1ab69104633536331e68fc6270a3215235123d19c3d85bd4d23",
+    "regnav/core/parse.py": "864a5653bb77b539b5e1a73ab700f156bc5e5f83fd3722a1c9971bc8585d7a79",
+    "regnav/core/pipeline.py": "65b0f5755d5ffe9565917fa784a43d7e3ab4790b8e7ecc026bf60ba5ca0875ab",
+    "regnav/core/privacy.py": "5972c259e771fa79acd227ec32f816d752e20643489c9e7e786fb394cc8df9ab",
+    "regnav/core/revisions.py": "3632b1355dd1f806fe94aaf9409bce13d63d3aad91610415c59e807f7f7cbb96",
+    "regnav/core/search.py": "a3591fcb18888d463baee5fc8abd3ae555aa63f1911224242e9e4dba823d6a1a",
+    "regnav/core/text.py": "b251ecde1313c17140243a9088e8c1db2d086972784b322ff4cfde3d8f9fc4b3",
+    "regnav/core/verify.py": "97c3cbe5ce1488217b133aa6f5c5297192b904da347be3633a38d52a5775c372",
+    "regnav/sources/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "regnav/sources/mipt.py": "3fcfba4db9c29e65848ee6dd182dee2efefc8cfa0fb8b069b27b0f472022703e",
+    "regnav/web/__init__.py": "9556d35caaa13ce61f56e1a17f70d960715725f7fd62f9d51210796b36de8779",
+    "regnav/web/accounts.py": "b36af98b956164ab9e5c03ac6154bfb148aa7012cb1635c49979e27d91bcb053",
+    "regnav/web/app.py": "1b9b5d97c85723668026c1911d34cdba78138aaae678c358124f1f49effc3e5f"
+  },
+  "corpus_sha256": {
+    "data/official/chunks.jsonl": "cb489c8e7c63263d461b31bde6a2fca9c72cac18c296f895bc74a01d59f0938e",
+    "data/official/manifest.jsonl": "39f6c938aedb38019fa7a1a622af027b11ef94c24e0bb7169af9b767b38be1d5",
+    "data/official/revisions.json": "0a354c598f94ecf6870b62fa8da179a392ea937402d9dbdd50ca32601fcea4ec"
+  },
+  "corpus": {
+    "files": 20,
+    "chunks": 1726,
+    "documents": [
+      {
+        "id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
+        "title": "460-1 Открытие ФЛС_приказ об изменении в приказе на открытие ФЛС",
+        "sha256_matches": true,
+        "chunks": 76
+      },
+      {
+        "id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
+        "title": "Копия Приложение 1б Бланк сметы РЦНИ",
+        "sha256_matches": true,
+        "chunks": 41
+      },
+      {
+        "id": "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j",
+        "title": "Приказ и регламент по ЭБ",
+        "sha256_matches": true,
+        "chunks": 35
+      },
+      {
+        "id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
+        "title": "Приказ и Регламент работы первой линии техподдержки",
+        "sha256_matches": true,
+        "chunks": 33
+      },
+      {
+        "id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
+        "title": "Приказ N 794-1 от 28.03.2023",
+        "sha256_matches": true,
+        "chunks": 30
+      },
+      {
+        "id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
+        "title": "Приказ N 889-1 от 04.04.2023_инструкция по корректировке смет",
+        "sha256_matches": true,
+        "chunks": 5
+      },
+      {
+        "id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
+        "title": "Приказ N 3065-1 от 25.11.2021",
+        "sha256_matches": true,
+        "chunks": 73
+      },
+      {
+        "id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
+        "title": "Приказ N 3614-1 от 11.08.2025 по Фин.структуре 2026г.",
+        "sha256_matches": true,
+        "chunks": 22
+      },
+      {
+        "id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
+        "title": "Приказ N 3699-1 от 18.08.2025",
+        "sha256_matches": true,
+        "chunks": 111
+      },
+      {
+        "id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
+        "title": "Приказ №  5990-1 от 03.11.2026 новый",
+        "sha256_matches": true,
+        "chunks": 29
+      },
+      {
+        "id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
+        "title": "Приложение 1_новая смета 2019 (с незащищенными формулами)",
+        "sha256_matches": true,
+        "chunks": 408
+      },
+      {
+        "id": "15T-XGSL37xMaW9dlYTkN4Tmjs9kRmPzn",
+        "title": "Приложение 1а Бланк сметы",
+        "sha256_matches": true,
+        "chunks": 4
+      },
+      {
+        "id": "1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN",
+        "title": "Приложение к приказу об утверждении фин. структуры 2026г.",
+        "sha256_matches": true,
+        "chunks": 526
+      },
+      {
+        "id": "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t",
+        "title": "Приложения к приказу_ о формировании бюджетирования  2026г.",
+        "sha256_matches": true,
+        "chunks": 72
+      },
+      {
+        "id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
+        "title": "Распоряжение N 700 от 28.12.2024 Порядок присвоения номера ФЛС",
+        "sha256_matches": true,
+        "chunks": 24
+      },
+      {
+        "id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
+        "title": "Регламент бронирования конц зала",
+        "sha256_matches": true,
+        "chunks": 58
+      },
+      {
+        "id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
+        "title": "Регламент о командировании",
+        "sha256_matches": true,
+        "chunks": 80
+      },
+      {
+        "id": "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0",
+        "title": "Регламент поиска и подбора персонала",
+        "sha256_matches": true,
+        "chunks": 58
+      },
+      {
+        "id": "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd",
+        "title": "Регламент поселения сотрудников",
+        "sha256_matches": true,
+        "chunks": 15
+      },
+      {
+        "id": "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l",
+        "title": "Регламент эксплуатации центра обработки данных МФТИ, Физтех",
+        "sha256_matches": true,
+        "chunks": 26
+      }
+    ]
+  },
+  "retrieval": {
+    "questions": 26,
+    "all_fragments_found": 26,
+    "document_recall": 1.0,
+    "fragment_recall": 1.0,
+    "recall_at_k": {
+      "1": {
+        "document_rank": 0.6571428571428571,
+        "fragment_rank": 0.45714285714285713
+      },
+      "3": {
+        "document_rank": 0.8285714285714286,
+        "fragment_rank": 0.6571428571428571
+      },
+      "5": {
+        "document_rank": 0.8285714285714286,
+        "fragment_rank": 0.6857142857142857
+      },
+      "10": {
+        "document_rank": 0.9142857142857143,
+        "fragment_rank": 0.8857142857142857
+      }
+    },
+    "latency_median_s": 0.13385,
+    "results": [
+      {
+        "id": "travel",
+        "passed": true,
+        "returned_k": 15,
+        "gold_ranks": [
+          {
+            "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
+            "document_rank": 1,
+            "fragment_rank": 2
+          }
+        ],
+        "elapsed_s": 0.2699,
+        "trace": [
+          {
+            "query": "Кто принимает решение о направлении работника в командировку",
+            "chunk_ids": [
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#2042e179514d907871b1",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#42405863522bbd5529cd",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#7982dbdeb0003b7afa1b",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#d215d14ec6b948c9adbe",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#3e320785ef7cefbd7e75",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#cd396f1a21f9cd47adb7",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#d95e2c6e779bf7609549",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#5234dcef08eb3df000c0",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#cf5b819427c265f1e793",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#62054f2d3cdf5dd510d8"
+            ],
+            "status": "found"
+          },
+          {
+            "query": "какие документы служат основанием (Кто принимает решение о направлении работника в командировку)",
+            "chunk_ids": [
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#42405863522bbd5529cd",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#7982dbdeb0003b7afa1b",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#2042e179514d907871b1",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#d215d14ec6b948c9adbe",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#3e320785ef7cefbd7e75",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#2729f77363a258777c8c",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#0bca8902b1b1037e6914",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#cd396f1a21f9cd47adb7",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#e34f9781011160b4f23d",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#6fe30a4fbf1b8a5ccfb2"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "travel-paraphrase",
+        "passed": true,
+        "returned_k": 12,
+        "gold_ranks": [
+          {
+            "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.1329,
+        "trace": [
+          {
+            "query": "Рабочая поездка: кто принимает решение о направлении и что прикладывается к решению?",
+            "chunk_ids": [
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#42405863522bbd5529cd",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#2042e179514d907871b1",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#7982dbdeb0003b7afa1b",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#d215d14ec6b948c9adbe",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#3e320785ef7cefbd7e75",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#1c32209e150a29bc5686",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#ef8ca7015355477873a8",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#82e3ac33077d09959d77",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#e34f9781011160b4f23d",
+              "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0#a227290e52ad42a03048"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "fls-open",
+        "passed": true,
+        "returned_k": 13,
+        "gold_ranks": [
+          {
+            "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
+            "document_rank": 2,
+            "fragment_rank": 9
+          }
+        ],
+        "elapsed_s": 0.1374,
+        "trace": [
+          {
+            "query": "Кому направить карточку проекта и скан договора для открытия ФЛС по прикладным исследованиям?",
+            "chunk_ids": [
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#c25bcca38eedc39ac3a4",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#0aa7d864b1430f3d459c",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#e43221690a280feea0f8",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#399e3d8e02150408642d",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#5d8bbb2d48f5c2b73118",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#b9943a3c61c719564d6b",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#cceec1dc5e741fda9daf",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#99ea23fec2f547c73204",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#504dd2a30933834b6375",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#8bdfd5b2f8d1931796cf"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "fls-number",
+        "passed": true,
+        "returned_k": 14,
+        "gold_ranks": [
+          {
+            "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.0996,
+        "trace": [
+          {
+            "query": "Кто присваивает номер финансовому лицевому счету и на основании каких данных?",
+            "chunk_ids": [
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#5cfb9d81b90d9d6a9380",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#fef9c4c167e75be8b31b",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#0009aa4811a969a6c6aa",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#c106afa27eb75243708e",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#c25bcca38eedc39ac3a4",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#6bb5903966288f33addb",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#463953186f65456f2486",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#66f2128f93e8cd4159d6",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#0aa7d864b1430f3d459c",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#b9943a3c61c719564d6b"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "fls-composite",
+        "passed": true,
+        "returned_k": 20,
+        "gold_ranks": [
+          {
+            "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
+            "document_rank": 2,
+            "fragment_rank": 9
+          },
+          {
+            "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
+            "document_rank": 11,
+            "fragment_rank": 11
+          }
+        ],
+        "elapsed_s": 0.207,
+        "trace": [
+          {
+            "query": "Кому направить карточку проекта и скан договора для открытия ФЛС по прикладным исследованиям",
+            "chunk_ids": [
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#c25bcca38eedc39ac3a4",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#0aa7d864b1430f3d459c",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#e43221690a280feea0f8",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#399e3d8e02150408642d",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#5d8bbb2d48f5c2b73118",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#b9943a3c61c719564d6b",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#cceec1dc5e741fda9daf",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#99ea23fec2f547c73204",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#504dd2a30933834b6375",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#8bdfd5b2f8d1931796cf"
+            ],
+            "status": "found"
+          },
+          {
+            "query": "Кто присваивает номер финансовому лицевому счету и на основании каких данных",
+            "chunk_ids": [
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#5cfb9d81b90d9d6a9380",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#fef9c4c167e75be8b31b",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#0009aa4811a969a6c6aa",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#c106afa27eb75243708e",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#c25bcca38eedc39ac3a4",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#6bb5903966288f33addb",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#463953186f65456f2486",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#66f2128f93e8cd4159d6",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#0aa7d864b1430f3d459c",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#b9943a3c61c719564d6b"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "fls-edition",
+        "passed": true,
+        "returned_k": 13,
+        "gold_ranks": [
+          {
+            "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.1348,
+        "trace": [
+          {
+            "query": "С какой даты приказ 3065 - 1 утверждает новую редакцию регламента открытия ФЛС?",
+            "chunk_ids": [
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#77a112254550b63ad185",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#ca2cb8f1f244a9b586df",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#ffcd850f7e2cb0547408",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#c25bcca38eedc39ac3a4",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#e43221690a280feea0f8",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#c8676aad469125bc9f19",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d513e4ec29d5ba395096",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d777cd282dbd608a869e",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d5fce56538cbccaaff48",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#2538fb63d14341cf9041"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "fls-old",
+        "passed": true,
+        "returned_k": 13,
+        "gold_ranks": [
+          {
+            "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
+            "document_rank": 1,
+            "fragment_rank": 3
+          }
+        ],
+        "elapsed_s": 0.1193,
+        "trace": [
+          {
+            "query": "С какого числа вводится регламент открытия финансового лицевого счета в приказе 460-1?",
+            "chunk_ids": [
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#c25bcca38eedc39ac3a4",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#77a112254550b63ad185",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#ffcd850f7e2cb0547408",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#c8676aad469125bc9f19",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#3a9b21ddb276a2c5d177",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#59d674a39ec3fade7e8c",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d777cd282dbd608a869e",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d513e4ec29d5ba395096",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#2eca1a195471c4e32e6d",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d5fce56538cbccaaff48"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "fls-conflict",
+        "passed": true,
+        "returned_k": 14,
+        "gold_ranks": [
+          {
+            "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
+            "document_rank": 9,
+            "fragment_rank": 9
+          },
+          {
+            "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
+            "document_rank": 7,
+            "fragment_rank": 7
+          },
+          {
+            "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
+            "document_rank": 1,
+            "fragment_rank": 8
+          }
+        ],
+        "elapsed_s": 0.0748,
+        "trace": [
+          {
+            "query": "Кто присваивает номер ФЛС по приказам 460-1, 3065-1 и распоряжению 700?",
+            "chunk_ids": [
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#fef9c4c167e75be8b31b",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#6bb5903966288f33addb",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#66f2128f93e8cd4159d6",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#0009aa4811a969a6c6aa",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#c106afa27eb75243708e",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#463953186f65456f2486",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#b9943a3c61c719564d6b",
+              "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#5cfb9d81b90d9d6a9380",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#c25bcca38eedc39ac3a4",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#0aa7d864b1430f3d459c"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "estimate-forms",
+        "passed": true,
+        "returned_k": 21,
+        "gold_ranks": [
+          {
+            "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
+            "document_rank": 1,
+            "fragment_rank": 1
+          },
+          {
+            "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
+            "document_rank": 1,
+            "fragment_rank": 2
+          }
+        ],
+        "elapsed_s": 0.2051,
+        "trace": [
+          {
+            "query": "Какие бланки смет утверждены приказом 794-1",
+            "chunk_ids": [
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#fa4cded3d0d0500f40e0",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#6a3659c676ae8af400ed",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#7d656a0b469fc037f3d8",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#be7fdb0980b4b6d23f43",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#7b7df2d80e4a1b865e7a",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#2538fb63d14341cf9041",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#17faf90bc652f33df422",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#8827c8d0373328378ec1",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d777cd282dbd608a869e",
+              "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#747696393be5497914ac"
+            ],
+            "status": "found"
+          },
+          {
+            "query": "какой прежний приказ отменён (Какие бланки смет утверждены приказом 794-1)",
+            "chunk_ids": [
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#6a3659c676ae8af400ed",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#fa4cded3d0d0500f40e0",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#7b7df2d80e4a1b865e7a",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#be7fdb0980b4b6d23f43",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#0bca8902b1b1037e6914",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#2538fb63d14341cf9041",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#7d656a0b469fc037f3d8",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d777cd282dbd608a869e",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#7dd4f5a7a1ee2c819cdb",
+              "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#747696393be5497914ac"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "estimate-start",
+        "passed": true,
+        "returned_k": 14,
+        "gold_ranks": [
+          {
+            "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.1316,
+        "trace": [
+          {
+            "query": "С какой даты вводится функционал подготовки согласования и утверждения смет в 1С по приказу 889-1?",
+            "chunk_ids": [
+              "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#aed3efd89f314e34490c",
+              "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#747696393be5497914ac",
+              "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#20c4f74ddac3b1f0bdc7",
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#d2706238e38446d9a50a",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#acf0317a9bc91261fa34",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#36a4f558f7287cbd0c48",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#17faf90bc652f33df422",
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#3126346245a8f6f77f86",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#8827c8d0373328378ec1",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#6fe30a4fbf1b8a5ccfb2"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "estimate-composite",
+        "passed": true,
+        "returned_k": 25,
+        "gold_ranks": [
+          {
+            "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
+            "document_rank": 1,
+            "fragment_rank": 3
+          },
+          {
+            "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
+            "document_rank": 8,
+            "fragment_rank": 11
+          }
+        ],
+        "elapsed_s": 0.1646,
+        "trace": [
+          {
+            "query": "Какую инструкцию по подготовке смет утверждает приказ 889-1",
+            "chunk_ids": [
+              "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#aed3efd89f314e34490c",
+              "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#747696393be5497914ac",
+              "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#f80b523658c59f50c514",
+              "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#20c4f74ddac3b1f0bdc7",
+              "15T-XGSL37xMaW9dlYTkN4Tmjs9kRmPzn#9e4894c2200a7f667bd2",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#417bbf6145979a5a0981",
+              "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#2a0b697ada5f6a7d6630",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#e6b2d239fb03319c6318",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#54415c51ec302b496d2a",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#716e42eee865a05eee57"
+            ],
+            "status": "found"
+          },
+          {
+            "query": "Какие бланки смет утверждены приказом 794-1",
+            "chunk_ids": [
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#fa4cded3d0d0500f40e0",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#6a3659c676ae8af400ed",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#7d656a0b469fc037f3d8",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#be7fdb0980b4b6d23f43",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#7b7df2d80e4a1b865e7a",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#2538fb63d14341cf9041",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#17faf90bc652f33df422",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#8827c8d0373328378ec1",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d777cd282dbd608a869e",
+              "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#747696393be5497914ac"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "budget",
+        "passed": true,
+        "returned_k": 10,
+        "gold_ranks": [
+          {
+            "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.1279,
+        "trace": [
+          {
+            "query": "До какого срока предоставить информацию о планируемых поступлениях в 2026 году по приказу 3699-1?",
+            "chunk_ids": [
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#8108ec2f27f62b7062d0",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#d7f271381804f49bc4bf",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#49cdd3130fb0189a876b",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#b79e905855b0b6516dcf",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#7c0bc2c77dbbcbbbef98",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#909f2acfc67485d93995",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#5557123787e96905eeb9",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#5c0c2bc1977884159129",
+              "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t#10ad6d3b6a7f45a5776c",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#e79dff4946dd00853e70"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "structure",
+        "passed": true,
+        "returned_k": 26,
+        "gold_ranks": [
+          {
+            "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
+            "document_rank": 1,
+            "fragment_rank": 1
+          },
+          {
+            "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
+            "document_rank": 1,
+            "fragment_rank": 4
+          }
+        ],
+        "elapsed_s": 0.4163,
+        "trace": [
+          {
+            "query": "На какой период утверждена финансовая структура по приказу 3614-1",
+            "chunk_ids": [
+              "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O#ff95e24041ee27d86b7c",
+              "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O#eec307d95afaac51cb28",
+              "1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN#9f42d6b2958a8236739e",
+              "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O#393dbf39a94025437eb5",
+              "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O#85882458fbffe8f7aff2",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#2538fb63d14341cf9041",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d777cd282dbd608a869e",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#689fa8270d4d2cd18927",
+              "1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN#0f727f869cdb28331b37",
+              "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O#fbdf5f48c3995e345ffa"
+            ],
+            "status": "found"
+          },
+          {
+            "query": "как учитывать изменения организационной структуры",
+            "chunk_ids": [
+              "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O#393dbf39a94025437eb5",
+              "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O#ff95e24041ee27d86b7c",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#2202b44ec04267822757",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#0cb644228a6816473e16",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#48c55185fb60786f4278",
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#387e89fb2f7a7d75a1e0",
+              "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t#228a0a8be42c5dcda3a5",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#fdde544fd7ce9f1df149",
+              "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y#3699b696e346f28e176c",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#1c32209e150a29bc5686"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "borrowing",
+        "passed": true,
+        "returned_k": 18,
+        "gold_ranks": [
+          {
+            "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
+            "document_rank": 2,
+            "fragment_rank": 10
+          },
+          {
+            "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
+            "document_rank": 2,
+            "fragment_rank": 8
+          }
+        ],
+        "elapsed_s": 0.3979,
+        "trace": [
+          {
+            "query": "Какой прежний приказ отменён приказом 5990-1",
+            "chunk_ids": [
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#0bca8902b1b1037e6914",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#c70518605f54b64eef2e",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#7dd4f5a7a1ee2c819cdb",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#6a3659c676ae8af400ed",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#35bf2e153ba4e2389eda",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#1b0460db340d6af33d2a",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#5e03a72fe1b90e3e5c8e",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#052c9347e8ff39442249",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#464bd04f92d36e83f37a",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#fcb17b66fe0a4f235f67"
+            ],
+            "status": "found"
+          },
+          {
+            "query": "С какой даты по приказу 5990-1 введён в действие Регламент о внутреннем заимствовании",
+            "chunk_ids": [
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#052c9347e8ff39442249",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#fcb17b66fe0a4f235f67",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#c70518605f54b64eef2e",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#23aed8777b29bd4008b7",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#9812c8267049cb16b5ac",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#21fec8dce50f552bb3f4",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#f546ad50ada347043fca",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#1b0460db340d6af33d2a",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#6f6430604f9653d2f554",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#991a9aa2d62f64121b55"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "eb",
+        "passed": true,
+        "returned_k": 10,
+        "gold_ranks": [
+          {
+            "doc_id": "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.1115,
+        "trace": [
+          {
+            "query": "Кто осуществляет техническое сопровождение размещения информации в ЭБ?",
+            "chunk_ids": [
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#f3fa518bdb6136239fa3",
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#387e89fb2f7a7d75a1e0",
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#3730b80c1a6b3e6db411",
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#d4d121fb2e4563da875e",
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#51f764c6d434b6e50b44",
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#4c7530a0a3e1ae99c74a",
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#e2aac6a798246394fe35",
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#f794a9204830e712e35c",
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#4bf347e0a30a3b471dc5",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#0be8468207a5fe2e74d8"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "support",
+        "passed": true,
+        "returned_k": 10,
+        "gold_ranks": [
+          {
+            "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.0504,
+        "trace": [
+          {
+            "query": "Какие официальные каналы подачи обращений в первую линию техподдержки УИТ?",
+            "chunk_ids": [
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#a5c5b53e2795c9ca0b22",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#b58e0b2e93827b9cbdf7",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#af8d9ddc3eb9b4682cb5",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#0f07254454a9128ef15f",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#77b2b2ed4d63aa974f50",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#2a35b825cd45fd294543",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#f6ff8f6e9acac11ef204",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#2d08d27a84b011be56f2",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#c9f1b888671c458d76b6",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#8dab6848738014ff10d2"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "hall",
+        "passed": true,
+        "returned_k": 11,
+        "gold_ranks": [
+          {
+            "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.2795,
+        "trace": [
+          {
+            "query": "Кто утверждает график проведения мероприятий концертного зала",
+            "chunk_ids": [
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#522f830fc700af4cff81",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#40775a900c3898ed7be6",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#689fa8270d4d2cd18927",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#da6f5b0417d6dd39d9ce",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#acf0317a9bc91261fa34",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#fc070cf066bd783acc75",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#417bbf6145979a5a0981",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#620ab361f46c0c6959b8",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#4428cc31992e6d24afd9",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#6ec7cf1bf39a623fc0f8"
+            ],
+            "status": "found"
+          },
+          {
+            "query": "когда он формируется (Кто утверждает график проведения мероприятий концертного зала)",
+            "chunk_ids": [
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#522f830fc700af4cff81",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#689fa8270d4d2cd18927",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#40775a900c3898ed7be6",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#da6f5b0417d6dd39d9ce",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#acf0317a9bc91261fa34",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#fc070cf066bd783acc75",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#417bbf6145979a5a0981",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#620ab361f46c0c6959b8",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#6ec7cf1bf39a623fc0f8",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#c980f2b78a0af2045e54"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "personnel",
+        "passed": true,
+        "returned_k": 11,
+        "gold_ranks": [
+          {
+            "doc_id": "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0",
+            "document_rank": 1,
+            "fragment_rank": 2
+          }
+        ],
+        "elapsed_s": 0.0849,
+        "trace": [
+          {
+            "query": "Кто инициирует поиск и подбор сотрудника на вакантную должность и что указывает в заявке?",
+            "chunk_ids": [
+              "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0#635f2380b978f9e9cc8d",
+              "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0#5c9039bc35291ba87746",
+              "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0#f422ca0da5c01e2d358a",
+              "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0#00a5e0141497705fad38",
+              "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0#b4986258612fca90f89e",
+              "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0#7195ac2a53ab08082e55",
+              "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0#c3492d59d974f2ea0881",
+              "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0#54f98078ecac24885ffd",
+              "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0#054f89e34f3b5c7b7068",
+              "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0#71fec2e1dc5879793311"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "housing",
+        "passed": true,
+        "returned_k": 12,
+        "gold_ranks": [
+          {
+            "doc_id": "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.078,
+        "trace": [
+          {
+            "query": "Какие условия предоставления места для поселения сотруднику: ставка и возраст?",
+            "chunk_ids": [
+              "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd#5f2acbfff1574557dc1d",
+              "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd#fc234fdb75b7f650d015",
+              "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd#46d5d1139896ed2aa55d",
+              "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd#2639becdd17275c298cb",
+              "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd#1e3c065182f5e1ad2ea0",
+              "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd#159754e948230db0ba9f",
+              "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd#5253e75cb87b4442afd4",
+              "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd#733d93df09b78009b23c",
+              "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd#e34376717f0f64713839",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#45a0e8113a628ed20c63"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "datacenter",
+        "passed": true,
+        "returned_k": 10,
+        "gold_ranks": [
+          {
+            "doc_id": "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.07,
+        "trace": [
+          {
+            "query": "На основании чего предоставляется доступ к сервисам ЦОД и что указать в заявке?",
+            "chunk_ids": [
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#17a33dbcf2028027ebc1",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#e0ab2a0410f101b464c1",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#7d6978001ab802056d87",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#99f78fbdb156624dd0d3",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#4b89a2c0a0c13a460bd0",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#2a331fc8f877d992589e",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#4d0a6e1b7a92212d8442",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#0495d1be13c70e047f7c",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#9514ac1dffac3d543840",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#e78304e542648f154032"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "form-rcni",
+        "passed": true,
+        "returned_k": 10,
+        "gold_ranks": [
+          {
+            "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.1116,
+        "trace": [
+          {
+            "query": "Приложение 1б бланк сметы РЦНИ: где заголовок приложения?",
+            "chunk_ids": [
+              "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y#b225e55dc5aa3149188c",
+              "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y#2437aa086428bb2df4fa",
+              "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y#50fe8caa50bdb6acf672",
+              "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y#6df9060e791c99b4fddb",
+              "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y#c30acaaf0ec559124c12",
+              "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y#ac9b2011c2a257302476",
+              "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y#def1680e9b2234dfe8fb",
+              "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y#c3033afb17d567e602f4",
+              "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y#37460c8798c17d4c38ab",
+              "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y#da5a3f1f23778ec795f1"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "form-docx",
+        "passed": true,
+        "returned_k": 18,
+        "gold_ranks": [
+          {
+            "doc_id": "15T-XGSL37xMaW9dlYTkN4Tmjs9kRmPzn",
+            "document_rank": 2,
+            "fragment_rank": 2
+          }
+        ],
+        "elapsed_s": 0.1679,
+        "trace": [
+          {
+            "query": "Приложение 1а бланк сметы: где указать номер договора и название проекта?",
+            "chunk_ids": [
+              "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y#ac9b2011c2a257302476",
+              "15T-XGSL37xMaW9dlYTkN4Tmjs9kRmPzn#d07d602f26cd8444db91",
+              "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv#6cc60d0ec1b0ba408d62",
+              "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv#b22f84f661d0f65c8eef",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#e43221690a280feea0f8",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d5fce56538cbccaaff48",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d513e4ec29d5ba395096",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#e2a815911aa7d62cd52c",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#6f6430604f9653d2f554",
+              "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#a71eb38e574ccce2cd3b"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "form-2019",
+        "passed": true,
+        "returned_k": 10,
+        "gold_ranks": [
+          {
+            "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.1982,
+        "trace": [
+          {
+            "query": "Новая смета 2019: приложение 1а на листе смета_универсальная",
+            "chunk_ids": [
+              "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv#363310512ca4dfcbe713",
+              "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv#ad65a6c9bc3e981bbcdd",
+              "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv#4f2ee20eb50e3f89150e",
+              "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv#2dd761ea239ec9479e5f",
+              "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv#a0155648a1165aba3876",
+              "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv#b1d1d58eb759982ea237",
+              "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv#f195f4013564861b629f",
+              "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv#68f209a88ac71f525887",
+              "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv#cdbc3bd4995a1eb118f2",
+              "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv#bad2b519053aa69aa504"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "structure-xlsx",
+        "passed": true,
+        "returned_k": 14,
+        "gold_ranks": [
+          {
+            "doc_id": "1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN",
+            "document_rank": 1,
+            "fragment_rank": 1
+          }
+        ],
+        "elapsed_s": 0.0938,
+        "trace": [
+          {
+            "query": "Финансовая структура 2026: на какую дату организационная структура указана в ячейке A2?",
+            "chunk_ids": [
+              "1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN#9f42d6b2958a8236739e",
+              "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O#393dbf39a94025437eb5",
+              "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O#ff95e24041ee27d86b7c",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#717158fa44508f5321e9",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#1c32209e150a29bc5686",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#2202b44ec04267822757",
+              "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j#387e89fb2f7a7d75a1e0",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d513e4ec29d5ba395096",
+              "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#d5fce56538cbccaaff48",
+              "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#71a697523b36e6d3bb5d"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "budget-appendix",
+        "passed": true,
+        "returned_k": 14,
+        "gold_ranks": [
+          {
+            "doc_id": "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t",
+            "document_rank": 2,
+            "fragment_rank": 2
+          }
+        ],
+        "elapsed_s": 0.1538,
+        "trace": [
+          {
+            "query": "План затрат на командировочные расходы проректоров и директоров по направлениям на 2026 год: какое приложение?",
+            "chunk_ids": [
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#53fae3aa35428e7d5394",
+              "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t#44c225b92ba8a9814016",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#e37084e5368beb696811",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#8108ec2f27f62b7062d0",
+              "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t#6f4b089dc7ac103e49da",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#b79e905855b0b6516dcf",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#0630b5327b6b5e4a8793",
+              "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#538f5ea8d81cf1809aa2",
+              "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#84209ca4aeced933f3ae",
+              "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#464bd04f92d36e83f37a"
+            ],
+            "status": "found"
+          }
+        ]
+      },
+      {
+        "id": "long-composite",
+        "passed": true,
+        "returned_k": 31,
+        "gold_ranks": [
+          {
+            "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
+            "document_rank": 1,
+            "fragment_rank": 1
+          },
+          {
+            "doc_id": "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l",
+            "document_rank": 11,
+            "fragment_rank": 11
+          },
+          {
+            "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
+            "document_rank": 21,
+            "fragment_rank": 21
+          }
+        ],
+        "elapsed_s": 0.2877,
+        "trace": [
+          {
+            "query": "Какие официальные каналы подачи обращений в первую линию техподдержки УИТ",
+            "chunk_ids": [
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#a5c5b53e2795c9ca0b22",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#b58e0b2e93827b9cbdf7",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#af8d9ddc3eb9b4682cb5",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#0f07254454a9128ef15f",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#77b2b2ed4d63aa974f50",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#2a35b825cd45fd294543",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#f6ff8f6e9acac11ef204",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#2d08d27a84b011be56f2",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#c9f1b888671c458d76b6",
+              "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv#8dab6848738014ff10d2"
+            ],
+            "status": "found"
+          },
+          {
+            "query": "На основании чего предоставляется доступ к сервисам ЦОД и что указать в заявке",
+            "chunk_ids": [
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#17a33dbcf2028027ebc1",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#e0ab2a0410f101b464c1",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#7d6978001ab802056d87",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#99f78fbdb156624dd0d3",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#4b89a2c0a0c13a460bd0",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#2a331fc8f877d992589e",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#4d0a6e1b7a92212d8442",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#0495d1be13c70e047f7c",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#9514ac1dffac3d543840",
+              "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l#e78304e542648f154032"
+            ],
+            "status": "found"
+          },
+          {
+            "query": "Кто утверждает график проведения мероприятий концертного зала",
+            "chunk_ids": [
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#522f830fc700af4cff81",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#40775a900c3898ed7be6",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#689fa8270d4d2cd18927",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#da6f5b0417d6dd39d9ce",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#acf0317a9bc91261fa34",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#fc070cf066bd783acc75",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#417bbf6145979a5a0981",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#620ab361f46c0c6959b8",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#4428cc31992e6d24afd9",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#6ec7cf1bf39a623fc0f8"
+            ],
+            "status": "found"
+          },
+          {
+            "query": "когда он формируется (Кто утверждает график проведения мероприятий концертного зала)",
+            "chunk_ids": [
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#522f830fc700af4cff81",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#689fa8270d4d2cd18927",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#40775a900c3898ed7be6",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#da6f5b0417d6dd39d9ce",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#acf0317a9bc91261fa34",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#fc070cf066bd783acc75",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#417bbf6145979a5a0981",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#620ab361f46c0c6959b8",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#6ec7cf1bf39a623fc0f8",
+              "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12#c980f2b78a0af2045e54"
+            ],
+            "status": "found"
+          }
+        ]
+      }
+    ]
+  },
+  "generation_regression": {
+    "mode": "exact prompt replay, not new generation",
+    "results": [
+      {
+        "id": "fls-composite",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 377.7,
+        "evidence_count": 2,
+        "passed": true
+      },
+      {
+        "id": "travel",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 143.51,
+        "evidence_count": 4,
+        "passed": true
+      },
+      {
+        "id": "form-2019",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "clarify",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 73.95,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "long-composite",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 669.65,
+        "evidence_count": 3,
+        "passed": true
+      },
+      {
+        "id": "estimate-composite",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 522.34,
+        "evidence_count": 2,
+        "passed": true
+      },
+      {
+        "id": "structure",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 1077.27,
+        "evidence_count": 2,
+        "passed": true
+      },
+      {
+        "id": "fls-conflict",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "clarify",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 392.64,
+        "evidence_count": 3,
+        "passed": true
+      },
+      {
+        "id": "fls-open",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 269.42,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "fls-number",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "clarify",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 509.04,
+        "evidence_count": 3,
+        "passed": true
+      },
+      {
+        "id": "fls-edition",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 431.38,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "fls-old",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 362.9,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "estimate-forms",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 728.6,
+        "evidence_count": 2,
+        "passed": true
+      },
+      {
+        "id": "estimate-start",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 237.08,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "travel-paraphrase",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 282.03,
+        "evidence_count": 2,
+        "passed": true
+      },
+      {
+        "id": "budget",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 134.39,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "eb",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 113.84,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "support",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 104.47,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "hall",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 131.72,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "personnel",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 136.95,
+        "evidence_count": 2,
+        "passed": true
+      },
+      {
+        "id": "borrowing",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 216.94,
+        "evidence_count": 2,
+        "passed": true
+      },
+      {
+        "id": "datacenter",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 110.78,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "form-rcni",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 106.33,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "housing",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 251.61,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "form-docx",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 496.04,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "structure-xlsx",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 175.09,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "budget-appendix",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer",
+          "clarify"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 344.91,
+        "evidence_count": 2,
+        "passed": true
+      },
+      {
+        "id": "negative-mortgage",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "not_found"
+        ],
+        "status": "not_found",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 0.03,
+        "evidence_count": 0,
+        "passed": true
+      },
+      {
+        "id": "negative-secret",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "not_found"
+        ],
+        "status": "not_found",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 57.14,
+        "evidence_count": 0,
+        "passed": true
+      },
+      {
+        "id": "partial-support-mortgage",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "partial"
+        ],
+        "status": "partial",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 362.83,
+        "evidence_count": 1,
+        "passed": true
+      },
+      {
+        "id": "procedure-datacenter",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 1855.6,
+        "evidence_count": 2,
+        "passed": true
+      },
+      {
+        "id": "procedure-support-datacenter",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 1011.49,
+        "evidence_count": 6,
+        "passed": true
+      },
+      {
+        "id": "procedure-recruitment",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 180.13,
+        "evidence_count": 6,
+        "passed": true
+      },
+      {
+        "id": "procedure-fls-3065",
+        "inference_mode": "exact_prompt_replay",
+        "all_calls_consumed": true,
+        "same_answer_as_reviewed": true,
+        "saved_source_review_matches": true,
+        "expected_status": [
+          "answer"
+        ],
+        "status": "answer",
+        "status_matches": true,
+        "saved_inference_elapsed_s": 431.81,
+        "evidence_count": 10,
+        "passed": true
+      }
+    ],
+    "passed": 33,
+    "total": 33,
+    "false_refusals": 0,
+    "answerable_cases": 31,
+    "correct_refusals": 2,
+    "negative_cases": 2,
+    "technical_errors": 0,
+    "semantic_support_and_procedure_completeness": "Prior Codex reviews bound to unchanged full answer hashes; independent human review pending"
+  },
+  "passed": true,
+  "errors": [],
+  "elapsed_s": 13.528,
+  "independent_acceptance": false,
+  "fresh_inference_acceptance": false,
+  "submission_confirmed": false
+}

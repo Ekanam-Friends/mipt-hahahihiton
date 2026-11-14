@@ -1,0 +1,13 @@
+# Explicit opt-in: local llama-server on the host. No automatic model downloads.
+services:
+  web:
+    environment:
+      REGNAV_LLM: openai
+      OPENAI_BASE_URL: http://host.docker.internal:8087/v1
+      OPENAI_API_KEY: EMPTY
+      OPENAI_MODEL: regnav-local
+      REGNAV_LOCAL_MODEL_HOSTS: host.docker.internal
+      REGNAV_LLM_TIMEOUT: ${REGNAV_LLM_TIMEOUT:-1800}
+      REGNAV_MAX_TOKENS: ${REGNAV_MAX_TOKENS:-1800}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-11-14T16:23:13.488021+00:00",
+  "scope": "Fresh full official import without network or prepared text cache",
+  "passed": false,
+  "files": 20,
+  "chunks": 1698,
+  "summary": {
+    "files": 20,
+    "ok": 17,
+    "warning": 2,
+    "error": 1,
+    "chunks": 1698
+  },
+  "elapsed_s": 165.28
+}

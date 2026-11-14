@@ -1,0 +1,29 @@
+{
+  "checks": [
+    "fresh PDF scan OCR with rus language",
+    "fresh DOCX/XLSX import, formulas, HTML views",
+    "corrupt PDF yields explicit per-file error"
+  ],
+  "uid": 10001,
+  "ocr_languages": [
+    "List of available languages in \"/usr/share/tesseract-ocr/5/tessdata/\" (3):",
+    "eng",
+    "osd",
+    "rus"
+  ],
+  "import_summary": {
+    "files": 3,
+    "ok": 2,
+    "warning": 1,
+    "error": 0,
+    "chunks": 5
+  },
+  "broken_import_summary": {
+    "files": 4,
+    "ok": 2,
+    "warning": 1,
+    "error": 1,
+    "chunks": 5
+  },
+  "network": "container launched with --network none"
+}

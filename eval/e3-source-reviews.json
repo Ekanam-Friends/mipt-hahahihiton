@@ -1,0 +1,17 @@
+{
+  "reviewer": "Codex (source-text review; not human or corpus-owner acceptance)",
+  "corpus_snapshot": "2026-11-11",
+  "reviews": {
+    "travel": {
+      "answer_sha256": "e0cd16cc4b54fd58650bd58d11f10859a957c3a6a3b3fc03a9ab715c9b8ee577",
+      "checks": {
+        "grounding": true,
+        "required_elements": true,
+        "order": true,
+        "status": true,
+        "source_links": true
+      },
+      "notes": "Сверены оба исходных предложения п.46: решение руководителя структурного подразделения; приглашение, служебная записка и иные основания. Дата утверждения не заявлена известной. Шагов у справочного ответа нет; цитаты и якорь совпадают с фрагментом."
+    }
+  }
+}

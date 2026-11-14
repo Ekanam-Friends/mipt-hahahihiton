@@ -1,0 +1,454 @@
+{
+  "snapshot": "2026-11-11",
+  "reviewed_on": "2026-11-12",
+  "documents": {
+    "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S": {
+      "title": "460-1 Открытие ФЛС_приказ об изменении в приказе на открытие ФЛС",
+      "url": "https://drive.google.com/file/d/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view",
+      "sha256": "e6fd27dd1c9589a0785131fa2d4359723e7fd48e82c5c0b9b75126547bd51602",
+      "issued_on": null,
+      "effective_from": "2017-05-01",
+      "effective_to": null,
+      "uncertainty": "Дата и номер в рукописной шапке OCR ненадёжны. Начало действия 01.05.2017 подтверждено пунктом 4; применимость старого порядка на текущую дату не подтверждена.",
+      "relations": [
+        {
+          "type": "amends",
+          "target_order": "76-1",
+          "scope": "пункт 9",
+          "target_in_corpus": false
+        }
+      ],
+      "evidence": [
+        {
+          "chunk_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#ffcd850f7e2cb0547408",
+          "quote": "ввести в действие с 1 мая 2017г.",
+          "locator": "page=1",
+          "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#ffcd850f7e2cb0547408"
+        },
+        {
+          "chunk_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#c25bcca38eedc39ac3a4",
+          "quote": "Сотрудник ПФОв течение одного рабочего дня",
+          "locator": "page=3",
+          "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#c25bcca38eedc39ac3a4"
+        }
+      ]
+    },
+    "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y": {
+      "title": "Копия Приложение 1б Бланк сметы РЦНИ",
+      "url": "https://drive.google.com/file/d/1GknepK18y5LhDnoLkKQdzcwlMzBBs45y/view",
+      "sha256": "8e5ea08d544870cabff44a147fa0ec564ff4758b0b3fa986997ca6f88957ec16",
+      "issued_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "Дата начала действия в проверенном тексте не установлена; дата загрузки не является датой действия.",
+      "relations": [
+        {
+          "type": "form_of",
+          "target": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
+          "label": "Приложение 1б",
+          "basis": "Приказ 794-1, пункт 3; ячейка E1 бланка Приложение № 1б. Не устанавливает актуальность редакции."
+        }
+      ],
+      "evidence": []
+    },
+    "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j": {
+      "title": "Приказ и регламент по ЭБ",
+      "url": "https://drive.google.com/file/d/1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j/view",
+      "sha256": "d6dae7e96c44e909c04033f705b4376a34f723e30f1a2dd865f320e29b5f8320",
+      "issued_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "Дата начала действия в проверенном тексте не установлена; дата загрузки не является датой действия.",
+      "relations": [],
+      "evidence": []
+    },
+    "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv": {
+      "title": "Приказ и Регламент работы первой линии техподдержки",
+      "url": "https://drive.google.com/file/d/14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv/view",
+      "sha256": "f3ce38fc92bdd0c2e32749eee1de039cbc2e15abb109b04085b9aa2cdc7f1f94",
+      "issued_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "Дата начала действия в проверенном тексте не установлена; дата загрузки не является датой действия.",
+      "relations": [],
+      "evidence": []
+    },
+    "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii": {
+      "title": "Приказ N 794-1 от 28.03.2023",
+      "url": "https://drive.google.com/file/d/1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii/view",
+      "sha256": "9781a32433903ed9fb94e136e33e3b5a8acd14ade378630091abe14556d2d914",
+      "issued_on": "2023-03-28",
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "Дата приказа известна; отдельная дата начала действия не указана. Отмена приказа 1469-1 и утверждение бланков подтверждены текстом.",
+      "relations": [
+        {
+          "type": "repeals",
+          "target_order": "1469-1",
+          "scope": "приказ полностью",
+          "target_in_corpus": false
+        }
+      ],
+      "evidence": [
+        {
+          "chunk_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#6a3659c676ae8af400ed",
+          "quote": "Отменить действие приказа от 19.09.2019г. № 1469-1",
+          "locator": "body/p[21]",
+          "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#6a3659c676ae8af400ed"
+        },
+        {
+          "chunk_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii#fa4cded3d0d0500f40e0",
+          "quote": "Утвердить бланки смет доходов и расходов",
+          "locator": "body/p[23]",
+          "view_path": "data\\official\\view\\1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii.html#fa4cded3d0d0500f40e0"
+        }
+      ]
+    },
+    "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm": {
+      "title": "Приказ N 889-1 от 04.04.2023_инструкция по корректировке смет",
+      "url": "https://drive.google.com/file/d/1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm/view",
+      "sha256": "3a685353fee797a7274e24204341bb0ac4065a28b9a59a2c3ba5103ce977a759",
+      "issued_on": "2023-04-04",
+      "effective_from": "2023-04-04",
+      "effective_to": null,
+      "uncertainty": null,
+      "relations": [
+        {
+          "type": "implements",
+          "target": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
+          "scope": "подготовка, согласование и утверждение смет"
+        }
+      ],
+      "evidence": [
+        {
+          "chunk_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#aed3efd89f314e34490c",
+          "quote": "с даты подписания приказа.",
+          "locator": "body/p[17]",
+          "view_path": "data\\official\\view\\1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm.html#aed3efd89f314e34490c"
+        },
+        {
+          "chunk_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm#f80b523658c59f50c514",
+          "quote": "руководствоваться инструкцией (приложение 1)",
+          "locator": "body/p[18]",
+          "view_path": "data\\official\\view\\1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm.html#f80b523658c59f50c514"
+        }
+      ]
+    },
+    "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh": {
+      "title": "Приказ N 3065-1 от 25.11.2021",
+      "url": "https://drive.google.com/file/d/1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh/view",
+      "sha256": "6727a73550f01bb87f29dd4aa143336f4c03d88460fbc1d1f45011b5a590fc5d",
+      "issued_on": "2021-11-25",
+      "effective_from": "2021-12-01",
+      "effective_to": null,
+      "uncertainty": null,
+      "relations": [
+        {
+          "type": "new_edition_of",
+          "target_order": "1385-1",
+          "scope": "Регламент открытия ФЛС",
+          "target_in_corpus": false
+        }
+      ],
+      "evidence": [
+        {
+          "chunk_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#77a112254550b63ad185",
+          "quote": "утвердить с 01.12.2021 г. новую редакцию",
+          "locator": "body/p[15]",
+          "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#77a112254550b63ad185"
+        },
+        {
+          "chunk_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#504dd2a30933834b6375",
+          "quote": "формирует Карточку проекта",
+          "locator": "body/p[68]",
+          "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#504dd2a30933834b6375"
+        },
+        {
+          "chunk_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#b9943a3c61c719564d6b",
+          "quote": "Сотрудник ФЭУ в течение одного рабочего дня",
+          "locator": "body/p[72]",
+          "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#b9943a3c61c719564d6b"
+        }
+      ]
+    },
+    "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O": {
+      "title": "Приказ N 3614-1 от 11.08.2025 по Фин.структуре 2026г.",
+      "url": "https://drive.google.com/file/d/1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O/view",
+      "sha256": "492e44d578352801406124bb28997f4eb9a40a8a212254f42f2c7fa437a20949",
+      "issued_on": "2025-08-11",
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "Период планирования 2026–2028, оргструктура на 01.08.2025; это не дата вступления приказа в силу. Изменения оргструктуры учитываются по пункту 2.",
+      "relations": [],
+      "evidence": [
+        {
+          "chunk_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O#ff95e24041ee27d86b7c",
+          "quote": "на период планирования бюджета на 2026 год",
+          "locator": "body/p[15]",
+          "view_path": "data\\official\\view\\1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O.html#ff95e24041ee27d86b7c"
+        },
+        {
+          "chunk_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O#393dbf39a94025437eb5",
+          "quote": "При внесении изменений в организационную структуру",
+          "locator": "body/p[16]",
+          "view_path": "data\\official\\view\\1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O.html#393dbf39a94025437eb5"
+        }
+      ]
+    },
+    "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr": {
+      "title": "Приказ N 3699-1 от 18.08.2025",
+      "url": "https://drive.google.com/file/d/1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr/view",
+      "sha256": "51fb8534e70ad0722ddb1e4270a6e038be842ac03e24faa38eddfcfc78bd507e",
+      "issued_on": "2025-08-18",
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "Планирование 2026–2028; срок подачи поступлений 01.10.2025, а не ежегодный срок и не дата действия.",
+      "relations": [],
+      "evidence": [
+        {
+          "chunk_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr#8108ec2f27f62b7062d0",
+          "quote": "в срок до 01.10.2025г. предоставить информацию",
+          "locator": "body/p[14]",
+          "view_path": "data\\official\\view\\1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr.html#8108ec2f27f62b7062d0"
+        }
+      ]
+    },
+    "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH": {
+      "title": "Приказ №  5990-1 от 03.11.2026 новый",
+      "url": "https://drive.google.com/file/d/1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH/view",
+      "sha256": "0788efe4cf5df8a9561293eb28d25db87113cebbc29252cb249aae84a046d29f",
+      "issued_on": "2026-11-03",
+      "effective_from": "2026-11-03",
+      "effective_to": null,
+      "uncertainty": null,
+      "relations": [
+        {
+          "type": "repeals",
+          "target_order": "1465-1",
+          "scope": "приказ полностью",
+          "target_in_corpus": false
+        }
+      ],
+      "evidence": [
+        {
+          "chunk_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#fcb17b66fe0a4f235f67",
+          "quote": "Считать утратившим силу приказ от 08.07.2020 № 1465-1",
+          "locator": "page=1",
+          "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#fcb17b66fe0a4f235f67"
+        },
+        {
+          "chunk_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH#052c9347e8ff39442249",
+          "quote": "с даты подписания приказа в редакции",
+          "locator": "page=1",
+          "view_path": "data\\official\\view\\1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH.html#052c9347e8ff39442249"
+        }
+      ]
+    },
+    "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv": {
+      "title": "Приложение 1_новая смета 2019 (с незащищенными формулами)",
+      "url": "https://drive.google.com/file/d/1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv/view",
+      "sha256": "8bcea11517bcd24ac0c50c5f51f899e5dba186babe842876629a5f71c6b916d2",
+      "issued_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "Родительский приказ XLSX 2019 не установлен. Нельзя автоматически считать этот файл действующим бланком или отменённым приложением 1469-1.",
+      "relations": [
+        {
+          "type": "unresolved_parent",
+          "target": null,
+          "basis": "В имени 2019, на листах приложения 1а/1б. Приказ 794-1 отменяет приказ 1469-1 от 19.09.2019. Сам XLSX не содержит однозначного номера родительского приказа; нельзя автоматически считать действующим бланком 794-1. Проверка применимости — E2."
+        }
+      ],
+      "evidence": []
+    },
+    "15T-XGSL37xMaW9dlYTkN4Tmjs9kRmPzn": {
+      "title": "Приложение 1а Бланк сметы",
+      "url": "https://drive.google.com/file/d/15T-XGSL37xMaW9dlYTkN4Tmjs9kRmPzn/view",
+      "sha256": "5642563998510c8bfe9f7713367479631c4711c0b02e6cd3dca2454b2e984800",
+      "issued_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "Дата начала действия в проверенном тексте не установлена; дата загрузки не является датой действия.",
+      "relations": [
+        {
+          "type": "form_of",
+          "target": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
+          "label": "Приложение 1а",
+          "basis": "Приказ 794-1, пункт 3; заголовок бланка Приложение № 1а. Не устанавливает актуальность редакции."
+        }
+      ],
+      "evidence": []
+    },
+    "1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN": {
+      "title": "Приложение к приказу об утверждении фин. структуры 2026г.",
+      "url": "https://drive.google.com/file/d/1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN/view",
+      "sha256": "f146a057937aa92322bcb35c2d49f86d8e0ab700af724641b2f3a16c464abbe0",
+      "issued_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "Дата начала действия в проверенном тексте не установлена; дата загрузки не является датой действия.",
+      "relations": [
+        {
+          "type": "appendix_of",
+          "target": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
+          "basis": "Название XLSX и приказ 3614-1, пункт 1; в DOCX также включено приложение с финансовой структурой 2026 года."
+        }
+      ],
+      "evidence": []
+    },
+    "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t": {
+      "title": "Приложения к приказу_ о формировании бюджетирования  2026г.",
+      "url": "https://drive.google.com/file/d/19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t/view",
+      "sha256": "73ef8637c388d7abae0b902702db27e1a7f2539b5297b636bdc6b97ebecb1c90",
+      "issued_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "Дата начала действия в проверенном тексте не установлена; дата загрузки не является датой действия.",
+      "relations": [
+        {
+          "type": "appendix_of",
+          "target": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
+          "basis": "Название файла, План поступлений на 2026 г. и приказ 3699-1 о бюджетировании 2026–2028, пункт 1 и ссылки на приложения. Не устанавливает действующую редакцию."
+        }
+      ],
+      "evidence": []
+    },
+    "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV": {
+      "title": "Распоряжение N 700 от 28.12.2024 Порядок присвоения номера ФЛС",
+      "url": "https://drive.google.com/file/d/1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV/view",
+      "sha256": "b8631b19da2fdc238c608f83e46edd34ced538ed8c4fff2b98bdcd3740818001",
+      "issued_on": "2024-12-28",
+      "effective_from": "2024-12-28",
+      "effective_to": null,
+      "uncertainty": null,
+      "relations": [
+        {
+          "type": "complements",
+          "target": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
+          "scope": "присвоение номера ФЛС; не доказывает отмену всей процедуры открытия"
+        }
+      ],
+      "evidence": [
+        {
+          "chunk_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#1a5971cef3a8f36cd479",
+          "quote": "Настоящий порядок вступает в действие с момента его утверждения распоряжением.",
+          "locator": "body/tbl[79]/row[95]/cell[1]/p[2]",
+          "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#1a5971cef3a8f36cd479"
+        },
+        {
+          "chunk_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#5cfb9d81b90d9d6a9380",
+          "quote": "Присвоение номера финансовому лицевому счету осуществляет сотрудник финансово-экономического управления",
+          "locator": "body/p[57]",
+          "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#5cfb9d81b90d9d6a9380"
+        }
+      ]
+    },
+    "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12": {
+      "title": "Регламент бронирования конц зала",
+      "url": "https://drive.google.com/file/d/1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12/view",
+      "sha256": "2a8080d448c07b891954b7666e734d93c9feb37523027b27f4bf6a89736d940f",
+      "issued_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "Дата начала действия в проверенном тексте не установлена; дата загрузки не является датой действия.",
+      "relations": [],
+      "evidence": []
+    },
+    "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_": {
+      "title": "Регламент о командировании",
+      "url": "https://drive.google.com/file/d/19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_/view",
+      "sha256": "8d7c95e76c1e87a323f99dafbf9ecbb70cebbfbd96db895cab5d57f9211d3b6b",
+      "issued_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "В приложении незаполненные дата и номер утверждающего приказа; применение на дату вопроса требует подтверждения владельца корпуса.",
+      "relations": [],
+      "evidence": [
+        {
+          "chunk_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_#995768b9d3c8d3087c37",
+          "quote": "2025 г. № _____-1",
+          "locator": "page=1",
+          "view_path": "data\\official\\view\\19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_.html#995768b9d3c8d3087c37"
+        }
+      ]
+    },
+    "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0": {
+      "title": "Регламент поиска и подбора персонала",
+      "url": "https://drive.google.com/file/d/1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0/view",
+      "sha256": "7c4d3a4c1d7afc4248d54e399c3afe2a6e951f762c9ae6069781a5909a7e0ddf",
+      "issued_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "В шапке незаполненные реквизиты приказа; дата начала действия не подтверждена.",
+      "relations": [],
+      "evidence": [
+        {
+          "chunk_id": "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0#81f1464cf7250a2745c3",
+          "quote": "к приказу от __________ № _______",
+          "locator": "page=1",
+          "view_path": "data\\official\\view\\1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0.html#81f1464cf7250a2745c3"
+        }
+      ]
+    },
+    "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd": {
+      "title": "Регламент поселения сотрудников",
+      "url": "https://drive.google.com/file/d/1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd/view",
+      "sha256": "0ea0b6ac27ee4ac755112860a405a4c8dbf948efac4ff84a5e1d5165bd5f029a",
+      "issued_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "В грифе утверждения оставлены незаполненные даты 2024 года; начало действия не установлено.",
+      "relations": [],
+      "evidence": [
+        {
+          "chunk_id": "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd#2639becdd17275c298cb",
+          "quote": "__________ 2024 г.",
+          "locator": "page=1",
+          "view_path": "data\\official\\view\\1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd.html#2639becdd17275c298cb"
+        }
+      ]
+    },
+    "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l": {
+      "title": "Регламент эксплуатации центра обработки данных МФТИ, Физтех",
+      "url": "https://drive.google.com/file/d/10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l/view",
+      "sha256": "9efd496936a7c3336335f35f80d22438ca1b69ce966f7a1da1d446fca4b37fc1",
+      "issued_on": null,
+      "effective_from": null,
+      "effective_to": null,
+      "uncertainty": "Дата начала действия в проверенном тексте не установлена; дата загрузки не является датой действия.",
+      "relations": [],
+      "evidence": []
+    }
+  },
+  "conflicts": [
+    {
+      "type": "possible_conflict",
+      "doc_ids": [
+        "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
+        "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
+        "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV"
+      ],
+      "message": "Порядки ФЛС различаются: в старом тексте номер присваивает ПФО, в редакции 3065-1 и порядке 700 — ФЭУ. Прямое основание полной отмены 460-1 в снимке не установлено; не объединяйте старый и новый маршруты согласования.",
+      "evidence": [
+        {
+          "chunk_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S#c25bcca38eedc39ac3a4",
+          "quote": "Сотрудник ПФОв течение одного рабочего дня",
+          "locator": "page=3",
+          "view_path": "data\\official\\view\\1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S.html#c25bcca38eedc39ac3a4"
+        },
+        {
+          "chunk_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh#b9943a3c61c719564d6b",
+          "quote": "Сотрудник ФЭУ в течение одного рабочего дня",
+          "locator": "body/p[72]",
+          "view_path": "data\\official\\view\\1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh.html#b9943a3c61c719564d6b"
+        },
+        {
+          "chunk_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV#5cfb9d81b90d9d6a9380",
+          "quote": "Присвоение номера финансовому лицевому счету осуществляет сотрудник финансово-экономического управления",
+          "locator": "body/p[57]",
+          "view_path": "data\\official\\view\\1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV.html#5cfb9d81b90d9d6a9380"
+        }
+      ]
+    }
+  ]
+}

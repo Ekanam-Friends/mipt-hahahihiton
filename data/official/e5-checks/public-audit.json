@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-11-14T16:42:51.275607+00:00",
+  "commits": 10,
+  "unique_blobs": 174,
+  "filename_findings": [],
+  "credential_pattern_findings": [],
+  "working_files": 319,
+  "working_findings": [],
+  "passed": true,
+  "limitations": "Reachable Git history, selected credential formats and private filenames only. Does not scan remote service settings, deleted unreachable objects or all possible credentials."
+}
