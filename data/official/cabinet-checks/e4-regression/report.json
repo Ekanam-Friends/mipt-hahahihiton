@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "live extractive answer, exact fragment, original download",
+    "saved E3 procedure renders steps; history sent on follow-up",
+    "provider error retains input and enables retry (HTTP response simulated)",
+    "reset, logout, teacher login, 360px without horizontal overflow"
+  ],
+  "page_errors": [],
+  "request_urls": [
+    "http://127.0.0.1:8020/",
+    "http://127.0.0.1:8020/api/ask",
+    "http://127.0.0.1:8020/api/demo/accounts",
+    "http://127.0.0.1:8020/api/demo/login",
+    "http://127.0.0.1:8020/api/documents/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/original",
+    "http://127.0.0.1:8020/api/documents/1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S/view",
+    "http://127.0.0.1:8020/api/logout",
+    "http://127.0.0.1:8020/api/me",
+    "http://127.0.0.1:8020/static/app.js",
+    "http://127.0.0.1:8020/static/cabinet.css",
+    "http://127.0.0.1:8020/static/style.css"
+  ],
+  "note": "Live extractive search and real source links; E3 procedure and 503 rendering replayed, not new inference."
+}

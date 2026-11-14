@@ -75,6 +75,7 @@ def ordered_replay(report, questions):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--ids', nargs='*')
+    ap.add_argument('--base-url', default='http://127.0.0.1:8087/v1', help='Trusted local model endpoint')
     ap.add_argument('--output', default='data/official/e3-current-answer-report.json')
     ap.add_argument('--questions', default='eval/e2-questions.jsonl')
     ap.add_argument('--model-file', default='models/qwen3-4b-instruct-2507-q4_k_m.gguf')
@@ -108,7 +109,7 @@ def main():
         selected_ids = {r['id'] for r in replay['results']}
         questions = [q for q in questions if q['id'] in selected_ids]
         replay = ordered_replay(replay, questions)
-    client = ReplayClient(replay) if replay else RecordingClient(OpenAICompatClient('http://127.0.0.1:8087/v1', 'EMPTY', 'regnav-local'))
+    client = ReplayClient(replay) if replay else RecordingClient(OpenAICompatClient(args.base_url, 'EMPTY', 'regnav-local'))
     nav = Navigator(HybridSearcher(load_chunks(data)), LLMReasoner(client), registry=RevisionRegistry.load(data / 'revisions.json'))
     report = {'created_at': datetime.now(timezone.utc).isoformat(),
               'corpus_downloaded_at': sorted({m['downloaded_at'] for m in manifest}),

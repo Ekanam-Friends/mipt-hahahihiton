@@ -1,0 +1,339 @@
+{
+  "created_at": "2026-11-14T16:39:37.166820+00:00",
+  "scope": "Fresh Linux import retrieval by exact whitespace-normalized gold quote and document ID, not generation",
+  "questions": 26,
+  "passed": 26,
+  "results": [
+    {
+      "id": "travel",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
+          "quote": "Руководитель структурного подразделения принимает решение",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "travel-paraphrase",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "19YTtTYpaOaopMHnz4wL3c8hPeiYkwu8_",
+          "quote": "Руководитель структурного подразделения принимает решение",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "fls-open",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
+          "quote": "формирует Карточку проекта",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "fls-number",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
+          "quote": "Присвоение номера финансовому лицевому счету осуществляет сотрудник финансово-экономического управления",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "fls-composite",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
+          "quote": "формирует Карточку проекта",
+          "found": true
+        },
+        {
+          "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
+          "quote": "Присвоение номера финансовому лицевому счету осуществляет сотрудник финансово-экономического управления",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "fls-edition",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
+          "quote": "утвердить с 01.12.2021 г. новую редакцию",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "fls-old",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
+          "quote": "ввести в действие с 1 мая 2017г.",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "fls-conflict",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
+          "quote": "Сотрудник ПФОв течение одного рабочего дня",
+          "found": true
+        },
+        {
+          "doc_id": "1p3MGdOnXlkTXyBZezPaTMp1Lm0TRHigh",
+          "quote": "Сотрудник ФЭУ в течение одного рабочего дня",
+          "found": true
+        },
+        {
+          "doc_id": "1BZNeRQcqpVTnWbg6D5O4bmkxTvpSyyhV",
+          "quote": "Присвоение номера финансовому лицевому счету осуществляет сотрудник финансово-экономического управления",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "estimate-forms",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
+          "quote": "Утвердить бланки смет доходов и расходов",
+          "found": true
+        },
+        {
+          "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
+          "quote": "Отменить действие приказа от 19.09.2019г. № 1469-1",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "estimate-start",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
+          "quote": "с даты подписания приказа.",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "estimate-composite",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1PhENYEGjOaVUGxXX8jf6ShYRg1auLLJm",
+          "quote": "руководствоваться инструкцией (приложение 1)",
+          "found": true
+        },
+        {
+          "doc_id": "1IyzpPoNBkuSj-Cy2p2Ak-_94y6aY4gii",
+          "quote": "Утвердить бланки смет доходов и расходов",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1yTUgTiTk9a-A43qfZZEDZ-41Y-oIEaDr",
+          "quote": "в срок до 01.10.2025г. предоставить информацию",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "structure",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
+          "quote": "на период планирования бюджета на 2026 год",
+          "found": true
+        },
+        {
+          "doc_id": "1vqfFEv9E4xZJiluHijuL4IcICTWtLA4O",
+          "quote": "При внесении изменений в организационную структуру",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "borrowing",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
+          "quote": "Считать утратившим силу приказ от 08.07.2020 № 1465-1",
+          "found": true
+        },
+        {
+          "doc_id": "1lkCRr1uxBSmKYFpdsixz-I4PHDZ514pH",
+          "quote": "с даты подписания приказа в редакции",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "eb",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1sLfHPI-fsyOj4daqW69T0ZWifQbINa3j",
+          "quote": "Техническое сопровождение при размещении",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
+          "quote": "Официальными каналами подачи обращений",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "hall",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
+          "quote": "График проведения мероприятий",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "personnel",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0",
+          "quote": "Инициатором поиска и подбора сотрудника",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1diKWSBFo1IS5YSdrYoWT-LDi_K_vRxJd",
+          "quote": "Место для поселения может быть предоставлено сотруднику",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "datacenter",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l",
+          "quote": "Доступ к сервисам ЦОД МФТИ предоставляется",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "form-rcni",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1GknepK18y5LhDnoLkKQdzcwlMzBBs45y",
+          "quote": "E1: Приложение № 1б",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "form-docx",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "15T-XGSL37xMaW9dlYTkN4Tmjs9kRmPzn",
+          "quote": "Номер, дата договора",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "form-2019",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1zEZzoJw55qCrOV-H4lA5Fc3uxek2liwv",
+          "quote": "I1: Приложение № 1а",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "structure-xlsx",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "1kY7bdq3Q_SaJno5OII2mzu7TqSqVdddN",
+          "quote": "A2: Финансовая структура",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "budget-appendix",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "19qBeNGaCmyRqx_AtChvGSX4BVwyyG7_t",
+          "quote": "План затрат на командировочные расходы",
+          "found": true
+        }
+      ]
+    },
+    {
+      "id": "long-composite",
+      "passed": true,
+      "checks": [
+        {
+          "doc_id": "14xHRxK3XV9kW3vhxdTizxSyDP7UT3XXv",
+          "quote": "Официальными каналами подачи обращений",
+          "found": true
+        },
+        {
+          "doc_id": "10v_yQPOkUAmu0d5-_zuzRQZxm8AdPH0l",
+          "quote": "Доступ к сервисам ЦОД МФТИ предоставляется",
+          "found": true
+        },
+        {
+          "doc_id": "1QSWfSVtys7b3KwJRGqGK_vNAKtYFxH12",
+          "quote": "График проведения мероприятий",
+          "found": true
+        }
+      ]
+    }
+  ]
+}

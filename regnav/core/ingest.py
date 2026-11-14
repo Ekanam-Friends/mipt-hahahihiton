@@ -29,7 +29,13 @@ def corrected_extraction(result: dict, doc_id: str, data_dir: Path) -> dict:
         if repair["source_sha256"] != result["sha256"]:
             raise ValueError("OCR correction belongs to another source snapshot: " + doc_id)
         matches = [b for b in result["blocks"] if b.get("page") == repair["page"]]
-        if len(matches) != 1 or matches[0]["text"].count(repair["before"]) != 1:
+        if len(matches) != 1:
+            raise ValueError("OCR correction no longer matches extraction: " + doc_id)
+        before_count = matches[0]["text"].count(repair["before"])
+        if before_count == 0 and matches[0]["text"].count(repair["after"]) == repair.get("already_correct_count", 1):
+            result["corrections"].append({**repair, "state": "already_correct"})
+            continue
+        if before_count != 1:
             raise ValueError("OCR correction no longer matches extraction: " + doc_id)
         matches[0]["text"] = matches[0]["text"].replace(repair["before"], repair["after"], 1)
         result["corrections"].append(repair)

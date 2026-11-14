@@ -1,11 +1,11 @@
 {
-  "verified_at": "2026-11-12T10:41:07.339090+00:00",
+  "verified_at": "2026-11-12T21:46:52.596429+00:00",
   "snapshot": "downloaded 2026-11-11; local SHA-256 verified",
   "files": [
     {
       "id": "1LNVrWALPf0GTLDgake7IfCG5mnE6hW7S",
       "format": ".pdf",
-      "chunks": 67,
+      "chunks": 76,
       "pages": 19,
       "ocr_pages": [
         2,
@@ -159,7 +159,7 @@
     {
       "id": "1dTxWxUqTmDzqYGIV0C06SR4m46BUlBJ0",
       "format": ".pdf",
-      "chunks": 43,
+      "chunks": 58,
       "pages": 5,
       "ocr_pages": []
     },
@@ -192,7 +192,7 @@
     "ok": 18,
     "warning": 2,
     "error": 0,
-    "chunks": 1702
+    "chunks": 1726
   },
   "stable_ids_on_cached_reimport": true,
   "all_fragment_view_anchors_exist": true,

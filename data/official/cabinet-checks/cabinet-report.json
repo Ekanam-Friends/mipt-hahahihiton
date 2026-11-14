@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "Resource tile opens explicit hackathon unavailability",
+    "Draft and response survive closing, navigation, widget and full-page expansion; Escape closes and restores focus",
+    "360px pages, widget bounds, mobile drawer and nested navigation",
+    "Teacher menu and work tiles; logout clears dialogue and changes profile"
+  ],
+  "errors": [],
+  "note": "Shared-dialogue reply simulated; real extractive sources tested separately in e4-regression/report.json"
+}

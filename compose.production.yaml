@@ -1,0 +1,67 @@
+name: mipt-regnav
+services:
+  model:
+    image: ${LLAMA_IMAGE:-ghcr.io/ggml-org/llama.cpp@sha256:c7d58273d753d33a352e5c41ab300c5ae040a16fa4b202231bb606478065c124}
+    command: ["-m", "/models/qwen3-4b-instruct-2507-q4_k_m.gguf", "--host", "0.0.0.0", "--port", "8087", "--alias", "regnav-local", "-c", "12288", "-t", "3", "-ngl", "0", "--parallel", "1", "-b", "128", "-ub", "64", "-ctk", "q4_0", "-ctv", "q4_0", "-fa", "on"]
+    volumes:
+      - ../models:/models:ro
+    restart: unless-stopped
+    mem_limit: 4g
+    cpus: 3.0
+    pids_limit: 128
+    read_only: true
+    user: "10001:10001"
+    tmpfs: ["/tmp:size=64m"]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    networks: [model]
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "http://127.0.0.1:8087/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 4
+      start_period: 60s
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+  web:
+    build: .
+    image: mipt-regnav:release
+    environment:
+      REGNAV_DATA: /app/data/official
+      REGNAV_LLM: openai
+      OPENAI_BASE_URL: http://model:8087/v1
+      OPENAI_API_KEY: EMPTY
+      OPENAI_MODEL: regnav-local
+      REGNAV_LLM_TIMEOUT: "1800"
+      REGNAV_MAX_TOKENS: "1800"
+      REGNAV_WEB_TIMEOUT: "1800"
+      REGNAV_LOCAL_ONLY: "1"
+      REGNAV_LOCAL_MODEL_HOSTS: model
+      REGNAV_WEB_DB: /app/state/accounts.sqlite3
+    command: ["python", "-m", "uvicorn", "regnav.web.app:app", "--host", "0.0.0.0", "--port", "8000", "--proxy-headers", "--forwarded-allow-ips", "*"]
+    volumes:
+      - ./data/official:/app/data/official:ro
+      - ../state:/app/state
+    ports: ["127.0.0.1:8017:8000"]
+    restart: unless-stopped
+    depends_on: [model]
+    mem_limit: 768m
+    cpus: 0.75
+    pids_limit: 96
+    read_only: true
+    tmpfs: ["/tmp:size=64m"]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    networks:
+      model: {}
+      edge:
+        aliases: [mipt-regnav-web]
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+networks:
+  model:
+    internal: true
+  edge:
+    external: true

@@ -10,7 +10,7 @@ COPY requirements.txt requirements-web.txt constraints-web.txt ./
 ARG PIP_INDEX_URL=https://pypi.org/simple
 RUN pip install --no-cache-dir -r requirements-web.txt -c constraints-web.txt
 COPY regnav ./regnav
-RUN useradd --create-home --uid 10001 regnav && mkdir -p /app/data/official /app/state && chown -R regnav:regnav /app/data /app/state
+RUN chmod -R a=rX /app/regnav && useradd --create-home --uid 10001 regnav && mkdir -p /app/data/official /app/state && chown -R regnav:regnav /app/data /app/state
 USER regnav
 EXPOSE 8000
 HEALTHCHECK --interval=15s --timeout=5s --start-period=60s --retries=3 \

@@ -5,10 +5,21 @@
       "page": 2,
       "before": "7 лёт",
       "after": "7 лет",
+      "already_correct_count": 2,
       "reviewer": "Codex, visual comparison with original page; not corpus-owner acceptance",
       "reviewed_on": "2026-11-13",
       "evidence": "data/official/evidence/e3-datacenter-p2.png",
       "reason": "Paragraph 4.1 in the original says 7 лет. Numeric value and conditions unchanged."
+    },
+    {
+      "source_sha256": "9efd496936a7c3336335f35f80d22438ca1b69ce966f7a1da1d446fca4b37fc1",
+      "page": 2,
+      "before": "|  год для виртуального сервера",
+      "after": "1  год для виртуального сервера",
+      "reviewer": "Codex, original page 2 and Windows/Linux OCR comparison; not corpus-owner acceptance",
+      "reviewed_on": "2026-11-14",
+      "evidence": "data/official/evidence/e3-datacenter-p2.png",
+      "reason": "Linux OCR reads digit 1 as a vertical bar in clause 4.1. Original and reviewed Windows extraction state 1 year. Already-correct extraction is accepted without replacement."
     }
   ]
 }

@@ -1,21 +1,19 @@
 <!doctype html>
-<html lang="ru">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Навигатор регламентов</title><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Личный кабинет сотрудника · МФТИ</title><link rel="stylesheet" href="/static/cabinet.css"><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
 <body>
-<div class="concept">Демонстрационный прототип · все данные пользователей вымышлены</div>
-<section id="login" class="login panel"><span class="eyebrow">ЛИЧНЫЙ КАБИНЕТ</span><h1>Добро пожаловать</h1><p>Выберите демо-аккаунт. Вход без пароля доступен только для этих вымышленных профилей.</p><div id="accounts"></div><p id="login-error" role="alert"></p></section>
+<div class="concept-bar">Концепт для хакатона · не официальный сервис · все данные пользователей вымышлены</div>
+<section id="login" class="login panel"><div class="wordmark"><span class="wordmark__mark">ЛК</span><span class="wordmark__text">МФТИ<br><small>кабинет сотрудника</small></span></div><h1 class="title-1">Вход в личный кабинет</h1><p class="muted">Выберите демонстрационный профиль. Пароль не нужен.</p><div id="accounts"></div><p id="login-error" role="alert"></p></section>
 <div id="cabinet" hidden>
-<aside class="sidebar"><strong>МФТИ<br>Личный кабинет</strong><p id="role-label"></p><nav id="menu"></nav><button id="logout" class="secondary">Выйти</button></aside>
-<main>
-<div class="topbar"><span id="user-name"></span><span id="user-unit"></span></div>
-<section id="dashboard" hidden><span class="eyebrow">ЛИЧНЫЙ КАБИНЕТ</span><h1 id="page-title">Главная</h1><div id="page-content"></div></section>
-<div id="assistant">
-<header><span class="eyebrow">МФТИ · РЕГЛАМЕНТЫ</span><h1>От вопроса к источнику</h1><p>Задайте вопрос о порядке действий. Проверьте ответ по точным фрагментам документов.</p></header>
-<section class="panel"><form id="ask">
-<label for="question">Ваш вопрос</label><textarea id="question" maxlength="8000" required rows="4" placeholder="Как открыть финансовый лицевой счёт?"></textarea>
-<div class="controls"><label>Дата применимости <input id="as-of" type="date"></label><button id="submit">Найти ответ</button><button type="button" id="reset" class="secondary">Новый диалог</button></div>
-</form><p id="progress" role="status" aria-live="polite">История хранится только до закрытия или обновления страницы.</p></section>
-<section id="conversation" aria-label="История вопросов и ответов"></section>
-<footer>Ответ относится к доступному снимку базы. Дата загрузки документа не подтверждает дату действия нормы.</footer>
-</div></main></div></body></html>
+<input type="checkbox" id="menu-toggle" class="menu-toggle" hidden>
+<div class="layout"><aside class="menu" aria-label="Разделы"><div class="menu__head"><a href="#home" class="wordmark"><span class="wordmark__mark">ЛК</span><span class="wordmark__text">МФТИ<br><small id="role-label">сотрудника</small></span></a><button id="menu-close" class="icon-btn menu__close" aria-label="Закрыть меню">×</button></div><nav id="menu"></nav></aside><label for="menu-toggle" class="menu-backdrop" aria-hidden="true"></label>
+<div class="layout__main"><header class="header"><div class="header__left"><button id="menu-open" class="header__burger icon-btn" aria-label="Открыть меню">☰</button><p id="header-title" class="header__title">Кабинет сотрудника</p></div><div class="header__right"><button class="header__user plain-button" data-goto="profile" aria-label="Открыть профиль"><span class="avatar" id="avatar"></span><span id="user-name" class="header__name"></span></button><button id="logout" class="icon-btn" aria-label="Выйти" title="Выйти">↪</button></div></header>
+<main class="main"><section id="dashboard" class="page"><div><p id="user-unit" class="muted"></p><h1 id="page-title" class="title-1">Главная</h1></div><div id="page-content"></div></section><div id="assistant-page" class="page" hidden></div></main></div></div>
+<nav id="tabbar" class="tabbar" aria-label="Быстрые разделы"></nav>
+<button id="chat-toggle" class="chat-toggle" aria-label="Открыть ИИ-ассистента" aria-expanded="false" aria-controls="chat-panel"><span aria-hidden="true">✦</span></button>
+<section id="chat-panel" class="chat-panel" role="dialog" aria-labelledby="chat-title" hidden><div class="chat-heading"><div><strong id="chat-title">ИИ-ассистент</strong><p class="muted">Помощь по регламентам</p></div><div class="chat-actions"><button id="chat-expand" class="icon-btn" title="Открыть на странице" aria-label="Открыть ассистента на странице">↗</button><button id="chat-close" class="icon-btn" aria-label="Закрыть чат">×</button></div></div><div id="chat-body"></div></section>
+</div>
+<section id="assistant" class="assistant" hidden aria-label="ИИ-ассистент по регламентам"><div class="assistant-intro"><h1 class="title-1">ИИ-ассистент</h1><p class="muted">Помогу разобраться в регламентах МФТИ. Ответы можно проверить по источникам.</p></div>
+<section class="panel"><form id="ask"><label for="question">Ваш вопрос</label><textarea id="question" maxlength="8000" required rows="3" placeholder="Как оформить командировку?"></textarea><div class="controls"><label class="date-label">Дата применимости <input id="as-of" type="date"></label><button id="submit" class="btn btn--primary">Найти ответ</button><button type="button" id="reset" class="btn btn--ghost">Новый диалог</button></div></form><p id="progress" class="muted" role="status" aria-live="polite">Диалог сохраняется при переходах между разделами до обновления страницы.</p></section>
+<section id="conversation" aria-label="История вопросов и ответов"></section><p class="assistant-note muted">Проверяйте ссылки на источники. Дата загрузки документа не является датой действия нормы.</p></section>
+</body></html>

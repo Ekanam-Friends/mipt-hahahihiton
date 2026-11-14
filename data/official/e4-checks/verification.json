@@ -1,0 +1,14 @@
+{
+  "pytest": {
+    "passed": 109,
+    "elapsed_s": 84.78,
+    "warning": "Starlette TestClient deprecation"
+  },
+  "web_tests": 14,
+  "javascript_syntax": "passed",
+  "docker_image": "sha256:8a327734fffc987deb1aaa8c146a0ef43b9b2ecee62dcd8a0f5af8661f418e25",
+  "container_smoke": "container.json",
+  "live_http": "live.json",
+  "browser": "../e4-browser/report.json",
+  "independent_acceptance": "E5"
+}

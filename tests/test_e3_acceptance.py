@@ -81,6 +81,11 @@ def test_reviewed_ocr_repair_is_page_and_hash_bound_and_does_not_modify_cache(tm
         corrected_extraction(raw, 'doc', tmp_path)
     raw['sha256'] = 'original'
     raw['blocks'][1]['text'] = '7 лет'
+    assert corrected_extraction(raw, 'doc', tmp_path)['corrections'][0]['state'] == 'already_correct'
+    raw['blocks'][1]['text'] = '7 дней'
+    with pytest.raises(ValueError, match='no longer matches'):
+        corrected_extraction(raw, 'doc', tmp_path)
+    raw['blocks'][1]['text'] = '7 лет и 7 лет'
     with pytest.raises(ValueError, match='no longer matches'):
         corrected_extraction(raw, 'doc', tmp_path)
 
